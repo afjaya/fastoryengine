@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/3d41376e-0437-4ea4-8c6b-369e6
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+Mesin cetak cerita
