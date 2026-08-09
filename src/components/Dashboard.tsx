@@ -593,7 +593,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ db, onNavigate, onTriggerG
                   className="px-3.5 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 text-zinc-300 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
-                  {language === 'ID' ? 'Buka Tab Baru' : 'Open Full Res'}
+                  {language === 'ID' ? 'Tab Baru' : 'Open Full Res'}
                 </a>
                 
                 <button
