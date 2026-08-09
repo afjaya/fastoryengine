@@ -1,32 +1,42 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { AppDatabase, StoryBible, Character, Episode, AIProvider } from '../types.js';
 
-/**
- * Helper untuk mengambil API Key dari db.json atau environment variables (.env)
- */
 function getProviderApiKey(provider: AIProvider): string {
+  // 1. Prioritas dari DB/UI jika diisi manual
   if (provider.apiKey && provider.apiKey.trim() !== '') {
     return provider.apiKey;
   }
 
-  // Fallback ke .env
-  const env = typeof globalThis !== 'undefined' && typeof (globalThis as any).process !== 'undefined'
-    ? (globalThis as any).process.env
-    : (import.meta as any).env || {};
+  // 2. Baca dari process.env
+  const geminiKey = process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
 
   switch (provider.id) {
     case 'gemini':
-      return env.VITE_GEMINI_API_KEY || env.GEMINI_API_KEY || '';
+      return geminiKey || '';
     case 'openai':
-      return env.VITE_OPENAI_API_KEY || env.OPENAI_API_KEY || '';
+      return process.env.VITE_OPENAI_API_KEY || process.env.OPENAI_API_KEY || '';
     case 'claude':
-      return env.VITE_CLAUDE_API_KEY || env.CLAUDE_API_KEY || env.ANTHROPIC_API_KEY || '';
+      return process.env.VITE_CLAUDE_API_KEY || process.env.CLAUDE_API_KEY || '';
     case 'deepseek':
-      return env.VITE_DEEPSEEK_API_KEY || env.DEEPSEEK_API_KEY || '';
+      return process.env.VITE_DEEPSEEK_API_KEY || process.env.DEEPSEEK_API_KEY || '';
     case 'local':
       return 'not-needed';
     default:
       return '';
   }
+}
+// Auto-load .env jika berjalan di Node.js environment
+try {
+  if (typeof process !== 'undefined' && process.env) {
+    const dotenv = await import('dotenv').catch(() => null);
+    if (dotenv && typeof dotenv.config === 'function') {
+      dotenv.config();
+    }
+  }
+} catch (e) {
+  // Abaikan jika dotenv tidak terinstal atau berjalan di browser murni
 }
 
 /**
@@ -145,19 +155,21 @@ export class AIService {
     const providerKey = getProviderApiKey(activeProvider);
 
     if (!providerKey && activeProvider.id !== 'local') {
-      throw new Error(`API Key for ${activeProvider.name} is missing. Please configure it in Settings or set it in .env.`);
+      throw new Error(`API Key for ${activeProvider.name} is missing. Please configure it in Settings or set VITE_GEMINI_API_KEY / GEMINI_API_KEY in .env file.`);
     }
 
     const fullPrompt = `${systemPrompt}\n\n====================\n\n${userPrompt}`;
     let generatedText = '';
 
     if (activeProvider.id === 'gemini') {
-      // Use the modern @google/genai SDK when available. Import dynamically
-      // so builds don't fail when the package is not installed locally.
       try {
+        // Dynamic import SDK Google Gen AI
         const mod: any = await import('@google/genai').catch(() => null);
-        const GoogleGenAI = mod?.GoogleGenAI || mod?.default;
-        if (!GoogleGenAI) throw new Error('@google/genai SDK not available');
+        const GoogleGenAI = mod?.GoogleGenAI || mod?.default?.GoogleGenAI || mod?.default;
+        
+        if (!GoogleGenAI) {
+          throw new Error('Pustaka @google/genai tidak ditemukan. Jalankan: bun add @google/genai');
+        }
 
         const ai = new GoogleGenAI({ apiKey: providerKey });
 
@@ -176,7 +188,7 @@ export class AIService {
         throw new Error(`Gemini Generation failed: ${e.message || e}`);
       }
     } else {
-      // Fallback to standard OpenAI-compatible REST endpoints for other providers
+      // Standard OpenAI-compatible REST endpoints
       const url = activeProvider.baseUrl;
       const headers: Record<string, string> = {
         'Content-Type': 'application/json'
@@ -191,7 +203,6 @@ export class AIService {
         headers['anthropic-version'] = '2023-06-01';
       }
 
-      // Prepare request payload standard
       let body: string;
       if (activeProvider.id === 'claude') {
         body = JSON.stringify({
@@ -204,7 +215,6 @@ export class AIService {
           temperature: 0.8
         });
       } else {
-        // OpenAI, DeepSeek, Local
         body = JSON.stringify({
           model: activeProvider.modelName,
           messages: [
@@ -247,12 +257,11 @@ export class AIService {
       throw new Error('Provider returned an empty story response.');
     }
 
-    // Parse the Title, Content, and Summary from the response
+    // Parse Title, Content, and Summary
     let title = `Episode #${db.episodes.length + 1}`;
     let content = generatedText;
     let summary = '';
 
-    // Extract Title
     const titleRegex = /TITLE:\s*([^\n]+)/i;
     const titleMatch = content.match(titleRegex);
     if (titleMatch && titleMatch[1]) {
@@ -260,7 +269,6 @@ export class AIService {
       content = content.replace(titleRegex, '').trim();
     }
 
-    // Extract Summary wrapped in <SUMMARY>...</SUMMARY>
     const summaryRegex = /<SUMMARY>([\s\S]*?)<\/SUMMARY>/i;
     const summaryMatch = content.match(summaryRegex);
     if (summaryMatch && summaryMatch[1]) {
@@ -268,7 +276,6 @@ export class AIService {
       content = content.replace(summaryRegex, '').trim();
     }
 
-    // Fallback Summary generator jika AI lupa menyertakan tag <SUMMARY>
     if (!summary) {
       const paragraphs = content.split('\n').filter(p => p.trim().length > 50);
       summary = paragraphs.length > 0 

@@ -64,6 +64,12 @@ export interface DeliveryConfig {
   smtpFrom: string;
   smtpTo: string;
   driveFolderId: string;
+  
+  // Google Drive OAuth Credentials
+  driveClientId?: string;
+  driveClientSecret?: string;
+  driveRefreshToken?: string;
+  
   outputFolder: string;
   backupFolder: string;
 }

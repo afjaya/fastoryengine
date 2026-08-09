@@ -1,16 +1,40 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import nodemailer from 'nodemailer';
-import { Document, Packer, Paragraph, TextRun, AlignmentType, HeadingLevel } from 'docx';
-import { AppDatabase, Episode, DeliveryConfig } from '../types.js';
+import { google } from 'googleapis';
+import { Document, Packer, Paragraph, TextRun, AlignmentType } from 'docx';
+import { Episode, DeliveryConfig } from '../types.js';
 
 export class DeliveryService {
+  /**
+   * Helper internal untuk menginisialisasi Google Drive Client via OAuth2
+   */
+  private static getDriveClient(delivery: DeliveryConfig) {
+    const clientId = delivery.driveClientId || process.env.GOOGLE_DRIVE_CLIENT_ID;
+    const clientSecret = delivery.driveClientSecret || process.env.GOOGLE_DRIVE_CLIENT_SECRET;
+    const refreshToken = delivery.driveRefreshToken || process.env.GOOGLE_DRIVE_REFRESH_TOKEN;
+
+    if (!clientId || !clientSecret || !refreshToken) {
+      throw new Error('Kredensial Google Drive (Client ID, Client Secret, atau Refresh Token) belum dikonfigurasi.');
+    }
+
+    const oauth2Client = new google.auth.OAuth2(clientId, clientSecret);
+    oauth2Client.setCredentials({ refresh_token: refreshToken });
+
+    return google.drive({ version: 'v3', auth: oauth2Client });
+  }
+
   /**
    * Export episode content to plain text (.txt)
    */
   public static async exportToTxt(episode: Episode, delivery: DeliveryConfig): Promise<string> {
+    const outputFolder = delivery.outputFolder || path.join(process.cwd(), 'stories');
+    if (!fs.existsSync(outputFolder)) {
+      fs.mkdirSync(outputFolder, { recursive: true });
+    }
+
     const filename = `Episode_${String(episode.episodeNumber).padStart(3, '0')}_${episode.title.replace(/[^a-zA-Z0-9]/g, '_')}.txt`;
-    const targetPath = path.join(delivery.outputFolder, filename);
+    const targetPath = path.join(outputFolder, filename);
 
     const fullText = `EPISODE ${episode.episodeNumber}: ${episode.title.toUpperCase()}
 Generation Date: ${new Date(episode.generationDate).toLocaleString()}
@@ -33,8 +57,13 @@ ${episode.summary}
    * Export episode content to Word Document (.docx) using the 'docx' library
    */
   public static async exportToDocx(episode: Episode, delivery: DeliveryConfig): Promise<string> {
+    const outputFolder = delivery.outputFolder || path.join(process.cwd(), 'stories');
+    if (!fs.existsSync(outputFolder)) {
+      fs.mkdirSync(outputFolder, { recursive: true });
+    }
+
     const filename = `Episode_${String(episode.episodeNumber).padStart(3, '0')}_${episode.title.replace(/[^a-zA-Z0-9]/g, '_')}.docx`;
-    const targetPath = path.join(delivery.outputFolder, filename);
+    const targetPath = path.join(outputFolder, filename);
 
     // Create a beautiful, polished docx schema
     const doc = new Document({
@@ -147,7 +176,12 @@ ${episode.summary}
     attachmentPaths: string[]
   ): Promise<{ success: boolean; logMessage: string }> {
     
-    const { smtpHost, smtpPort, smtpUser, smtpPass, smtpFrom, smtpTo } = delivery;
+    const smtpHost = delivery.smtpHost || process.env.SMTP_HOST;
+    const smtpPort = Number(delivery.smtpPort || process.env.SMTP_PORT || 587);
+    const smtpUser = delivery.smtpUser || process.env.SMTP_USER;
+    const smtpPass = delivery.smtpPass || process.env.SMTP_PASS;
+    const smtpFrom = delivery.smtpFrom || process.env.SMTP_FROM || smtpUser;
+    const smtpTo = delivery.smtpTo || process.env.DEFAULT_RECIPIENT;
 
     if (!smtpHost || !smtpUser || !smtpPass || !smtpTo) {
       return {
@@ -160,20 +194,23 @@ ${episode.summary}
       const transporter = nodemailer.createTransport({
         host: smtpHost,
         port: smtpPort,
-        secure: smtpPort === 465, // true for 465 port
+        secure: smtpPort === 465,
         auth: {
           user: smtpUser,
           pass: smtpPass
-        }
+        },
+        tls: { rejectUnauthorized: false }
       });
 
-      const attachments = attachmentPaths.map(p => ({
-        filename: path.basename(p),
-        path: p
-      }));
+      const attachments = attachmentPaths
+        .filter(p => fs.existsSync(p))
+        .map(p => ({
+          filename: path.basename(p),
+          path: p
+        }));
 
       const mailOptions = {
-        from: smtpFrom || smtpUser,
+        from: smtpFrom,
         to: smtpTo,
         subject: `[FASTORY STORY ENGINE] Episode #${episode.episodeNumber}: ${episode.title}`,
         text: `Greetings Story Architect,
@@ -215,7 +252,7 @@ Fastory Story Engine
   }
 
   /**
-   * Deliver files to Google Drive
+   * Deliver files directly to Google Drive (Upload Nyata via Google Drive API v3)
    */
   public static async uploadToGoogleDrive(
     episode: Episode, 
@@ -223,40 +260,56 @@ Fastory Story Engine
     filePath: string
   ): Promise<{ success: boolean; logMessage: string; webContentLink?: string }> {
     
-    const folderId = delivery.driveFolderId || 'root';
     const filename = path.basename(filePath);
 
     try {
-      // Create backup file copies in the local backupFolder as a solid container safety protocol
-      const backupPath = path.join(delivery.backupFolder, filename);
+      // 1. Simpan salinan lokal ke folder backup sebagai protokol keamanan
+      const backupFolder = delivery.backupFolder || path.join(process.cwd(), 'backups');
+      if (!fs.existsSync(backupFolder)) {
+        fs.mkdirSync(backupFolder, { recursive: true });
+      }
+      const backupPath = path.join(backupFolder, filename);
       fs.copyFileSync(filePath, backupPath);
 
-      // In the AI Studio Preview environment, we simulate the actual multi-part REST upload call to Google Drive
-      // to avoid blocking the user with missing OAuth credentials, while logging the exact API request.
-      const simulatedDriveUrl = `https://www.googleapis.com/drive/v3/files?uploadType=multipart`;
-      
-      const debugRestLog = {
-        url: simulatedDriveUrl,
-        headers: {
-          'Authorization': 'Bearer [OAUTH_TOKEN_FROM_SECURE_STORAGE]',
-          'Content-Type': 'multipart/related; boundary=foo_bar_boundary'
-        },
-        metadata: {
-          name: filename,
-          parents: [folderId],
-          mimeType: filename.endsWith('.docx') 
-            ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' 
-            : 'text/plain'
-        }
+      // 2. Inisialisasi Google Drive API Client
+      const drive = this.getDriveClient(delivery);
+      const folderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID;
+
+      const ext = path.extname(filePath).toLowerCase();
+      const mimeType = ext === '.docx' 
+        ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' 
+        : 'text/plain';
+
+      const fileMetadata: any = {
+        name: filename
       };
 
-      console.log('Sending multipart upload REST payload to Google Drive API:', JSON.stringify(debugRestLog, null, 2));
+      // Tentukan target folder jika diisi
+      if (folderId && folderId.trim() !== '' && folderId !== 'root') {
+        fileMetadata.parents = [folderId];
+      }
+
+      const media = {
+        mimeType,
+        body: fs.createReadStream(filePath)
+      };
+
+      // 3. Eksekusi pengunggahan ke Google Drive
+      const response = await drive.files.create({
+        requestBody: fileMetadata,
+        media,
+        fields: 'id, name, webViewLink'
+      });
+
+      const fileId = response.data.id || '';
+      const webViewLink = response.data.webViewLink || `https://drive.google.com/file/d/${fileId}/view`;
 
       return {
         success: true,
-        logMessage: `Successfully uploaded ${filename} to Google Drive folder [${folderId}]. Local backup saved to /backups.`,
-        webContentLink: `https://drive.google.com/open?id=simulated-file-id-${episode.id}`
+        logMessage: `File ${filename} berhasil diunggah ke Google Drive (ID: ${fileId}). Backup lokal tersimpan di /backups.`,
+        webContentLink: webViewLink
       };
+
     } catch (e: any) {
       console.error('Google Drive Upload failed:', e);
       return {

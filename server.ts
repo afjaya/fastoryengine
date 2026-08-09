@@ -6,11 +6,32 @@ import { dbInstance } from './src/server/db.js';
 import { schedulerInstance } from './src/server/scheduler.js';
 import { AIService, PromptBuilder } from './src/server/ai.js';
 import { DeliveryService } from './src/server/delivery.js';
-import { GoogleGenAI, Type } from '@google/genai';
+import { GoogleGenAI } from '@google/genai';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const Type = {
+  OBJECT: 'object',
+  ARRAY: 'array',
+  STRING: 'string'
+} as const;
+
+/**
+ * Helper untuk mengambil Gemini API Key secara universal (dari Settings/db.json atau .env)
+ */
+function getGeminiApiKey(): string {
+  const db = dbInstance.get();
+  const geminiProvider = db.providers?.find(p => p.id === 'gemini');
+  if (geminiProvider?.apiKey && geminiProvider.apiKey.trim() !== '') {
+    return geminiProvider.apiKey;
+  }
+  return process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || '';
+}
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Body parser middlewares
   app.use(express.json({ limit: '10mb' }));
@@ -142,19 +163,12 @@ async function startServer() {
         return res.status(400).json({ error: 'Prose content is required for audit.' });
       }
 
-      const apiKey = process.env.GEMINI_API_KEY;
+      const apiKey = getGeminiApiKey();
       if (!apiKey) {
-        return res.status(400).json({ error: 'Gemini API key is not configured. Please add it in Settings.' });
+        return res.status(400).json({ error: 'Gemini API key is not configured. Please add it in Settings or .env file.' });
       }
 
-      const ai = new GoogleGenAI({
-        apiKey,
-        httpOptions: {
-          headers: {
-            'User-Agent': 'aistudio-build'
-          }
-        }
-      });
+      const ai = new GoogleGenAI({ apiKey });
 
       const systemPrompt = `You are an elite literary editor, continuity supervisor, and manuscript auditor.
 Your job is to thoroughly analyze a story chapter's prose and cross-examine it against:
@@ -203,7 +217,7 @@ Run the audit and output the JSON of continuity issues found (if any). If no iss
         contents: userPrompt,
         config: {
           systemInstruction: systemPrompt,
-          temperature: 0.1, // Factual, low temperature
+          temperature: 0.1,
           responseMimeType: 'application/json',
           responseSchema: {
             type: Type.OBJECT,
@@ -298,7 +312,6 @@ Run the audit and output the JSON of continuity issues found (if any). If no iss
         return res.status(400).json({ error: 'Story Generation is already in progress.' });
       }
 
-      // Trigger generation pipeline asynchronously so we can return response immediately and let UI poll/listen
       schedulerInstance.runGenerationPipeline(customSnippet, Number(targetLength), coverUrl);
       
       res.json({ success: true, message: 'Story generation pipeline initiated.' });
@@ -320,14 +333,10 @@ Run the audit and output the JSON of continuity issues found (if any). If no iss
 
       dbInstance.log('INFO', `Initiating manual delivery for Episode #${episode.episodeNumber}...`, episode.episodeNumber);
 
-      // Regenerate output files if they don't exist
       const txtPath = await DeliveryService.exportToTxt(episode, db.delivery);
       const docxPath = await DeliveryService.exportToDocx(episode, db.delivery);
 
-      // Email delivery
       const emailRes = await DeliveryService.sendEmailDelivery(episode, db.delivery, [txtPath, docxPath]);
-      
-      // Google Drive delivery
       const driveRes = await DeliveryService.uploadToGoogleDrive(episode, db.delivery, docxPath);
 
       dbInstance.log('INFO', `Manual delivery results: Email -> ${emailRes.logMessage} | Drive -> ${driveRes.logMessage}`, episode.episodeNumber);
