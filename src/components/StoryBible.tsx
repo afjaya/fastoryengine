@@ -1,4 +1,3 @@
-import * as React from 'react';
 import React, { useState } from 'react';
 import { Save, BookOpen, AlertCircle, Sparkles } from 'lucide-react';
 import { StoryBible } from '../types.js';
