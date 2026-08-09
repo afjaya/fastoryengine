@@ -1,4 +1,3 @@
-import * as React from 'react';
 import React, { useState, useEffect, useRef } from 'react';
 import { Sparkles, Terminal, CheckCircle2, AlertCircle, Loader, RefreshCw } from 'lucide-react';
 import { AppDatabase } from '../types.js';
