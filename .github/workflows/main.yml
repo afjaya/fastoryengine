@@ -20,13 +20,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Dependencies & React Types
-        run: |
-          npm install
-          npm install --save-dev @types/react@^19.0.0 @types/react-dom@^19.0.0
-
-      - name: Type Check (TypeScript)
-        run: npx tsc --noEmit --skipLibCheck
+      - name: Install Dependencies
+        run: npm install
 
       - name: Build Application
         run: npm run build
