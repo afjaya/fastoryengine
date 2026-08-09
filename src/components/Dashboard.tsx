@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { BookOpen, FileText, CheckCircle2, Cloud, Mail, Calendar, Sparkles, Server, RefreshCw, Play, ArrowRight, Check, Image as ImageIcon, Maximize2, X, Download, ExternalLink, Eye } from 'lucide-react';
 import { AppDatabase, Episode } from '../types.js';
