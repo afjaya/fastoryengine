@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { Save, Settings as SettingsIcon, Server, Mail, FolderHeart, Globe, Check, Download, RefreshCw, FileJson } from 'lucide-react';
 import { AppDatabase, AIProvider, DeliveryConfig, SchedulerConfig } from '../types.js';
