@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build-and-test:
@@ -18,10 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Install Dependencies & React Types
+        run: |
+          npm install
+          npm install --save-dev @types/react@^19.0.0 @types/react-dom@^19.0.0
 
       - name: Type Check (TypeScript)
         run: npx tsc --noEmit
