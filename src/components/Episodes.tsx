@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import * as React from 'react';
+import { useState, useEffect } from 'react';
 import { BookOpen, Search, FileText, Send, Trash2, Save, CheckSquare, ShieldAlert, CheckCircle2, AlertTriangle, Sparkles, Eye, Check, RefreshCw, Image, Wand2, Download, Copy, ExternalLink } from 'lucide-react';
 import { Episode, StoryBible, Character, ContinuityIssue, AIProvider } from '../types.js';
 import { generatePollinationsImageUrl, exportEpisodeToDocx } from '../utils.js';
