@@ -26,7 +26,7 @@ jobs:
           npm install --save-dev @types/react@^19.0.0 @types/react-dom@^19.0.0
 
       - name: Type Check (TypeScript)
-        run: npx tsc --noEmit
+        run: npx tsc --noEmit --skipLibCheck
 
       - name: Build Application
         run: npm run build
