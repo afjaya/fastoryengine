@@ -1,4 +1,3 @@
-import * as React from 'react';
 import React, { useState } from 'react';
 import { User, Trash2, Edit3, Plus, Save, X, AlertCircle, Network } from 'lucide-react';
 import { Character } from '../types.js';
