@@ -97,6 +97,24 @@
   },
   "logs": [
     {
+      "id": "log-1786347560709-eslp",
+      "timestamp": "2026-08-10T07:39:20.709Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786347560709-iqgb",
+      "timestamp": "2026-08-10T07:39:20.709Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786347553514-6b8g",
+      "timestamp": "2026-08-10T07:39:13.514Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786347425454-2som",
       "timestamp": "2026-08-10T07:37:05.454Z",
       "level": "INFO",
