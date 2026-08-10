@@ -28,7 +28,22 @@
       "notes": "Carries a heavy, non-registered chemical revolver. Left eye is a military-grade chrome implant."
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "ep-1786348638394",
+      "episodeNumber": 1,
+      "title": "Rain and Cold Chrome",
+      "summary": "Major Silas Vance recovers a encrypted NexusCorp data-slate from a street contact in Sector 9, discovering evidence that his former partner's death was an authorized corporate execution. The slate triggers a tracking beacon that draws an elite NexusCorp strike team led by the Weaver to his position. Grappling with severe cybernetic organ rejection, Silas engages in a violent shootout and finds himself pinned down, cornered, and facing down an executioner's weapon.",
+      "wordCount": 1794,
+      "generationDate": "2026-08-10T07:57:18.394Z",
+      "status": "Draft",
+      "promptUsed": "You are an elite, award-winning novelist specializing in Cyberpunk Noir fiction.\nYour task is to write a single, complete, fully-fleshed-out chapter/episode for a story.\nThe story is set in the following Universe: \"Neo-Siam 2088\".\n\nSTORY BIBLE OVERVIEW:\n- Genre: Cyberpunk Noir\n- Universe Name: Neo-Siam 2088\n- Writing Style: Gritty hardboiled prose with rich atmospheric descriptions, rain-soaked neon lights, and high-tech low-life aesthetic.\n- Narrator Style: Third-Person Limited, cynical and highly sensory.\n- Language: English\n- Tone: Somber, cynical, high-contrast, aesthetic\n\nCRITICAL WRITING DIRECTIVES:\nShow, don't tell. Focus on tactile sensations, mechanical hums, chemical smells, and character posture. Avoid clunky info-dumps.\n\nPROMPT STRUCTURE & PACING RULES:\nOpen with an immediate action or visceral detail. Use realistic colloquial dialogue. End each chapter on an unresolved tension point or cliffhanger.\n\nFORBIDDEN PATTERNS (DO NOT ATTEMPT):\nNo easy resolutions, no sudden positive generic outcomes, do not use flowery or purple prose, never summarize scenes that could be played out in dialogue.\n\nCUSTOM INSTRUCTIONS:\nIntegrate cybernetic mechanical noises (humming coolers, pneumatic hisses) to accent dramatic shifts.\n\nYour writing must be production-ready. Avoid preachy introductions, conversational AI pleasantries, or placeholders. Return only the story text.\n\n====================\n\nGenerate Episode #1.\nTarget Word Count: 1500 words.\n\nACTIVE CAST OF CHARACTERS:\n1. Major Silas Vance (Male, Age 42, Occupation: Disgraced Corporate Security Officer)\n   - Personality: Cynical, meticulous, protective of those left in the low-sectors, struggling with cybernetic organ rejection.\n   - Status: Alive\n   - Location: Siam Sector 9 Underbelly\n   - Relationships: Former partner of Dr. Thai (deceased), hates Arasaka-style executive Nobu.\n   - Bio: Discharged dishonorably from NexusCorp after refusing to fire on citizen blockades. Now operates as a rogue investigator.\n   - Additional Notes: Carries a heavy, non-registered chemical revolver. Left eye is a military-grade chrome implant.\n\nThis is the FIRST episode (Episode #1) of the series. Establish the setting, characters, and primary conflict with high narrative impact.\n\nADDITIONAL FOCUS / SPECIFIC DIRECTION FOR THIS EPISODE:\nAutomated daily story chapter.\n\n\nINSTRUCTIONS FOR GENERATION:\n1. Deliver ONE complete, self-contained, but cliffhanger-ending narrative chapter of exactly 1500 words written fully in English.\n2. Include a compelling Title for this episode at the very first line of your response in the format: \"TITLE: <Your Compelling Title Here>\".\n3. Immediately follow the title with the narrative prose.\n4. Ensure the style matches the hard directives: Third-Person Limited narrator, high-contrast atmospheric descriptions, cinematic dialogue, and no summarization of key scenes.\n5. Provide a 2-3 sentence summary of this generated episode at the very end of your response, wrapped in a \"<SUMMARY>\" and \"</SUMMARY>\" block written fully in English. Example:\n   <SUMMARY>\n   Provide a concise summary here.\n   </SUMMARY>\n\nWrite the episode:",
+      "aiProvider": "Gemini (Google Gen AI)",
+      "modelUsed": "gemini-3.6-flash",
+      "content": "The rain in Sector 9 did not wash things clean; it only settled the grease. It came down thick and warm off the undersides of the upper-tier sky-highways, reeking of aviation fuel, fried garlic, and stale river silt. \n\nMajor Silas Vance crouched under the canvas awning of a dark noodle stall, his knees popping like dry bamboo. Beneath his coat, the bio-synthetic liver NexusCorp had stapled into his abdomen three years ago throbbed with a dull, sickening heat. Rejection season. His body was trying to kill the chrome again.\n\n*A wet, pneumatic hiss bubbled from the micro-regulator beneath his collarbone,* releasing a localized burst of immunosuppressants directly into his subclavian vein. The cold chemical rush cut the nausea, replacing it with the sharp, metallic taste of copper on the back of his tongue.\n\nSilas adjusted the collar of his oilskin duster and pressed two fingers to the brass casing behind his left ear. His Zeiss-Siam Mk. IV optical implant whirred—*a high-frequency pitch that vibrated against his skull*—before zooming three hundred meters down the neon-drenched alleyway.\n\nThrough the curtain of falling water, the holographic sign of a three-story spirit house flickered in jagged Thai script: *Rest for the Dead, Debt for the Living*. Beneath it stood Pipat. \n\nThe kid was twitching. His posture was all wrong—shoulders hunched up to his earlobes, arms crossed tight over a grease-stained vinyl jacket that bulged at the ribcage. He wasn't looking at the street; he was watching the overhead rain-drains, where the corporate transport lanes cut through the gloom three hundred feet above.\n\nSilas stepped out from the awning. His boots sank into two inches of oily sludge. He kept his right hand buried deep in his duster pocket, his thumb resting on the cold, knurled hammer of his non-registered chemical revolver—a heavy, brutal piece of iron that fired pressurized acid-tipped slugs designed to chew through personal kinetic shielding.\n\n\"You're late, Pipat,\" Silas said, his voice like gravel scraping across wet concrete as he closed the distance.\n\nPipat jumped, his eyes darting frantically. The kid’s irises were cheap aftermarket cybernetics, glowing a sickly neon yellow that hummed faintly in the damp air. \"Major. Christ, don't do that. The air is heavy tonight. The Scrappers are running grid sweeps two blocks south.\"\n\n\"The Scrappers don't care about a gutter-rat like you unless you’re carrying something that belongs to someone who pays rent up top,\" Silas said, stopping three feet away. *His left optic clicked, shifting to thermal spectrum.* Pipat’s chest was bright red—heart rate pulsing at a frantic hundred and forty beats a minute. \"What do you have?\"\n\nPipat reached inside his jacket with agonizing slowness, pulling out a heavy data-slate. It wasn't the slick, translucent glass used by NexusCorp executives in the upper spires. It was an old military-grade brick, wrapped in rubberized housing and dripping with fresh canal scum. The top corner was charred, smelling faintly of fried circuits and scorched flesh.\n\n\"Pulled it off a wet-corpse floating near the Bangkok-2 floodgates an hour ago,\" Pipat whispered, pressing the slate into Silas's gloved hand. \"NexusCorp security seal on the housing. Executive clearance. I tried to bypass the outer encrypted bus with a deck from the night market, and the deck melted.\"\n\nSilas looked down at the slate. etched into the scorched chassis was a faded silver crest: a stylized lotus blooming over a corporate cog. NexusCorp Black-Budget Division.\n\n\"Did anyone see you pull him out?\" Silas asked.\n\n\"No. Just the river-rats,\" Pipat said, his voice trembling. \"Major... the dead guy's face. It wasn't blown out by a pipe gun. It was melted. Smooth. Like someone poured boiling battery acid over his skull while he was still breathing.\"\n\nSilas felt a familiar cold knot tighten in his gut. He knew that work. It was the signature weapon of Director Nobu’s private wet-work units—the tactical squads Silas used to command before he refused the order to clear the Sector 9 blockade with anti-personnel ordnance. Before they stripped his rank, dumped him in the lower basin, and left him to rot with a third-rate organ implant.\n\n*A low, mechanical micro-cooler hummed behind Silas’s temple* as his optic cross-referenced the slate's burnt hardware signature against old NexusCorp operational manifests stored in his eye's local memory bank.\n\n\"How much?\" Silas asked.\n\n\"Three hundred credits,\" Pipat spat out, rubbing his twitching forearm where fresh track-marks showed through his jacket. \"And a ticket out of Sector 9. To the mid-levels. I can't stay down here, Vance. They’re hunting.\"\n\nSilas pulled a heavy credit-chit from his coat and pressed it into Pipat’s trembling palm. \"Take the sub-level train to Sector 12. Don't use the main turnstiles. Use the drainage conduits.\"\n\nPipat didn't wait to be told twice. He snatched the chit, spun on his heel, and sprinted into the dark, his sneakers splashing loudly through the sewage-choked gutters.\n\nSilas walked into the shadowed recess of an abandoned spirit house. The ambient rain drummed relentlessly against the rusted corrugated steel overhead. He pulled a portable interface wire from his sleeve and jammed the cold brass needle into the slate’s diagnostic port.\n\nThe Zeiss optic in his left eye flared bright amber. Data unrolled across his field of vision in sharp, jagged lines of green text, cutting through the neon-red haze of his rain-streaked view.\n\n```\nOPERATIONAL LOG: PROJECT SURIYA\nSECURITY LEVEL: OMEGA-BLACK\nAUTHORIZATION: NOBU, Y. (EXECUTIVE DIRECTOR)\nSTATUS: ACTIVE PURGE\n```\n\nSilas flicked his gaze downward, scrolling through the heavily corrupted system logs. His breath caught in his throat.\n\nAmong the encrypted directories were autopsy reports. Biometric scans. Neural mapping files stamped with a clearance code he hadn't seen in four years.\n\n*Dr. Thai.*\n\nHis former partner. The woman who had tried to build cheap, open-source cybernetic organs for the low-sector citizens before her lab caught fire in Sector 7. The official NexusCorp report had called it an accidental plasma-conduit rupture. Silas had known it was a hit, but he had never possessed the hard cold data to prove it.\n\nHere it was. The file contained an execution order, digitally signed by Director Nobu himself, dated two days before the fire.\n\n*A sudden, high-pitched pneumatic whine hissed from Silas's chest.* Pain flared bright and hot behind his ribs as his synthetic liver gave another violent spasm. His vision blurred, white noise washing over his right eye while his cybernetic left eye desperately recalibrated to compensate for his failing pulse.\n\nHe leaned heavily against the damp concrete wall, gritting his teeth until his molars cracked. \"Not now,\" he snarled through clenched jaws. \"Not yet.\"\n\nHe squeezed the diagnostic wire, forcing his optic to scroll down to the bottom of the ledger. There was a secondary list attached to the purge file—a list of secondary targets marked for immediate reclamation and neural extraction.\n\nThere were three names on the screen.\n\nThe first two were crossed out in red.\n\nThe third name was blinking yellow:\n`VANCE, SILAS. MAJOR (RETIRED). LOCATION: SECTOR 9 UNDERBELLY.`\n\n`STATUS: TRACKING DATA-LINK... CONNECTED.`\n\nSilas froze. The signal wasn't just a stored file. The moment he had bridged the interface wire into the slate, an active beacon inside the scorched housing had pinged the nearest corporate relay tower.\n\n*A low, rhythmic mechanical clatter echoed from above—the distinct, fluttering thrum of a stealth-capable drone's ducted fan assembly.*\n\nSilas dropped the data-slate, crushed it under the heavy heel of his boot, and hauled his chemical revolver from his coat pocket. The weapon came up in a smooth, practiced arc, the six-chambered cylinder indexing with a solid iron *clack*.\n\nAbove him, the rain didn't fall straight anymore. It scattered in a fine, misted halo as two cloaked figures dropped silently from the steel rafters of the sky-highway overhead. They landed without a sound on the slick pavement thirty feet away, their high-tech combat suits absorbing the impact with *a soft, pneumatic hiss of venting pressure.*\n\nThey wore polished black composites—no insignias, no identification numbers. Faceplates of mirrored obsidian reflected the shattered neon of the street. In their hands were silenced sub-carbines, fitted with smart-targeting lasers that painted twin red dots directly onto the center of Silas’s chest.\n\n\"Major Vance,\" a voice rasped from the lead operative's vocal synthesizer, metallic and entirely devoid of human inflection. \"Director Nobu sends his regards. You are past your expiration date.\"\n\nSilas didn't answer. Words were cheap in Sector 9, and ammo was expensive.\n\nHe pulled the trigger.\n\nThe chemical revolver roared like a cannon in the narrow alleyway. A flash of blinding blue fire illuminated the falling rain as the high-acid slug tore through the dark. The shot struck the lead operative squarely in the chest plate. The kinetic impact slammed the soldier backward, and a second later, the pressurized chemical payload detonated—eating through the military-grade composite armor with a sickening, sizzling sound of dissolving polymer and screaming flesh.\n\nThe second operative swept his sub-carbine up, but Silas was already moving, diving behind a rusted iron trash compactor as a hail of suppressed 9mm rounds chewed through the concrete wall behind him, spraying jagged gravel into his hair.\n\nSilas hit the deck, his chest burning like he’d swallowed lit coals. The mechanical regulator in his shoulder clunked violently, warning lights flashing crimson across his left eye’s display:\n\n```\nCRITICAL SYSTEM FAILURE: ORGAN REJECTION AT 78%\nNEURO-TOXIC SHOCK IMMINENT\n```\n\nThrough the smoke and the smell of melted plastic and burning acid, Silas heard a slow, measured set of footsteps echoing down the alleyway from the opposite direction. Heavy. Deliberate. The sound of expensive leather on wet steel.\n\nA third figure stepped out from the shadows near the spirit house, completely unbothered by the gunfire. He wore a tailored charcoal suit over a polished chrome spine-frame that gleamed beneath the rain. In his gloved right hand, he held an ivory-handled neural disruptor.\n\nThe man tilted his head, his face illuminated by the flickering yellow neon of the street sign. \n\nIt was Director Nobu’s personal bodyguard—the cybernetic executioner known as the Weaver.\n\n\"Put the gun down, Silas,\" the Weaver said, his voice smooth, cultured, and amplified by an internal vocal box. \"Your liver is failing. Your eye is burning out your optic nerve. You can't even stand up straight.\"\n\nThe Weaver raised the neural disruptor, pointing it directly at Silas’s head as the surviving operative moved up from the side, flanking the compactor with his carbine raised.\n\nSilas pulled his back against the cold steel of the compactor, his breathing ragged, the chemical revolver heavy in his trembling hand. His left eye glitched, white lines tearing across his field of vision as his internal temperature surged past critical.\n\n\"You always did talk too much,\" Silas coughed, wiping a line of black, synthetic blood from his lip.\n\nThe Weaver's finger tightened on the trigger of the disruptor.",
+      "coverUrl": ""
+    }
+  ],
   "providers": [
     {
       "id": "gemini",
@@ -96,6 +111,79 @@
     "customTime": "09:00"
   },
   "logs": [
+    {
+      "id": "log-1786348640108-ugxw",
+      "timestamp": "2026-08-10T07:57:20.108Z",
+      "level": "INFO",
+      "message": "Story Generation Pipeline Completed Successfully!",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348640107-vqsb",
+      "timestamp": "2026-08-10T07:57:20.108Z",
+      "level": "INFO",
+      "message": "File Episode_001_Rain_and_Cold_Chrome.docx berhasil diunggah ke Google Drive (ID: 1GXFilAJjj1zaqI1BfTqllU50kOyEKBM5). Backup lokal tersimpan di /backups.",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638475-puil",
+      "timestamp": "2026-08-10T07:57:18.475Z",
+      "level": "INFO",
+      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638475-occj",
+      "timestamp": "2026-08-10T07:57:18.475Z",
+      "level": "WARNING",
+      "message": "SMTP Settings are incomplete. Skipping email delivery.",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638474-f9w1",
+      "timestamp": "2026-08-10T07:57:18.474Z",
+      "level": "INFO",
+      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638474-obxv",
+      "timestamp": "2026-08-10T07:57:18.474Z",
+      "level": "INFO",
+      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_001_Rain_and_Cold_Chrome.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_001_Rain_and_Cold_Chrome.docx",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638394-wwd5",
+      "timestamp": "2026-08-10T07:57:18.394Z",
+      "level": "INFO",
+      "message": "Saved Episode #1 in archive. Saving output files...",
+      "episodeNumber": 1
+    },
+    {
+      "id": "log-1786348638393-h7xy",
+      "timestamp": "2026-08-10T07:57:18.393Z",
+      "level": "INFO",
+      "message": "Successfully received story: \"Rain and Cold Chrome\" (~1794 words)."
+    },
+    {
+      "id": "log-1786348606430-m95b",
+      "timestamp": "2026-08-10T07:56:46.430Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786348606401-2cm0",
+      "timestamp": "2026-08-10T07:56:46.401Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786348599113-2bi4",
+      "timestamp": "2026-08-10T07:56:39.113Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
     {
       "id": "log-1786348037330-cb6z",
       "timestamp": "2026-08-10T07:47:17.330Z",
