@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 0 * * *' # Otomatis jalan setiap jam 00:00 UTC
+    - cron: '30 23,5,12 * * *'
   workflow_dispatch:
 
 jobs:
