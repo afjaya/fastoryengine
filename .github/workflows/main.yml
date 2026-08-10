@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 0 * * *' # Otomatis jalan setiap jam 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -14,14 +16,23 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm install
+          python -m pip install requests
 
       - name: Build Application
         run: npm run build
@@ -31,3 +42,29 @@ jobs:
           GOOGLE_DRIVE_CLIENT_SECRET: ${{ secrets.GOOGLE_DRIVE_CLIENT_SECRET }}
           GOOGLE_DRIVE_REFRESH_TOKEN: ${{ secrets.GOOGLE_DRIVE_REFRESH_TOKEN }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+
+      - name: Run FASTORY Engine Producer & Auto Commit
+        run: |
+          # Jalankan server di background
+          npm start &
+          
+          # Tunggu server siap di port 3000
+          sleep 8
+          
+          # Eksekusi runner Python
+          python fastory.py
+        env:
+          GITHUB_ACTIONS: "true"
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+          GOOGLE_DRIVE_CLIENT_ID: ${{ secrets.GOOGLE_DRIVE_CLIENT_ID }}
+          GOOGLE_DRIVE_CLIENT_SECRET: ${{ secrets.GOOGLE_DRIVE_CLIENT_SECRET }}
+          GOOGLE_DRIVE_REFRESH_TOKEN: ${{ secrets.GOOGLE_DRIVE_REFRESH_TOKEN }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+
+      - name: Commit & Push New Story Outputs to Repo
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stories/ db.json || true
+          git diff --staged --quiet || (git commit -m "chore(story): Auto-produced daily chapter [skip ci]" && git push)
