@@ -1,35 +1,25 @@
+# Dependencies
 node_modules/
 build/
 dist/
 coverage/
-.DS_Store
-*.log
-.env*
-!.env.example
-db.json
-
-# Dependencies
-node_modules/
 .pnpm-store/
 
 # Environment variables & API Keys (SANGAT RAHASIA)
 .env
-.env.local
-.env.development.local
-.env.production.local
+.env*
+!.env.example
 
-# Output hasil produksi & backups lokal
-output/
-backups/
-*.docx
-*.txt
-
-# Build output
-dist/
-build/
-
-# Editor / OS configs
-.vscode/*
-!.vscode/settings.json
+# OS & Editor
 .DS_Store
 Thumbs.db
+.vscode/*
+!.vscode/settings.json
+*.log
+
+# Temp/Cache lokal saja
+backups/
+
+# BUKA AKSES UNTUK DATABASE & HASIL CERITA
+!db.json
+!stories/
