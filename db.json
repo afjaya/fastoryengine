@@ -1,0 +1,126 @@
+{
+  "storyBible": {
+    "genre": "Cyberpunk Noir",
+    "universeName": "Neo-Siam 2088",
+    "storyStyle": "Gritty hardboiled prose with rich atmospheric descriptions, rain-soaked neon lights, and high-tech low-life aesthetic.",
+    "narratorStyle": "Third-Person Limited, cynical and highly sensory.",
+    "language": "English",
+    "writingRules": "Show, don't tell. Focus on tactile sensations, mechanical hums, chemical smells, and character posture. Avoid clunky info-dumps.",
+    "episodeLength": 1500,
+    "promptRules": "Open with an immediate action or visceral detail. Use realistic colloquial dialogue. End each chapter on an unresolved tension point or cliffhanger.",
+    "tone": "Somber, cynical, high-contrast, aesthetic",
+    "forbiddenRules": "No easy resolutions, no sudden positive generic outcomes, do not use flowery or purple prose, never summarize scenes that could be played out in dialogue.",
+    "customInstructions": "Integrate cybernetic mechanical noises (humming coolers, pneumatic hisses) to accent dramatic shifts.",
+    "updatedAt": "2026-08-10T07:25:12.275Z"
+  },
+  "characters": [
+    {
+      "id": "char-1",
+      "name": "Major Silas Vance",
+      "age": "42",
+      "gender": "Male",
+      "occupation": "Disgraced Corporate Security Officer",
+      "personality": "Cynical, meticulous, protective of those left in the low-sectors, struggling with cybernetic organ rejection.",
+      "status": "Alive",
+      "relationships": "Former partner of Dr. Thai (deceased), hates Arasaka-style executive Nobu.",
+      "biography": "Discharged dishonorably from NexusCorp after refusing to fire on citizen blockades. Now operates as a rogue investigator.",
+      "location": "Siam Sector 9 Underbelly",
+      "notes": "Carries a heavy, non-registered chemical revolver. Left eye is a military-grade chrome implant."
+    }
+  ],
+  "episodes": [],
+  "providers": [
+    {
+      "id": "gemini",
+      "name": "Gemini (Google Gen AI)",
+      "apiKey": "",
+      "baseUrl": "https://generativelanguage.googleapis.com",
+      "modelName": "gemini-3.6-flash",
+      "isActive": true
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI GPT",
+      "apiKey": "",
+      "baseUrl": "https://api.openai.com/v1",
+      "modelName": "gpt-4o-mini",
+      "isActive": false
+    },
+    {
+      "id": "claude",
+      "name": "Anthropic Claude",
+      "apiKey": "",
+      "baseUrl": "https://api.anthropic.com/v1",
+      "modelName": "claude-3-5-haiku-latest",
+      "isActive": false
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek AI",
+      "apiKey": "",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "modelName": "deepseek-chat",
+      "isActive": false
+    },
+    {
+      "id": "local",
+      "name": "Local API (Ollama/LM Studio)",
+      "apiKey": "not-needed",
+      "baseUrl": "http://localhost:11434/v1",
+      "modelName": "mistral",
+      "isActive": false
+    },
+    {
+      "id": "pollinations-image",
+      "name": "Pollinations Image AI",
+      "baseUrl": "https://image.pollinations.ai/prompt/",
+      "modelName": "flux",
+      "apiKey": "",
+      "isActive": false
+    }
+  ],
+  "delivery": {
+    "smtpHost": "smtp.gmail.com",
+    "smtpPort": 465,
+    "smtpUser": "",
+    "smtpPass": "",
+    "smtpFrom": "Fastory Story Engine <noreply@gmail.com>",
+    "smtpTo": "BangRijal@gmail.com",
+    "driveFolderId": "root",
+    "outputFolder": "/home/runner/work/fastoryengine/fastoryengine/stories",
+    "backupFolder": "/home/runner/work/fastoryengine/fastoryengine/backups"
+  },
+  "scheduler": {
+    "autoGenerate": false,
+    "frequency": "daily",
+    "customTime": "09:00"
+  },
+  "logs": [
+    {
+      "id": "log-1786346719498-d1lj",
+      "timestamp": "2026-08-10T07:25:19.498Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786346719498-433k",
+      "timestamp": "2026-08-10T07:25:19.498Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786346712279-pif5",
+      "timestamp": "2026-08-10T07:25:12.279Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
+      "id": "log-initial",
+      "timestamp": "2026-08-10T07:25:12.275Z",
+      "level": "INFO",
+      "message": "Fastory Story Engine initialized."
+    }
+  ],
+  "currentProjectTitle": "Neon Chronicles: Volume I",
+  "projects": []
+}
