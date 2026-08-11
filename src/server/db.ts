@@ -5,17 +5,17 @@ import { AppDatabase, StoryBible, Character, Episode, AIProvider, DeliveryConfig
 const DB_FILE = path.join(process.cwd(), 'db.json');
 
 const defaultStoryBible: StoryBible = {
-  genre: 'Cyberpunk Noir',
-  universeName: 'Neo-Siam 2088',
-  storyStyle: 'Gritty hardboiled prose with rich atmospheric descriptions, rain-soaked neon lights, and high-tech low-life aesthetic.',
-  narratorStyle: 'Third-Person Limited, cynical and highly sensory.',
+  genre: 'Epic Fantasy',
+  universeName: 'Grande Cosmic',
+  storyStyle: 'Immersive, high-stakes epic fantasy with vivid atmospheric worldbuilding, ancient cosmic magic, and deep lore.',
+  narratorStyle: 'Third-Person Limited, grounded, atmospheric, and sensory-heavy.',
   language: 'English',
-  writingRules: 'Show, don\'t tell. Focus on tactile sensations, mechanical hums, chemical smells, and character posture. Avoid clunky info-dumps.',
+  writingRules: 'Show, don\'t tell. Focus on visceral sensory details—the chill of cosmic mana, heavy plate armor, ancient runes, and tense character dialogue. Avoid info-dumps.',
   episodeLength: 1500,
-  promptRules: 'Open with an immediate action or visceral detail. Use realistic colloquial dialogue. End each chapter on an unresolved tension point or cliffhanger.',
-  tone: 'Somber, cynical, high-contrast, aesthetic',
-  forbiddenRules: 'No easy resolutions, no sudden positive generic outcomes, do not use flowery or purple prose, never summarize scenes that could be played out in dialogue.',
-  customInstructions: 'Integrate cybernetic mechanical noises (humming coolers, pneumatic hisses) to accent dramatic shifts.',
+  promptRules: 'Open with immediate action or a striking atmospheric detail. Use natural, grounded dialogue. End each chapter on high tension, a cosmic revelation, or a cliffhanger.',
+  tone: 'Somber, mysterious, high-contrast, epic',
+  forbiddenRules: 'No easy resolutions, no sudden generic positive outcomes, do not use overly purple prose, never summarize dramatic scenes that can be experienced through dialogue.',
+  customInstructions: 'Weave in subtle atmospheric details like the faint hum of celestial magic, ancient glowing runes, and shifts in atmospheric pressure during magic invocation.',
   updatedAt: new Date().toISOString()
 };
 
@@ -93,16 +93,16 @@ const defaultDatabase: AppDatabase = {
   characters: [
     {
       id: 'char-1',
-      name: 'Major Silas Vance',
+      name: 'Sir Silas Vance',
       age: '42',
       gender: 'Male',
-      occupation: 'Disgraced Corporate Security Officer',
-      personality: 'Cynical, meticulous, protective of those left in the low-sectors, struggling with cybernetic organ rejection.',
+      occupation: 'Disgraced Solar Knight & Cosmic Wanderer',
+      personality: 'Cynical, meticulous, fiercely protective of the forgotten sectors, struggling with the corruption of a shattered astral core.',
       status: 'Alive',
-      relationships: 'Former partner of Dr. Thai (deceased), hates Arasaka-style executive Nobu.',
-      biography: 'Discharged dishonorably from NexusCorp after refusing to fire on citizen blockades. Now operates as a rogue investigator.',
-      location: 'Siam Sector 9 Underbelly',
-      notes: 'Carries a heavy, non-registered chemical revolver. Left eye is a military-grade chrome implant.'
+      relationships: 'Former sworn brother of Arch-Mage Thai (deceased), deeply distrusts the High Council executives of Aethelgard.',
+      biography: 'Dishonorably stripped of his knighthood after refusing orders to purge a starving district during the Mana Eclipse. Now operates as a rogue mercenary in the outer realms.',
+      location: 'Underbelly of the Astral Citadel',
+      notes: 'Wields a heavy, runic-carved silver broadsword. His left eye glows with a dangerous, unstable cosmic essence from an ancient ritual.'
     }
   ],
   episodes: [],

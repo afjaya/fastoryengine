@@ -1,79 +1,53 @@
 {
   "storyBible": {
-    "genre": "Dark Fantasy / Epic High Fantasy",
-    "universeName": "Elysia: Aethelgard & The Tower of Sun",
-    "storyStyle": "Atmospheric, visceral, high-stakes narrative with cinematic prose, tactile magic descriptions, and morally grey character interactions.",
-    "narratorStyle": "Third-Person Limited (alternating between Valen and Lyra's perspective), sensory-heavy, grounded, and suspenseful.",
+    "genre": "Epic Fantasy",
+    "universeName": "Grande Cosmic",
+    "storyStyle": "Immersive, high-stakes epic fantasy with vivid atmospheric worldbuilding, ancient cosmic magic, and deep lore.",
+    "narratorStyle": "Third-Person Limited, grounded, atmospheric, and sensory-heavy.",
     "language": "English",
-    "writingRules": "Show, don't tell. Focus on the cold metallic gleam of silver weapons, the chemical hum of Aura Alchemy, the suffocating dampness of the Veil fog, and tension between light and shadow. Avoid modern colloquialisms.",
-    "episodeLength": 1500,
-    "promptRules": "Open with visceral atmospheric details or immediate physical conflict. Use realistic, sharp dialogue that reflects character worldviews. End every chapter on a high-impact narrative shift, moral dilemma, or unresolved cliffhanger.",
-    "tone": "Grim, mysterious, high-contrast, atmospheric, suspenseful",
-    "forbiddenRules": "No easy plot resolutions, no sudden positive generic outcomes, no modern slang or flowery purple prose, never summarize dramatic confrontations that can be expressed through dialogue and action.",
-    "customInstructions": "Incorporate sensory cues of Aura Alchemy (humming silver blades, ozone smells, glowing vein patterns) and the unnatural eerie silence of the Mistwalkers.",
-    "updatedAt": "2026-08-10T22:51:00.000Z"
+    "writingRules": "Show, don't tell. Focus on visceral sensory details—the chill of cosmic mana, heavy plate armor, ancient runes, and tense character dialogue. Avoid info-dumps.",
+    "episodeLength": 2000,
+    "promptRules": "Open with immediate action or a striking atmospheric detail. Use natural, grounded dialogue. End each chapter on high tension, a cosmic revelation, or a cliffhanger.",
+    "tone": "Somber, mysterious, high-contrast, epic",
+    "forbiddenRules": "No easy resolutions, no sudden generic positive outcomes, do not use overly purple prose, never summarize dramatic scenes that can be experienced through dialogue.",
+    "customInstructions": "Weave in subtle atmospheric details like the faint hum of celestial magic, ancient glowing runes, and shifts in atmospheric pressure during magic invocation.",
+    "updatedAt": "2026-08-11T11:40:00.000Z"
   },
   "worldLore": {
-    "setting": "Kingdom of Aethelgard, a dark medieval world surrounded by a wall of perpetual deadly fog known as The Veil.",
-    "faith": "The Sun Core worship—a colossal radiant gem at the peak of the Capital Tower believed to be the sole light source holding back the Mistwalkers.",
-    "magicSystem": "Aura Alchemy—channeling vital life energy through weapons forged from or plated with pure silver.",
-    "threats": "The Mistwalkers—monstrous abyssal creatures lurking within the Veil, repelled only by Sun Core energy and silver-channeled alchemy."
+    "setting": "The Realm of Aethelgard within the Grande Cosmic expanse, floating beneath the shattered Astral Citadel and guarded by celestial ley lines.",
+    "faith": "The Celestial Core worship—a radiant cosmic gem believed to be the heart of the universe, holding back the abyssal void.",
+    "magicSystem": "Celestial & Rune Magic—channeling ancient cosmic mana through runic-carved silver blades and celestial astrology.",
+    "threats": "Voidborn Entities—monstrous abyssal creatures creeping from the cosmic rift, repelled only by unstable Astral Core resonance."
   },
   "characters": [
     {
       "id": "char-1",
-      "name": "Sir Valen Vance",
-      "age": "28",
+      "name": "Sir Silas Vance",
+      "age": "42",
       "gender": "Male",
-      "occupation": "Elite Silver Knight of the Sun Guard",
-      "personality": "Rigid, dutiful, stoic, deeply haunted by guilt over his younger sister's death.",
+      "occupation": "Disgraced Solar Knight & Cosmic Wanderer",
+      "personality": "Cynical, meticulous, fiercely protective of the forgotten sectors, struggling with the corruption of a shattered astral core.",
       "status": "Alive",
-      "relationships": "Divergent ally to Lyra Thorne; loyal subject (initially) to Lord Regent Julian; brother to Eliana (believed dead).",
-      "biography": "Decorated captain of Aethelgard's elite order. Has devoted his life to defending the realm, believing his sister died honorably in battle at the Veil border.",
-      "location": "Capital Citadel / Tower of Sun Sub-Crypts",
-      "notes": "Wields an ancestral longsword with pure-silver inlay; skilled in Aura Alchemy force-projection."
+      "relationships": "Former sworn brother of Arch-Mage Thai (deceased); deeply distrusts the High Council executives of Aethelgard.",
+      "biography": "Dishonorably stripped of his knighthood after refusing orders to purge a starving district during the Mana Eclipse. Now operates as a rogue mercenary in the outer realms.",
+      "location": "Underbelly of the Astral Citadel",
+      "notes": "Wields a heavy, runic-carved silver broadsword. His left eye glows with a dangerous, unstable cosmic essence from an ancient ritual."
     },
     {
       "id": "char-2",
       "name": "Lyra Thorne",
       "age": "23",
       "gender": "Female",
-      "occupation": "Street Thief & Rogue Scholar",
-      "personality": "Cynical, pragmatic, sharp-tongued, fiercely independent, perceptive.",
+      "occupation": "Rogue Scholar & Astral Stargazer",
+      "personality": "Pragmatic, sharp-tongued, fiercely independent, highly perceptive of magical flows.",
       "status": "Alive",
-      "relationships": "Reluctant ally to Valen Vance; sworn enemy of the Royal Inquisition.",
-      "biography": "Raised in the lower slums beneath the shadow of the Tower. Possesses a rare natural gift to visually perceive the flow and resonance of magical aura streams.",
-      "location": "Capital Citadel / Tower of Sun Sub-Crypts",
-      "notes": "Carries dual silver-plated daggers; capable of seeing magic leylines and structural weakness in alchemy constructs."
-    },
-    {
-      "id": "char-3",
-      "name": "Lord Regent Julian",
-      "age": "54",
-      "gender": "Male",
-      "occupation": "Shadow Ruler of Aethelgard & High Custodian",
-      "personality": "Charismatic, ruthless, pious on the surface, coldly utilitarian.",
-      "status": "Alive",
-      "relationships": "Commander of Valen Vance; prosecutor of Lyra Thorne.",
-      "biography": "Maintains the illusion of holy order while secretly managing the gruesome soul-harvesting machinery that powers the Sun Core to sustain his own reign and power.",
-      "location": "High Spire, Citadel of Aethelgard",
-      "notes": "Master manipulator of both political factions and forbidden necrotic alchemy."
+      "relationships": "Reluctant ally to Sir Silas Vance; enemy of the High Council Inquisitors.",
+      "biography": "Born in the lower slums beneath the Astral Citadel. Possesses a rare natural ability to see cosmic ley lines and structural flaws in celestial magic.",
+      "location": "Underbelly of the Astral Citadel",
+      "notes": "Carries dual runic daggers; capable of reading ancient celestial runes instantly."
     }
   ],
-  "episodes": [
-    {
-      "id": "ep-1001",
-      "episodeNumber": 1,
-      "title": "The Silver Vow",
-      "summary": "Valen Vance corners the elusive street thief Lyra Thorne inside the sacred sub-crypts of the Tower of Sun as she attempts to extract a shard of the Sun Core. Upon capture, Lyra insists she is not stealing but trying to disrupt an ongoing slaughter. When Valen touches the core shard held by Lyra, his silver-bound aura resonates with her vision—revealing that the Sun Core is a soul-harvesting engine, and that his missing sister was sacrificed into its core.",
-      "wordCount": 1500,
-      "generationDate": "2026-08-10T22:51:00.000Z",
-      "status": "Published",
-      "promptUsed": "Episode 1 generation for Elysia series.",
-      "aiProvider": "Gemini (Google Gen AI)",
-      "modelUsed": "gemini-3.6-flash",
-      "content": "PLACEHOLDER_EPISODE_1_CONTENT"
-    }
-  ],
-  "currentEpisode": 1
+  "episodes": [],
+  "currentEpisode": 0,
+  "lastSummary": "This is the very first episode. Introduce the world of Grande Cosmic, the icy chill of ancient celestial magic, and the tense initial confrontation between Sir Silas Vance and Lyra Thorne beneath the restricted sub-crypts of the Astral Citadel."
 }
