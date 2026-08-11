@@ -125,6 +125,30 @@
   },
   "logs": [
     {
+      "id": "log-1786456341398-6scb",
+      "timestamp": "2026-08-11T13:52:21.398Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1786456331782-wwmr",
+      "timestamp": "2026-08-11T13:52:11.782Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786456331782-jcp8",
+      "timestamp": "2026-08-11T13:52:11.782Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786456324473-x9vu",
+      "timestamp": "2026-08-11T13:52:04.473Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786455415021-09nh",
       "timestamp": "2026-08-11T13:36:55.021Z",
       "level": "INFO",
@@ -199,6 +223,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne infiltrate a dangerous, abandoned vault in the Underbelly of the Astral Citadel, discovering a unstable cosmic rift that powers the upper city. They are ambushed by High Council Inquisitors, forcing Silas to unleash the volatile, void-tainted power hidden beneath his eye patch. The resulting cosmic surge destroys the vault's infrastructure, sending Silas and Lyra plunging toward the collapsing abyss."
+  "projects": []
 }
