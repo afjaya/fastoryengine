@@ -5,12 +5,6 @@
 
 declare module '*.css';
 
-declare module 'react' {
-  export const StrictMode: any;
-  export const Fragment: any;
-  export default any;
-}
-
 declare module 'react-dom/client' {
   export function createRoot(el: any): { render(node: any): void };
 }
@@ -19,14 +13,6 @@ declare module 'react/jsx-runtime' {
   export function jsx(type: any, props?: any, key?: any): any;
   export function jsxs(type: any, props?: any, key?: any): any;
   export const Fragment: any;
-}
-
-// Lightweight JSX namespace so the compiler accepts JSX syntax
-declare namespace JSX {
-  interface IntrinsicAttributes { [key: string]: any }
-  interface IntrinsicClassAttributes<T> { [key: string]: any }
-  interface IntrinsicElements { [elemName: string]: any }
-  interface Element { }
 }
 
 // Minimal declaration for the optional @google/genai SDK used at runtime.
