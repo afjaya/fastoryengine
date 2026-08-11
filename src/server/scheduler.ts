@@ -67,7 +67,7 @@ export class BackgroundScheduler {
       const result = await AIService.generateStory(db, customDirection, targetWords);
       dbInstance.log('INFO', `Successfully received story: "${result.title}" (~${result.content.split(/\s+/).length} words).`);
 
-      // Step 2: Save to Database
+      // Step 2: Save to Database & Update lastSummary
       const newEpisode = dbInstance.upsertEpisode({
         title: result.title,
         content: result.content,
@@ -80,6 +80,9 @@ export class BackgroundScheduler {
         generationDate: new Date().toISOString(),
         coverUrl: coverUrl
       });
+
+      // Update field lastSummary di root db.json
+      dbInstance.updateLastSummary(result.summary);
 
       dbInstance.log('INFO', `Saved Episode #${newEpisode.episodeNumber} in archive. Saving output files...`, newEpisode.episodeNumber);
 

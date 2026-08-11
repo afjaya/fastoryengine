@@ -434,6 +434,11 @@ export class DatabaseRepository {
     this.saveToFile(this.memoryDb);
     return this.memoryDb;
   }
+public updateLastSummary(summary: string): AppDatabase {
+    this.memoryDb.lastSummary = summary;
+    this.saveToFile(this.memoryDb);
+    return this.memoryDb;
+  }
 }
 
 export const dbInstance = new DatabaseRepository();

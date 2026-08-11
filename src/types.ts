@@ -118,4 +118,5 @@ export interface AppDatabase {
   logs: GenerationLog[];
   currentProjectTitle: string;
   projects: ArchivedProject[];
+  lastSummary?: string;
 }
