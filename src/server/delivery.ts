@@ -181,7 +181,9 @@ ${episode.summary}
     const smtpUser = delivery.smtpUser || process.env.SMTP_USER;
     const smtpPass = delivery.smtpPass || process.env.SMTP_PASS;
     const smtpFrom = delivery.smtpFrom || process.env.SMTP_FROM || smtpUser;
-    const smtpTo = delivery.smtpTo || process.env.DEFAULT_RECIPIENT;
+    
+    // Default penerima email ke bangrijal@gmail.com
+    const smtpTo = delivery.smtpTo || process.env.DEFAULT_RECIPIENT || 'bangrijal@gmail.com';
 
     if (!smtpHost || !smtpUser || !smtpPass || !smtpTo) {
       return {
@@ -273,7 +275,9 @@ Fastory Story Engine
 
       // 2. Inisialisasi Google Drive API Client
       const drive = this.getDriveClient(delivery);
-      const folderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID;
+      
+      // Default folder target ke ID Folder "Fastory"
+      const folderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID || '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
 
       const ext = path.extname(filePath).toLowerCase();
       const mimeType = ext === '.docx' 
@@ -284,7 +288,7 @@ Fastory Story Engine
         name: filename
       };
 
-      // Tentukan target folder jika diisi
+      // Tentukan target folder "Fastory"
       if (folderId && folderId.trim() !== '' && folderId !== 'root') {
         fileMetadata.parents = [folderId];
       }
@@ -306,7 +310,7 @@ Fastory Story Engine
 
       return {
         success: true,
-        logMessage: `File ${filename} berhasil diunggah ke Google Drive (ID: ${fileId}). Backup lokal tersimpan di /backups.`,
+        logMessage: `File ${filename} berhasil diunggah ke folder Fastory di Google Drive (ID: ${fileId}). Backup lokal tersimpan di /backups.`,
         webContentLink: webViewLink
       };
 
