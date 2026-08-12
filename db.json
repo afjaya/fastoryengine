@@ -167,6 +167,30 @@
   },
   "logs": [
     {
+      "id": "log-1786517697237-2obz",
+      "timestamp": "2026-08-12T06:54:57.237Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1786517690285-nh8j",
+      "timestamp": "2026-08-12T06:54:50.285Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786517690284-27fd",
+      "timestamp": "2026-08-12T06:54:50.284Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786517683104-fezt",
+      "timestamp": "2026-08-12T06:54:43.104Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786493366779-4i10",
       "timestamp": "2026-08-12T00:09:26.779Z",
       "level": "INFO",
@@ -484,6 +508,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra land on a fragile, suspended stone platform as Aethelgard's underbelly collapses, where they discover that the entire Citadel is anchored to the skeletal remains of a slaughtered constellation. A surviving High Inquisitor activates the Citadel's thermal purge protocol, raining white-hot solar plasma down the shaft to glass the breach and destroy everything below. To escape certain incineration, Silas overloads his sword with his corrupted eye's chaotic power and shatters the platform's core anchor, sending them plummeting into the dark heart of the unleashed titan."
+  "projects": []
 }
