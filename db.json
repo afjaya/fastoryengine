@@ -195,6 +195,30 @@
   },
   "logs": [
     {
+      "id": "log-1786604282248-we98",
+      "timestamp": "2026-08-13T06:58:02.248Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1786604275981-tr69",
+      "timestamp": "2026-08-13T06:57:55.981Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786604275981-tyoj",
+      "timestamp": "2026-08-13T06:57:55.981Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786604268488-fo4m",
+      "timestamp": "2026-08-13T06:57:48.488Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786579775222-dx3z",
       "timestamp": "2026-08-13T00:09:35.222Z",
       "level": "INFO",
@@ -682,6 +706,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra survive the fall into the titan's heart-chamber, where they discover that the High Council is leeching corrupted cosmic energy to fuel Aethelgard. After defending themselves against an automated Harvester, Silas's ancient cosmic eye reveals that the titan's heart is mutating the city's mana supply into an incubation trap for an otherworldly force. As High Council Inquisitors arrive and force the siphons to maximum capacity, a spatial tear opens inside the core, pulling Silas into the living star as the room plunges into darkness."
+  "projects": []
 }
