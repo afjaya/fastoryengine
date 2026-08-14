@@ -237,6 +237,30 @@
   },
   "logs": [
     {
+      "id": "log-1786751410691-te6f",
+      "timestamp": "2026-08-14T23:50:10.691Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Provider returned an empty story response."
+    },
+    {
+      "id": "log-1786751384977-2dvd",
+      "timestamp": "2026-08-14T23:49:44.977Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786751384976-1zrt",
+      "timestamp": "2026-08-14T23:49:44.976Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786751377891-f2dh",
+      "timestamp": "2026-08-14T23:49:37.891Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786715744490-foes",
       "timestamp": "2026-08-14T13:55:44.490Z",
       "level": "ERROR",
