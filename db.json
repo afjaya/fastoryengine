@@ -237,6 +237,30 @@
   },
   "logs": [
     {
+      "id": "log-1786715744490-foes",
+      "timestamp": "2026-08-14T13:55:44.490Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Provider returned an empty story response."
+    },
+    {
+      "id": "log-1786715698197-j4es",
+      "timestamp": "2026-08-14T13:54:58.197Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786715698196-t9e1",
+      "timestamp": "2026-08-14T13:54:58.196Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786715690768-3skd",
+      "timestamp": "2026-08-14T13:54:50.768Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786690566168-ufma",
       "timestamp": "2026-08-14T06:56:06.168Z",
       "level": "INFO",
@@ -967,6 +991,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Flushed out into the freezing void of the outer drift, Silas Vance uses the unstable cosmic energy of his corrupted eye alongside Lyra's runic shaping to propel them to a floating derelict frigate. After breaching the airlock and escaping the vacuum, they discover the ship is a dormant High Council black-site craft. The vessel's automated systems detect Silas's corrupted eye, locking them inside and awakening a unit of mechanized Archon purgers to eliminate them."
+  "projects": []
 }
