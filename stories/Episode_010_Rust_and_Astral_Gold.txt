@@ -1,0 +1,113 @@
+EPISODE 10: RUST AND ASTRAL GOLD
+Generation Date: 8/15/2026, 5:53:29 AM
+Provider: Gemini (Google Gen AI) (gemini-3.6-flash)
+Word Count: 1734 words
+
+================================================================================
+Red hazard runes ignited along the ribbing of the blast door, burning bright through forty years of dead dust. The screech of iron grinding against iron echoed down the narrow gangway as the heavy bulkhead slammed shut, sealing the lock from the outside. 
+
+"Bypass is dead," Lyra spat, her breath pluming white in the sudden drop of temperature. She was on her knees by the access slate, her thumb pressed flat against the ancient crystal interface. Beneath her skin, the fine blue capillaries of her forearms pulsed in response to the ship’s waking ley-lines. "It’s not an atmospheric lock, Silas. It’s a quarantine seal. The ship's computer didn't just flag your eye—it flagged the whole chamber for cleansing."
+
+Sir Silas Vance did not answer. He stood four paces back, his broad boots planted wide on the frost-dusted steel grating. His right hand held his silver broadsword in a low guard, the iron weight familiar and grounding against the unnatural gravity pulse tugging at his spine. His left eye—the shattered, star-corrupted ruin that had cost him his knighthood—was burning. A high, agonizing hum vibrated in his sinus cavity, pushing localized atmospheric pressure downward until his ears popped with a wet crack.
+
+"How many?" Silas growled, his voice rasping like slate dragged across gravel.
+
+"Three," Lyra said, standing up smoothly and drawing twin runic daggers from her belt. The silver inlay along her blades caught the crimson glare of the emergency lights, casting long, dancing shadows against the bulkheads. "Stasis vaults at the end of the hall. They aren't living guards, Silas. They’re High Council iron."
+
+At the far end of the darkened gangway, three brass-fitted alcoves hissed open, releasing pressurized clouds of sub-zero fog. 
+
+Out stepped the Archon Purgers. 
+
+They were tall, armless abstractions of polished dark steel and gilded filigree, suspended three inches above the deck on humming anti-grav cushions. Where a human face should have been, each Purger possessed only a vertical seam of burning, white-hot solar mana. In place of hands, six-foot glaives of dark forged alloy were fused directly into their forearms, the edges shimmering with high-frequency cosmic arc-lightning.
+
+The lead Purger raised its glaive. A voice, hollow and synthesized from light rather than vocal cords, resonated through the deck plates: *“Corrupt core detected. Astral anomaly within target perimeter. Commencing purification under Aethelgard Mandate Nine.”*
+
+"Get behind the structural ribs," Silas commanded, stepping into the center of the corridor. "Their glaives carry a heavy arc. If they hit the walls, the feedback will cook us through our boots."
+
+"The center one’s mana-duct is frayed!" Lyra called back, her sharp eyes tracing the flickering blue lines of exposed magic running along the machine’s shoulder assembly. "Third plate from the neck—it's leaking solar plasma! Hit it there and the circuit collapses!"
+
+The first Purger lunged. It moved without momentum, gliding across the frost-slick floor with horrifying, silent speed. The arc-glaive whistled through the air, leaving a trail of ionized ozone that smelled sharply of scorched tin and old copper.
+
+Silas brought his broadsword up to parry. Metal struck arc-energy with a deafening crack that threw showers of violet and gold sparks against the bulkheads. The force of the strike rattled Silas’s teeth, sending a jolt of bone-deep vibration through his heavy gauntlets and up his spine. His boots skidded two feet back across the deck, tearing through the thin layer of ice.
+
+"Too slow, construct," Silas muttered under his breath.
+
+He shifted his grip, stepping inside the sweep of the second Purger’s blade. With a grunt born of two decades of brutal military discipline, Silas drove the pommel of his sword upward into the machine’s visor slit. The heavy silver cap smashed into the brass housing, sending white sparks spraying across the ceiling.
+
+The construct reeled, its hovering ballast wobbling, but the third Purger was already flanking. Its glaive thrust downward in a lethal arc aimed directly for Silas’s unarmored throat.
+
+"Silas!" Lyra darted beneath the arc of the thrust like a shadow. Her left blade caught the underside of the Purger’s wrist-joint, the cold-runes etched into her dagger flashing bright azure as she drove the point into the mechanical seam. Glacial frost instantly bloomed across the construct’s internal hydraulics, freezing the limb mid-strike. 
+
+"Now!" she yelled.
+
+Silas didn't hesitate. He swung his broadsword in a wide, horizontal cleave. The silver blade, weighted for breaking heavy plate, sheared through the construct's frozen arm joint. The severed iron limb smashed onto the floorboards, its arc-glaive sparking violently before dying into dull gray metal.
+
+The remaining two Purgers backed off, their white-hot visor slits flickered as their internal logic processors reassessed the threat. The sound of their internal cooling fans was a dry, frantic whirring in the cramped corridor.
+
+*“Escalating force directive,”* the lead construct monotone reverberated. *“Unstable core present in target. Initiating localized core purge.”*
+
+The chest plates of both constructs groaned and parted, revealing glowing spheres of condensed, raw stellar magic. The air in the corridor grew instantly stifling, the temperature soaring from below freezing to a skin-blistering heat within seconds. The rubber seals along the bulkheads began to melt, dripping down the iron walls like black wax.
+
+"They're going to glass the whole corridor!" Lyra shouted, shielding her face with her forearm as her skin flushed crimson under the sudden radiant heat. "We can't cut through those cores, Silas—if they breach, the blast will tear this hull open into the void!"
+
+Silas felt the cold, oily twist in his left socket. The corrupted astral core behind his eye responded to the presence of the pure stellar magic, squirming like a live parasite under his skull. Violet light burst from his eye socket, drowning out the red emergency glow of the corridor. Gravity gave a violent shudder; loose rivets ripped themselves from the floorboards and floated upward into the superheated air.
+
+"Cover your eyes, girl," Silas growled.
+
+"Silas, no—you can't control that much—"
+
+He didn't listen. Silas reached into the dark, jagged well of energy within his skull and pulled.
+
+It felt like swallowing needles. A sound like tearing canvas filled his ears as his corrupted eye unleashed a localized gravity implosion. The air pressure plummeted to zero in a fraction of a second. The twin sun-cores of the Archon Purgers flickered, their radiant heat violently drawn toward the violet vortex blooming in front of Silas’s face.
+
+The lead Purger attempted to snap its chest plates shut, but the gravitational sheer tore the brass housing clean off its chassis. The condensed stellar magic was sucked out of the constructs, swirling into a blinding helix of violet and dark gold that hovered just inches from Silas’s eye.
+
+With a hoarse roar, Silas slammed the flat of his silver broadsword through the swirling vortex, directing the gathered arc-energy straight into the bulkhead wall behind the constructs.
+
+The discharge was deafening. A wave of violet force blasted the two Archon Purgers backward, driving them twenty feet down the gangway where they slammed into the inner bridge doors, collapsing into useless heaps of melted metal and dead wiring.
+
+Silas dropped to one knee, the broadsword clattering from his numb fingers. His left eye was leaking a thick, shimmering fluid that burned like acid as it ran down his bearded cheek. He clawed at his chest, gasping for thin, ozone-choked air that scorched his lungs.
+
+"Silas!" Lyra was beside him instantly, her hands hovering over his shoulders, terrified to touch the violent static discharging from his armor. "Breathe! Break the flow, Silas, close the gate!"
+
+He clenched his right fist, biting his lip until he tasted iron, and dragged his eyelids shut. The violet static slowly receded, leaving only the dull, throbbing agony of a shattered core behind his eye socket.
+
+"I'm... fine," he wheezed, wiping the glowing fluid from his face with his leather gauntlet. "The... machines?"
+
+"Dead," Lyra said, her voice shaking slightly as she looked down the corridor at the twisted, glowing wreckage. "You tore their cores apart from the inside."
+
+A deep, mechanical chime echoed through the bulkheads. 
+
+The red emergency runes faded, replaced by a soft, pale blue light that swept down the corridor. The blast door at the far end, warped and scorched by the energy discharge, slowly unlatched itself with a heavy hiss of released pneumatic pressure.
+
+The ship's automated voice spoke again, but the synthesized tone had changed—dropping the harsh security modulation for a soft, reverent tone reserved for high command.
+
+*“Subject Vance identified. Solar Knight Core Signature verified: Rank 1 Knight-Captain. Override accepted. Welcome aboard Black-Site Transport: 'The Pale Remembrance'.”*
+
+Lyra slowly stood up, her daggers still drawn as she stared at the newly opened inner blast doors. "A transport? Aethelgard doesn't build black-site transports with this level of armor unless they're moving something they can't afford to lose."
+
+Silas forced himself up, leaning heavily on his broadsword as he stood. He wiped the last of the glowing discharge from his chin and stepped past the smoldering remains of the Purgers, stepping into the primary vault of the vessel.
+
+The room was vast, dominated by a towering glass cylinder suspended in the center of a dormant ley-matrix. Thin silver cables ran from the top of the cylinder into the ship's main drive deck.
+
+Lyra gasped, her daggers slipping an inch in her grip. "By the Starlight..."
+
+Inside the cylinder, suspended in a thick, iridescent gel, was not a weapon or a hoard of astral gold. It was a body.
+
+The man inside was clad in the torn, ash-stained robes of an Arch-Mage of the High Council. Half his face was encrusted with hardened violet crystal—the exact same crystal structure that burned within Silas's socket. 
+
+"Thai..." Silas whispered, his voice cracking as he stepped up to the thick glass.
+
+The crystalized corpse of Arch-Mage Thai rested in silent stasis, but as Silas approached, the corpse's eyes suddenly snapped open. They were entirely void-black, shining with a cold, terrifying awareness.
+
+Before Silas could draw his sword, the console beside the pod flared to life, and a high-frequency broadcast signal latched onto the ship's comm-link.
+
+A cold, familiar voice echoed from the speakers—the voice of High Inquisitor Vane:
+
+*“We wondered where the old mage's signal would lead us, Silas. Thank you for finding him for us.”*
+
+Outside the derelict hull, the hull groaned as three massive High Council dreadnoughts dropped out of warp, their shadow falling over the ship like a shroud.
+
+================================================================================
+SUMMARY:
+Sir Silas Vance and Lyra Thorne battle and destroy three mechanized Archon Purgers inside the dormant High Council vessel using Lyra's tactical sight and Silas's dangerous cosmic eye. Upon clearing the security threat, the ship unlocks its secret inner vault, revealing the preserved, corrupted corpse of Silas's former comrade, Arch-Mage Thai. Before they can react, High Inquisitor Vane intercepts their location via the ship's array, and three enemy dreadnoughts enclose upon their position.
