@@ -279,6 +279,30 @@
   },
   "logs": [
     {
+      "id": "log-1786859721941-10c6",
+      "timestamp": "2026-08-16T05:55:21.941Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Provider returned an empty story response."
+    },
+    {
+      "id": "log-1786859689612-usea",
+      "timestamp": "2026-08-16T05:54:49.612Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1786859689610-y1fe",
+      "timestamp": "2026-08-16T05:54:49.610Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1786859682532-2wk9",
+      "timestamp": "2026-08-16T05:54:42.532Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1786837678875-gu0n",
       "timestamp": "2026-08-15T23:47:58.875Z",
       "level": "INFO",
@@ -1276,6 +1300,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "After escaping High Inquisitor Vane's forces through a chaotic planar rift, Sir Silas Vance and Lyra Thorne crash into the toxic Underbelly beneath the Astral Citadel. Discovering that the High Council has been using stolen star-cores to seal an abyssal cage rather than power the city, Silas unintentionally triggers the vault's opening with Thai's core. Trapped in the catacombs as the blast doors seal above them, they watch in horror as an ancient, crimson-burning leviathan wakes in the abyss beneath."
+  "projects": []
 }
