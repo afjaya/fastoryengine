@@ -57,21 +57,24 @@ export interface AIProvider {
 }
 
 export interface DeliveryConfig {
-  smtpHost: string;
-  smtpPort: number;
-  smtpUser: string;
-  smtpPass: string;
-  smtpFrom: string;
-  smtpTo: string;
-  driveFolderId: string;
+  smtpHost?: string;
+  smtpPort?: number;
+  smtpUser?: string;
+  smtpPass?: string;
+  smtpFrom?: string;
+  smtpTo?: string;
+  driveFolderId?: string;
   
-  // Google Drive OAuth Credentials
+  // Google Drive Credentials (Disesuaikan untuk Service Account)
+  serviceAccountKey?: string; 
+  
+  // (Tetap dipertahankan sebagai opsional untuk kompatibilitas mundur jika diperlukan)
   driveClientId?: string;
   driveClientSecret?: string;
   driveRefreshToken?: string;
   
-  outputFolder: string;
-  backupFolder: string;
+  outputFolder?: string;
+  backupFolder?: string;
 }
 
 export interface SchedulerConfig {

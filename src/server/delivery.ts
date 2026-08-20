@@ -7,21 +7,30 @@ import { Episode, DeliveryConfig } from '../types.js';
 
 export class DeliveryService {
   /**
-   * Helper internal untuk menginisialisasi Google Drive Client via OAuth2
+   * Helper internal untuk menginisialisasi Google Drive Client via Service Account
    */
   private static getDriveClient(delivery: DeliveryConfig) {
-    const clientId = delivery.driveClientId || process.env.GOOGLE_DRIVE_CLIENT_ID;
-    const clientSecret = delivery.driveClientSecret || process.env.GOOGLE_DRIVE_CLIENT_SECRET;
-    const refreshToken = delivery.driveRefreshToken || process.env.GOOGLE_DRIVE_REFRESH_TOKEN;
+    const serviceAccountJson = delivery.serviceAccountKey || process.env.GDRIVE_SERVICE_ACCOUNT_KEY;
 
-    if (!clientId || !clientSecret || !refreshToken) {
-      throw new Error('Kredensial Google Drive (Client ID, Client Secret, atau Refresh Token) belum dikonfigurasi.');
+    if (!serviceAccountJson) {
+      throw new Error('Kredensial Service Account (GDRIVE_SERVICE_ACCOUNT_KEY) belum dikonfigurasi.');
     }
 
-    const oauth2Client = new google.auth.OAuth2(clientId, clientSecret);
-    oauth2Client.setCredentials({ refresh_token: refreshToken });
+    try {
+      // JSON.parse menerima string JSON utuh dari Service Account Key
+      const credentials = typeof serviceAccountJson === 'string' 
+        ? JSON.parse(serviceAccountJson) 
+        : serviceAccountJson;
 
-    return google.drive({ version: 'v3', auth: oauth2Client });
+      const auth = new google.auth.GoogleAuth({
+        credentials,
+        scopes: ['https://www.googleapis.com/auth/drive.file'],
+      });
+
+      return google.drive({ version: 'v3', auth });
+    } catch (error: any) {
+      throw new Error(`Gagal memuat JSON Service Account Key: ${error.message}`);
+    }
   }
 
   /**
