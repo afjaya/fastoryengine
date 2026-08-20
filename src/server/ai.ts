@@ -172,10 +172,10 @@ export class AIService {
 
       const ai = new GoogleGenAI({ apiKey: providerKey });
 
-      // FIX 1: Gunakan model standar 'gemini-2.5-flash' jika tidak diset / salah nama
+      // FIX 1: Gunakan model standar 'gemini-3.6-flash' jika tidak diset / salah nama
       let targetModel = activeProvider.modelName;
       if (!targetModel || targetModel.includes('3.6')) {
-        targetModel = 'gemini-2.5-flash';
+        targetModel = 'gemini-3.6-flash';
       }
 
       // FIX 2: Menerapkan mekanisme Auto-Retry 3x jika server Gemini sibuk (Error 503)
@@ -312,7 +312,7 @@ export class AIService {
       content: content.trim(),
       summary,
       provider: activeProvider.name,
-      model: activeProvider.modelName || 'gemini-2.5-flash',
+      model: activeProvider.modelName || 'gemini-3.6-flash',
       promptUsed: fullPrompt
     };
   }

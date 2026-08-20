@@ -25,7 +25,7 @@ const defaultProviders: AIProvider[] = [
     name: 'Gemini (Google Gen AI)',
     apiKey: '', // Loaded server-side from process.env.GEMINI_API_KEY
     baseUrl: 'https://generativelanguage.googleapis.com',
-    modelName: 'gemini-2.5-flash',
+    modelName: 'gemini-3.6-flash',
     isActive: true
   },
   {

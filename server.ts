@@ -213,7 +213,7 @@ ${content}
 Run the audit and output the JSON of continuity issues found (if any). If no issues are found, return an empty array under "issues": {"issues": []}.`;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3.6-flash',
         contents: userPrompt,
         config: {
           systemInstruction: systemPrompt,
