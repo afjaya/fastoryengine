@@ -27,6 +27,7 @@ function getProviderApiKey(provider: AIProvider): string {
       return '';
   }
 }
+
 // Auto-load .env jika berjalan di Node.js environment
 try {
   if (typeof process !== 'undefined' && process.env) {
@@ -162,30 +163,53 @@ export class AIService {
     let generatedText = '';
 
     if (activeProvider.id === 'gemini') {
-      try {
-        // Dynamic import SDK Google Gen AI
-        const mod: any = await import('@google/genai').catch(() => null);
-        const GoogleGenAI = mod?.GoogleGenAI || mod?.default?.GoogleGenAI || mod?.default;
-        
-        if (!GoogleGenAI) {
-          throw new Error('Pustaka @google/genai tidak ditemukan. Jalankan: bun add @google/genai');
-        }
+      const mod: any = await import('@google/genai').catch(() => null);
+      const GoogleGenAI = mod?.GoogleGenAI || mod?.default?.GoogleGenAI || mod?.default;
+      
+      if (!GoogleGenAI) {
+        throw new Error('Pustaka @google/genai tidak ditemukan. Jalankan: bun add @google/genai');
+      }
 
-        const ai = new GoogleGenAI({ apiKey: providerKey });
+      const ai = new GoogleGenAI({ apiKey: providerKey });
 
-        const response = await ai.models.generateContent({
-          model: activeProvider.modelName || 'gemini-3.6-flash',
-          contents: userPrompt,
-          config: {
-            systemInstruction: systemPrompt,
-            temperature: 0.8,
-            topP: 0.95
+      // FIX 1: Gunakan model standar 'gemini-2.5-flash' jika tidak diset / salah nama
+      let targetModel = activeProvider.modelName;
+      if (!targetModel || targetModel.includes('3.6')) {
+        targetModel = 'gemini-2.5-flash';
+      }
+
+      // FIX 2: Menerapkan mekanisme Auto-Retry 3x jika server Gemini sibuk (Error 503)
+      let attempts = 0;
+      const maxRetries = 3;
+      let delay = 5000; // Mulai dengan jeda 5 detik
+
+      while (attempts < maxRetries) {
+        try {
+          attempts++;
+          const response = await ai.models.generateContent({
+            model: targetModel,
+            contents: userPrompt,
+            config: {
+              systemInstruction: systemPrompt,
+              temperature: 0.8,
+              topP: 0.95
+            }
+          });
+
+          generatedText = response?.text || '';
+          break; // Jika sukses, keluar dari loop retry
+        } catch (e: any) {
+          const errMsg = e.message || String(e);
+          const isServerBusy = errMsg.includes('503') || errMsg.includes('UNAVAILABLE') || errMsg.includes('high demand');
+
+          if (isServerBusy && attempts < maxRetries) {
+            console.warn(`[Gemini Warn] Server Google sibuk (503/UNAVAILABLE). Percobaan ${attempts}/${maxRetries}. Menunggu ${delay / 1000} detik...`);
+            await new Promise(resolve => setTimeout(resolve, delay));
+            delay *= 2; // Naikkan jeda waktu tunggu untuk percobaan berikutnya
+          } else {
+            throw new Error(`Gemini Generation failed: ${errMsg}`);
           }
-        });
-
-        generatedText = response?.text || '';
-      } catch (e: any) {
-        throw new Error(`Gemini Generation failed: ${e.message || e}`);
+        }
       }
     } else {
       // Standard OpenAI-compatible REST endpoints
@@ -288,7 +312,7 @@ export class AIService {
       content: content.trim(),
       summary,
       provider: activeProvider.name,
-      model: activeProvider.modelName,
+      model: activeProvider.modelName || 'gemini-2.5-flash',
       promptUsed: fullPrompt
     };
   }
