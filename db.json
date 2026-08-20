@@ -531,6 +531,30 @@
   },
   "logs": [
     {
+      "id": "log-1787242022252-i3kc",
+      "timestamp": "2026-08-20T16:07:02.252Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1787241980224-zvac",
+      "timestamp": "2026-08-20T16:06:20.224Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1787241980221-jyga",
+      "timestamp": "2026-08-20T16:06:20.221Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1787241972819-72aa",
+      "timestamp": "2026-08-20T16:06:12.819Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1787239769964-81r5",
       "timestamp": "2026-08-20T15:29:29.964Z",
       "level": "INFO",
@@ -2878,6 +2902,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Trapped in the deep underbelly of the Citadel beneath a torrent of molten iron, Silas Vance and Lyra Thorne encounter heat-resistant Inquisitorial Purge Sentinels sent to eliminate them. To escape into an ancient Pre-Aethelgard vault, Lyra forces Silas to use his corrupted cosmic eye to unlock a ancient granite seal. The resulting magical siphon opens the door but leaves Silas paralyzed in a spatial tear as a crippled Sentinel prepares a fatal strike."
+  "projects": []
 }
