@@ -27,7 +27,7 @@ def check_server_health():
 def wait_until_processing_finished():
     """Memantau status server sampai proses AI & Google Drive Upload benar-benar tuntas."""
     print("⏳ Menunggu proses AI & Google Drive Delivery selesai tuntas...")
-    max_wait_seconds = 120  # Toleransi waktu maksimal 2 menit
+    max_wait_seconds = 180  # Dinaikkan jadi 3 menit untuk memberi jeda Auto-Retry Gemini
     start_time = time.time()
     
     # Buka jeda 5 detik pertama agar server sempat mengubah status isProcessing menjadi True
@@ -38,9 +38,15 @@ def wait_until_processing_finished():
             response = requests.get(API_HEALTH, timeout=5)
             if response.status_code == 200:
                 data = response.json()
-                # Jika server memiliki flag isProcessing / scheduler status
                 scheduler_data = data.get("scheduler", {})
+                
                 is_processing = scheduler_data.get("isProcessing", False)
+                last_error = scheduler_data.get("lastError", None)
+                
+                # Cek jika ada error fatal selama proses berlangsung
+                if last_error:
+                    print(f"❌ PROSES GAGAL DENGAN ERROR: {last_error}")
+                    sys.exit(1) # Hentikan runner agar GitHub Actions tahu ada kegagalan
                 
                 if not is_processing:
                     print("✅ TUNTAS! Proses pembuatan cerita & pengiriman ke Google Drive selesai!")
@@ -52,8 +58,8 @@ def wait_until_processing_finished():
             
         time.sleep(5)
 
-    print("⚠️ Waktu tunggu habis (Timeout). Memaksa lanjut...")
-    return False
+    print("❌ Waktu tunggu habis (Timeout). Proses gagal selesai tepat waktu!")
+    sys.exit(1) # Hentikan runner jika timeout
 
 def trigger_story_generation(snippet=None, target_length=1500):
     """Memicu API pembuatan cerita di FASTORY Engine."""
