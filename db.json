@@ -531,6 +531,30 @@
   },
   "logs": [
     {
+      "id": "log-1787244575071-39wl",
+      "timestamp": "2026-08-20T16:49:35.071Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+    },
+    {
+      "id": "log-1787244574779-3fia",
+      "timestamp": "2026-08-20T16:49:34.779Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1787244574649-qm8g",
+      "timestamp": "2026-08-20T16:49:34.649Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1787244566611-mgks",
+      "timestamp": "2026-08-20T16:49:26.611Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1787244487833-1sco",
       "timestamp": "2026-08-20T16:48:07.833Z",
       "level": "ERROR",
