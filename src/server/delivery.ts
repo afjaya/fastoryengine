@@ -265,68 +265,65 @@ Fastory Story Engine
 /**
    * Deliver files directly to Google Drive (Upload Nyata via Google Drive API v3)
    */
-  public static async uploadToGoogleDrive(
-    episode: Episode, 
-    delivery: DeliveryConfig, 
-    filePath: string
-  ): Promise<{ success: boolean; logMessage: string; webContentLink?: string }> {
-    
-    const filename = path.basename(filePath);
+public static async uploadToGoogleDrive(
+  episode: Episode, 
+  delivery: DeliveryConfig, 
+  filePath: string
+): Promise<{ success: boolean; logMessage: string; webContentLink?: string }> {
+  
+  const filename = path.basename(filePath);
 
-    try {
-      // 1. Simpan salinan lokal ke folder backup sebagai protokol keamanan
-      const backupFolder = delivery.backupFolder || path.join(process.cwd(), 'backups');
-      if (!fs.existsSync(backupFolder)) {
-        fs.mkdirSync(backupFolder, { recursive: true });
-      }
-      const backupPath = path.join(backupFolder, filename);
-      fs.copyFileSync(filePath, backupPath);
-
-      // 2. Inisialisasi Google Drive API Client
-      const drive = this.getDriveClient(delivery);
-      
-      // Ambil folder ID dengan fallback pasti ke ID Folder Fastory milikmu
-      const targetFolderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID || '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
-
-      const ext = path.extname(filePath).toLowerCase();
-      const mimeType = ext === '.docx' 
-        ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' 
-        : 'text/plain';
-
-      const fileMetadata: any = {
-        name: filename,
-        // DIPASTIKAN SELALU MASUK KEPADA FOLDER ID TARGET
-        parents: [targetFolderId.trim()]
-      };
-
-      const media = {
-        mimeType,
-        body: fs.createReadStream(filePath)
-      };
-
-      // 3. Eksekusi pengunggahan ke Google Drive
-      const response = await drive.files.create({
-        requestBody: fileMetadata,
-        media: media,
-        supportsAllDrives: true,
-        fields: 'id, name, webViewLink'
-      });
-
-      const fileId = response.data.id || '';
-      const webViewLink = response.data.webViewLink || `https://drive.google.com/file/d/${fileId}/view`;
-
-      return {
-        success: true,
-        logMessage: `File ${filename} berhasil diunggah ke folder Fastory di Google Drive (ID: ${fileId}). Backup lokal tersimpan di /backups.`,
-        webContentLink: webViewLink
-      };
-
-    } catch (e: any) {
-      console.error('Google Drive Upload failed:', e);
-      return {
-        success: false,
-        logMessage: `Google Drive Upload failed: ${e.message || e}`
-      };
+  try {
+    // 1. Simpan salinan lokal ke folder backup
+    const backupFolder = delivery.backupFolder || path.join(process.cwd(), 'backups');
+    if (!fs.existsSync(backupFolder)) {
+      fs.mkdirSync(backupFolder, { recursive: true });
     }
+    const backupPath = path.join(backupFolder, filename);
+    fs.copyFileSync(filePath, backupPath);
+
+    // 2. Inisialisasi Google Drive Client
+    const drive = this.getDriveClient(delivery);
+    
+    // ID Folder Target milik Gmail Anda
+    const targetFolderId = '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
+
+    const ext = path.extname(filePath).toLowerCase();
+    const mimeType = ext === '.docx' 
+      ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' 
+      : 'text/plain';
+
+    // 3. Eksekusi Upload langsung ke Folder Shared
+    const response = await drive.files.create({
+      requestBody: {
+        name: filename,
+        parents: [targetFolderId], // Memaksa file masuk ke folder target
+      },
+      media: {
+        mimeType: mimeType,
+        body: fs.createReadStream(filePath),
+      },
+      supportsAllDrives: true,
+      supportsTeamDrives: true,
+      fields: 'id, name, webViewLink',
+    });
+
+    const fileId = response.data.id || '';
+    const webViewLink = response.data.webViewLink || `https://drive.google.com/file/d/${fileId}/view`;
+
+    return {
+      success: true,
+      logMessage: `File ${filename} berhasil diunggah ke Google Drive (ID: ${fileId}). Backup lokal tersimpan di /backups.`,
+      webContentLink: webViewLink
+    };
+
+  } catch (e: any) {
+    console.error('Google Drive Upload failed:', e);
+    return {
+      success: false,
+      logMessage: `Google Drive Upload failed: ${e.message || e}`
+    };
   }
+}
+
 }
