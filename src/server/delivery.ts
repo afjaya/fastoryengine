@@ -308,13 +308,18 @@ Fastory Story Engine
       };
 
       // 3. Eksekusi pengunggahan ke Google Drive
-      const response = await drive.files.create({
-        requestBody: fileMetadata,
-        media,
-        fields: 'id, name, webViewLink',
-        supportsAllDrives: true, // MANDATORI: Mengizinkan Service Account mengunggah ke folder milik user lain
-        supportsTeamDrives: true,
-      });
+     const response = await drive.files.create({
+  requestBody: {
+    name: filename,
+    // TAMPAHKAN BARIS INI: Masukkan file ke folder milikmu
+    parents: process.env.GOOGLE_DRIVE_FOLDER_ID ? [process.env.GOOGLE_DRIVE_FOLDER_ID] : [], 
+  },
+  media: {
+    mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    body: fs.createReadStream(filePath),
+  },
+  supportsAllDrives: true,
+});
 
       const fileId = response.data.id || '';
       const webViewLink = response.data.webViewLink || `https://drive.google.com/file/d/${fileId}/view`;
