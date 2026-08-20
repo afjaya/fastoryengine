@@ -1,0 +1,95 @@
+EPISODE 32: THE LIGHT THAT BLEEDS
+Generation Date: 8/20/2026, 5:45:37 PM
+Provider: Gemini (Google Gen AI) (gemini-3.6-flash)
+Word Count: 1647 words
+
+================================================================================
+The air inside the vault tasted of scorched copper and dead stars.
+
+Silas choked back a surge of bile, his gauntleted hand slamming against the ancient brass threshold to keep his footing. The voice had not echoed off the stone; it had erupted inside the marrow of his skull, terrible and wet with the static of a dying god. 
+
+*Time has run out, Silas.*
+
+Across the shattered dais, suspended in a web of weeping glass tubes and iron siphons, the crystalline heart of Arch-Mage Thai pulsed with a frantic, jagged rhythm. It was no longer the brilliant, warm amber Silas remembered from the trenches of the Mana Eclipse. Decades of forced extraction had turned the core a sickly, bruised violet. Dark fissures ran down its crystalline facets, leaking thick threads of luminescent mana that hissed as they hit the cold flagstones below.
+
+"Silas!" Lyra’s sharp voice cut through the ringing in his ears. She was already at the base of the central altar, her crouched frame bathed in the harsh, high-contrast violet glare. "Stop staring at him and look at the conduits! The brass is melting!"
+
+Silas dragged his gaze away from his dead brother’s heart. He blinked hard, trying to clear the blinding silver spots from his vision. His left eye—the one twisted by the ritual eight years ago—throbbed in painful, heat-heavy synchronization with the heart’s decay. Through that ruined optic, the world bled its hidden truth: lines of raw, unrefined cosmic force were snapping like over-tensioned bowstrings, whipping wildly through the floorboards.
+
+"The stasis array isn't just failing," Silas growled, his voice rasping like iron scraped over slate. He pulled his heavy silver broadsword from its back-sheath. The ancient runes etched along the blade’s spine flickered to life, catching the violet glare and turning it a fierce, protective gold. "It’s backfiring. The Council’s siphon is feeding on itself."
+
+Lyra drove the tip of her right runic dagger into a seam between two glowing floor tiles. Sparking arcs of mana surged up the steel, illuminating the tight, fierce set of her jaw and the streak of soot across her cheek. "It’s worse than that. Look at the flow vectors. This isn't an automated purge cycle. Someone upstairs just opened the floodgates. They’re trying to drain the core dry before we can touch it."
+
+"They'll shatter it," Silas said, taking three heavy, clanking steps toward the dais. The weight of his solar-gilded plate armor felt like a burial shroud in the rapidly thinning atmosphere. The air pressure in the vault was dropping, pulling the breath straight from his lungs. "If Thai’s core fractures completely, the blast will collapse the entire lower ring."
+
+"It’ll vaporize the lower ring," Lyra corrected bluntly, her eyes darting across the flickering ley lines that crisscrossed the room like glowing spiderwebs. She yanked her dagger free, leaving a trail of smoking, dead stone behind. "The structural anchor of this whole damn Citadel is anchored right beneath this pedestal. They’re willing to drop three lower districts into the abyss just to make sure we don't leave this room with the truth."
+
+Above them, deep within the thick adamantine ceilings of the Underbelly, a low, mechanical groan reverberated through the stone. It was followed by the wet, hydraulic hiss of heavy blast doors locking down, section by section, sealing the ancient vault off from the upper tunnels. 
+
+They were trapped.
+
+"Lyra," Silas said, his voice dropping an octave as he reached the lip of the pool of leaking mana. The liquid pool was rising, lapping at the toes of his boots, eating away at the steel rims with small, silver bubbles. "Can you decouple the siphon without shattering the housing?"
+
+Lyra stepped up beside him, her small frame rigid, her eyes wide as she traced the glowing conduits with her fingers, inches from the searing heat. "Decouple it? Silas, this siphon is held together by four high-council seal-locks and twenty thousand foot-pounds of condensed astral pressure. If I sever the primary intake without dampening the harmonic frequency, the feedback loop will cook my brain before I finish the first rune."
+
+"Then find the flaw," Silas demanded, his hand tightening around the hilt of his sword until the leather wrapping groaned. "You claimed you could read any celestial structure. Read this one."
+
+"I *am* reading it!" she snapped, turning her head to glare at him. Her eyes reflected the violent violet luminescence of the dying heart. "And it’s telling me that your old friend isn't just powering the streetlights of Aethelgard! Look at the secondary resonance tap, Silas! The thin golden wire running into the bedrock!"
+
+Silas narrowed his good eye and leaned forward, his left eye blazing with an unstable, white-hot flare that made the veins on his temple bulge. Through the glare, he saw it: a single, delicate thread of pure, uncorrupted golden mana, buried deep beneath the thick violet grease of the High Council’s siphon. It wasn't feeding the city’s power grid. It was traveling downward, piercing straight through the earth toward the ancient, forbidden depths of the world.
+
+"The Sovereign Gate," Silas whispered, the words tasting like ash. "They aren't just harvesting him to keep the noble houses warm. They’re charging the Gate."
+
+A sudden, violent shudder rocked the chamber. Dust and pulverized mortar rained down from the vaulted ceiling. From the far end of the entry corridor—the path they had used to breach the vault—the heavy, rhythmic thud of pressurized boots echoed against the stone. 
+
+The High Council’s Inquisitors had arrived. 
+
+"They’re cutting through the outer bulkhead!" Lyra yelled over the deafening hum of the overloaded core. She pulled her second dagger, crossing them before her chest as blue sparks cascaded from the blade edges. "We have less than two minutes before the Purge-Legionnaires bleed into this room!"
+
+"They won't get the chance," Silas said. 
+
+He didn't look back at the entrance. Instead, he stepped into the pool of leaking mana. The liquid heat bit through his boots instantly, searing his calves, but he gritted his teeth and pushed forward until he stood inches from the crystalline heart. 
+
+Through the clouded, cracked glass of the stasis container, he could see the faint, ghostly silhouette of Arch-Mage Thai’s original human form—a withered shadow suspended within the geometric facets of the crystal. 
+
+*Break it...* 
+
+The voice returned, clearer now, echoing not from the room, but from the deep, dark well of Silas's own corrupted eye. 
+
+*Break the anchor, Silas... Do not let them open the Gate...*
+
+"Thai," Silas gritted out, lowering his sword tip until it touched the primary brass manifold beneath the core. The metal was white-hot; the moment his silver blade made contact, blinding white sparks showered over his breastplate. "If I strike this, the feedback will destroy what’s left of your mind."
+
+*My mind died in the trenches, brother,* the voice whispered, accompanied by the ghostly sensory memory of winter frost and burning oil—the smell of the battle where Silas had lost his honor and Thai had lost his life. *What remains here is only a battery for their monstrous war. End it.*
+
+"Silas, wait!" Lyra cried, darting toward him, her hand outstretched. "If you hit that manifold blindly, the spatial distortion will fold this room in on itself! We don't know where the rupture will throw us!"
+
+"We know where we'll be if we stay here," Silas spat, his armor smoking as the ambient mana density climbed to lethal levels. He hauled his broadsword back with both hands, muscles straining against the immense drag of the corrupted celestial pressure. "Dead. Or kneeling in front of the Inquisitors."
+
+From the dark corridor behind them, the iron doors blew inward with a thunderous *crack*. A wave of crimson light washed over the vault wall as three tall, shadow-draped figures stepped through the smoke. They wore the silver-and-scarlet bird-masks of the High Council’s Siphon-Executors, their long spears tipped with glowing, anti-magic tines.
+
+"Rogue Knight Silas Vance!" the lead Executor shouted, his voice amplified by a mechanical vox-grille into an unhuman rasp. "Step away from the Council’s asset! By decree of the Sovereign Hand, your life is forfeit!"
+
+Silas didn't glance back. He looked directly into the violet heart of his oldest friend.
+
+"Forgive me, Thai," Silas growled.
+
+With a roared oath that tore at his throat, Silas brought the heavy, runic broadsword down with all the strength left in his failing body. 
+
+The blade struck the central brass manifold. 
+
+For a fraction of a second, sound vanished from the world. The vault, the Inquisitors, the flickering light, and the falling stone locked into absolute stillness. 
+
+Then, the world split open.
+
+A wave of blinding, pure-white force burst from the point of impact, tearing through the glass housing like paper. The crystalline heart didn't just shatter—it dissolved into an expanding sphere of raw, unfiltered cosmic radiance. The violent violet corruption burned away instantly, replaced by a cold, singing light that stripped the shadows from every corner of the ancient chamber.
+
+Silas felt himself lifted off his feet as the gravity in the room inverted. Beside him, Lyra’s scream was swallowed by the deafening hum of the astral tear opening in the center of the dais. The floor beneath them caved inward, fracturing not into rubble, but into glowing geometric fragments that floated upward into the blinding glare.
+
+Through the light, Silas saw the lead Inquisitor reach out with his siphon spear, but the weapon turned to white ash before it could cross the threshold. The space around them was bending, twisting into a roaring vortex of starlight and crushed stone.
+
+As Silas plunged backward into the glowing void, his hand outstretched toward Lyra, his left eye burned with a cold, agonizing clarity. He looked down through the widening tear in reality and saw the true depth of the underbelly—and the ancient, colossal shape sleeping beneath the city, waiting for the light that bled.
+
+================================================================================
+SUMMARY:
+Silas and Lyra discover that Arch-Mage Thai's stolen core is secretly being used to power a terrifying ancient weapon known as the Sovereign Gate rather than just the city above. As High Council Inquisitors breach the vault to secure the asset, Silas makes the agonizing decision to strike the siphon manifold with his runic broadsword. The resulting feedback shatters the core's housing, tearing open a violent astral singularity that swallows Silas, Lyra, and the ancient vault into an unfolding cosmic tear.
