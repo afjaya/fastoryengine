@@ -285,7 +285,7 @@ Fastory Story Engine
       // 2. Inisialisasi Google Drive API Client
       const drive = this.getDriveClient(delivery);
       
-      // Default folder target ke ID Folder "Fastory"
+     // Default folder target ke ID Folder "Fastory"
       const folderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID || '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
 
       const ext = path.extname(filePath).toLowerCase();
@@ -299,7 +299,7 @@ Fastory Story Engine
 
       // Tentukan target folder "Fastory"
       if (folderId && folderId.trim() !== '' && folderId !== 'root') {
-        fileMetadata.parents = [folderId];
+        fileMetadata.parents = [folderId.trim()];
       }
 
       const media = {
@@ -311,7 +311,8 @@ Fastory Story Engine
       const response = await drive.files.create({
         requestBody: fileMetadata,
         media,
-        fields: 'id, name, webViewLink'
+        fields: 'id, name, webViewLink',
+        supportsAllDrives: true, // MANDATORI: Mengizinkan Service Account mengunggah ke folder milik user lain
       });
 
       const fileId = response.data.id || '';
