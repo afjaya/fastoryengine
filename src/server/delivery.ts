@@ -313,6 +313,7 @@ Fastory Story Engine
         media,
         fields: 'id, name, webViewLink',
         supportsAllDrives: true, // MANDATORI: Mengizinkan Service Account mengunggah ke folder milik user lain
+        supportsTeamDrives: true,
       });
 
       const fileId = response.data.id || '';
