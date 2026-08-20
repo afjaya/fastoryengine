@@ -262,7 +262,7 @@ Fastory Story Engine
     }
   }
 
-  /**
+/**
    * Deliver files directly to Google Drive (Upload Nyata via Google Drive API v3)
    */
   public static async uploadToGoogleDrive(
@@ -285,8 +285,8 @@ Fastory Story Engine
       // 2. Inisialisasi Google Drive API Client
       const drive = this.getDriveClient(delivery);
       
-     // Default folder target ke ID Folder "Fastory"
-      const folderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID || '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
+      // Ambil folder ID dengan fallback pasti ke ID Folder Fastory milikmu
+      const targetFolderId = delivery.driveFolderId || process.env.GOOGLE_DRIVE_FOLDER_ID || '1BU1CYVEQwnKhwbzluFtD53gQci4aSELJ';
 
       const ext = path.extname(filePath).toLowerCase();
       const mimeType = ext === '.docx' 
@@ -294,13 +294,10 @@ Fastory Story Engine
         : 'text/plain';
 
       const fileMetadata: any = {
-        name: filename
+        name: filename,
+        // DIPASTIKAN SELALU MASUK KEPADA FOLDER ID TARGET
+        parents: [targetFolderId.trim()]
       };
-
-      // Tentukan target folder "Fastory"
-      if (folderId && folderId.trim() !== '' && folderId !== 'root') {
-        fileMetadata.parents = [folderId.trim()];
-      }
 
       const media = {
         mimeType,
@@ -308,18 +305,12 @@ Fastory Story Engine
       };
 
       // 3. Eksekusi pengunggahan ke Google Drive
-     const response = await drive.files.create({
-  requestBody: {
-    name: filename,
-    // TAMPAHKAN BARIS INI: Masukkan file ke folder milikmu
-    parents: process.env.GOOGLE_DRIVE_FOLDER_ID ? [process.env.GOOGLE_DRIVE_FOLDER_ID] : [], 
-  },
-  media: {
-    mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-    body: fs.createReadStream(filePath),
-  },
-  supportsAllDrives: true,
-});
+      const response = await drive.files.create({
+        requestBody: fileMetadata,
+        media: media,
+        supportsAllDrives: true,
+        fields: 'id, name, webViewLink'
+      });
 
       const fileId = response.data.id || '';
       const webViewLink = response.data.webViewLink || `https://drive.google.com/file/d/${fileId}/view`;
