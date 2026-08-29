@@ -937,6 +937,30 @@
   },
   "logs": [
     {
+      "id": "log-1788004001359-cetl",
+      "timestamp": "2026-08-29T11:46:41.359Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788003936547-sk3z",
+      "timestamp": "2026-08-29T11:45:36.547Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788003936541-rylz",
+      "timestamp": "2026-08-29T11:45:36.541Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788003929272-z0fx",
+      "timestamp": "2026-08-29T11:45:29.272Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1787977087561-lcaa",
       "timestamp": "2026-08-29T04:18:07.561Z",
       "level": "INFO",
@@ -5617,6 +5641,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne battle a squad of Inquisitorial Purifiers in the Slag-Drains, where Silas is forced to draw upon the unstable, fused Sovereign power within his core. The resulting cosmic shockwave obliterates the enemy but accidentally activates an ancient First Era sub-reactor deep beneath the Citadel. With the High Council initiating an orbital purge beam to incinerate the sector, Silas and Lyra must plunge deeper into the forbidden Engine of the Unmade to survive."
+  "projects": []
 }
