@@ -1,0 +1,115 @@
+EPISODE 67: THE CRADLE OF STAR-SICKNESS
+Generation Date: 9/1/2026, 2:01:03 AM
+Provider: Gemini (Google Gen AI) (gemini-3.6-flash)
+Word Count: 1714 words
+
+================================================================================
+Dust settled slow and heavy, tasting of ozone, calcified mana, and iron. 
+
+Sir Silas Vance drew a ragged breath that caught in his throat like glass shards. He lay on his back, the heavy plate armor of his left shoulder pressed deep into a mound of black, pulverized stone. Above him, a mile of solid rock and broken foundation sealed the sky. The light of the Citadel’s burning spire was gone, replaced by a suffocating, absolute pitch—save for the sickly, violet light bleeding from his own left eye.
+
+He groaned, rolling onto his right knee. Joints cracked inside his pauldrons. The silver broadsword snapped to his grip by muscle memory alone, its blade buried halfway into the debris. Runic carvings along the crossguard flickered weak and cold, humming at a frequency that set his teeth on edge.
+
+"Still breathing, Knight?" 
+
+The voice came from five paces to his left, sharp and breathless. A flint sparked. A faint amber flame flickered to life over a tallow stub in Lyra Thorne’s palm. 
+
+Her face was smeared with dark soot and drying blood where her hairline met her temple, but her eyes—wide, pale grey, and constantly darting—were alight with terrifying focus. She held one of her runic daggers drawn, the faint blue light of its edge cutting through the stagnant air. 
+
+"Barely," Silas rasped. He forced himself upright, testing his boots on the shifting rubble. His left eye throbbed with a rhythmic, sickening heat. Every pulse sent a wave of nausea through his chest. "You broken?"
+
+"My ribs are bruised. My daggers are intact," Lyra said, tilting her tallow stub toward the floor. The light washed over massive, sheared slabs of white marble and coiled copper conduits—the shattered ribs of the Dread-Engine, dragged down with them in the collapse. "Where are we? This isn't the sewer system. It's too cold. The air pressure... it feels wrong."
+
+Silas raised his left hand to touch his brow. The skin around his socket was swollen, hot to the touch. *You tore the lock, Silas,* a voice whispered—not through the cavern, but from inside the hollow cavity behind his ear. It was the dry, clipped cadence of Arch-Mage Thai, dead two winters past, yet living on like a parasite in the broken core embedded in Silas's skull. *You shattered the cage to spite the turnkey.*
+
+"Shut up," Silas muttered under his breath.
+
+Lyra glanced at him sharply. "What?"
+
+"Not you," Silas grunted, pulling his broadsword free from the stone with a dull metallic screech. He swung the tip down, using it as a cane while his vision stabilized. "The core is talking again. Thai’s echo."
+
+Lyra’s gaze dragged from Silas’s glowing, corrupt eye down to the floor beneath her boots. She bent low, sweeping a handful of black dust aside to reveal smooth, seamless obsidian beneath the rubble. "He might not be hallucinating. Look at the ley lines, Silas."
+
+Silas stepped toward her, his heavy boots echoing off walls he could not yet see. He peered over her shoulder. 
+
+Where the floor was exposed, faint lines of violet light traced intricate, non-Euclidean angles across the stone. They didn't pulse with the steady, golden heartbeat of Aethelgard's solar network. They bled. The energy was dark, dense, and sluggish, moving in reverse—flowing down into the deep floor rather than up toward the Citadel above.
+
+"The Dread-Engine wasn't drawing power from the ley lines," Lyra whispered, her fingers hovering an inch above the glowing obsidian. "It was pumping it down. It was a pressure valve."
+
+"A leash," Silas corrected, his voice hardening as the piece fit into place. He looked out into the surrounding gloom. 
+
+He raised his sword, channeling a sliver of his remaining mana through the broadsword’s pommel. The silver steel flared bright white, throwing light forty paces into the cavern.
+
+The light illuminated a massive circular chamber. Columns as thick as siege towers stretched up into the dark, carved not from marble, but from petrified bone. Ancient celestial runes—older than the High Council, older than the first Solar Order—were carved deeply into every surface, filled with dried, black sludge that smelled faintly of copper and rotting stars.
+
+And at the center of the vault lay a pit. 
+
+It was twenty yards wide, surrounded by heavy, rusted iron chains as thick as a man's torso. Every chain was pulled taut, anchored into the stone rim, disappearing down into a throat of pitch-black mist that swallowed the light of Silas’s blade.
+
+From the depths of that pit came a sound. 
+
+It was not a roar, nor a growl. It was a breath—a massive, rhythmic inhalation that drawn the cold air out of the chamber, causing the pressure to drop so fast Silas’s ears popped with a sharp pain. Frost instantly crystallized along the edges of his armor.
+
+"Silas..." Lyra backed up a step, her runic daggers rising in a defensive guard. The runes on her blades were flickering wildly, bleeding useless spark-light as the ambient atmospheric pressure dissolved their magic. "The ley lines... they’re snapping. Whatever was down here... it’s starving."
+
+*The High Council didn't build the Citadel to rule the realm,* Thai’s voice echoed again, louder this time, accompanied by a spike of agony behind Silas’s left temple. *They built it as an anchor-stone. A weight to keep the Star-Eater bound in the deep darkness. The Mana Eclipse... the starving districts... it was all feed, Silas. All of it was fed to the engine to keep the binding tight.*
+
+Silas clenched his jaw so hard his teeth groaned. "They sacrificed tens of thousands of lives... just to keep a leash on a corpse?"
+
+*Not a corpse,* Thai whispered back, his spectral voice trembling with a mixture of terror and dark awe. *A mother.*
+
+A chain snapped.
+
+The sound shattered the silence like a catapult striking stone. A links-thick iron ring whipped across the vault floor, smashing through a petrified column with a deafening boom. Debris rained down around them.
+
+The black mist inside the central pit began to swirl, rising slowly like oil spilled on water. Where the mist touched the obsidian floor, the ancient violet ley lines turned pitch black, the stone dissolving into fine, shimmering dust. 
+
+"We need to move. Now," Silas growled, grabbing Lyra by the shoulder strap of her leather armor and hauling her back toward the edges of the chamber.
+
+"Move where?!" Lyra shouted over the rising howl of escaping pressure. She swept her hand outward, gesturing to the solid ring of ancient stone walls surrounding them. "There are no stairs, Silas! No doors! This place was meant to be buried forever! We collapsed the only way out when we dropped the engine!"
+
+"There's always a seam," Silas snapped, his glowing eye burning so hot he could feel skin scorching beneath his eyepatch strap. He looked at the walls, forcing his corrupted sight to pierce the gloom. 
+
+Through the lens of his left eye, the world shifted. The stone faded into translucence, revealing the hidden veins of raw, volatile energy running through the mountain's root. Most were dead or fading, but along the far northern wall, a thick vein of bright, unstable mana was fracturing—fracturing under the sheer weight of the entity waking beneath them.
+
+"There," Silas pointed his sword toward a hairline fracture in the stone thirty feet up. "The structural integrity of that wall is failing. If we can trigger a secondary collapse—"
+
+He didn't finish the sentence. 
+
+A heavy, wet impact echoed from the pit. A pale, skinless limb—longer than a city gate, jointed like a spider’s leg but thick as a siege engine—slammed onto the ledge. Its fingers were tipped with jagged spires of dark, crystallised cosmos-glass that gouged deep grooves into the ancient obsidian floor. 
+
+The air grew impossibly cold. Silas’s breath froze into gray mist before it could leave his lips. 
+
+The creature did not possess eyes, nor a face in any sense known to mortal men. Its head was a jagged, hollow crown of petrified starlight, inside of which a tiny, collapsing singularity spun—sucking the light, the cold air, and the very mana from the room directly into its open, endless center.
+
+Lyra stumbled, dropping to one knee as her daggers went completely dark, their magic drained in an instant. She gasped for air, clutching her chest. "Silas... I can't... I can't draw a breath..."
+
+"Stay behind me!" 
+
+Silas stepped forward, planting his boots, and raised his heavy silver broadsword with both hands. He didn't channel his own exhausted mana into the blade. Instead, he reached deep into his skull, tearing open the seal on his left socket, dragging the violent, corrupted power of the shattered astral core directly into his arms.
+
+Violet fire erupted along the length of his blade, crackling violently as it fought against the gravity of the singularity before them. The agony tore a scream from Silas's throat—his armor turning red-hot against his collarbone, his skin blistering under the raw radiation.
+
+The entity shifted its crown. The hollow space at its center turned toward Silas, and for a fraction of a second, the crushing pressure in the vault stopped. 
+
+A voice, composed of ten thousand overlapping screams from a thousand forgotten stars, resonated in Silas’s mind:
+
+*LITTLE SPARK. YOU BROKE THE LOCK.*
+
+The creature’s arm swung. The wind of its movement alone hit Silas like a physical wall, throwing him back ten paces into the stone rubble. His sword flew from his grip, clattering into the dark.
+
+Lyra screamed his name, scrambling over the broken stone toward him, but the black mist was spreading fast, sweeping across the floor like an incoming tide.
+
+Silas lay in the dust, his vision swimming in shades of red and violet. Through the haze, he saw the skinless monstrosity pulling the rest of its vast, unnatural mass out of the pit. The chains snapped one by one, a rhythm of doom echoing through the subterranean dark.
+
+Above them, the ceiling began to groan as the entire weight of the Citadel above began to settle into the empty vault.
+
+Silas forced his fingers to curl into the black dust, his corrupted eye flaring with a blinding, terrifying brilliance as he looked up into the face of the star-devourer. 
+
+"Lyra," he choked out, his hand reaching blindly for her. "Get ready."
+
+***
+
+================================================================================
+SUMMARY:
+Silas and Lyra awaken in a forgotten abyssal vault beneath the Citadel, realizing the Dread-Engine was built not to siphon power, but to suppress a terrifying ancient cosmic entity known as the Star-Eater. As the engine's destruction breaks the binding chains, the massive, star-consuming monstrosity begins to ascend into the vault. With their magic failing under the entity's void-like aura, Silas unleashes the full, painful power of his corrupted astral core to make a desperate final stand.
