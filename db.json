@@ -1105,6 +1105,30 @@
   },
   "logs": [
     {
+      "id": "log-1788367692143-92uv",
+      "timestamp": "2026-09-02T16:48:12.143Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788367672915-l08l",
+      "timestamp": "2026-09-02T16:47:52.915Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788367672903-x9hq",
+      "timestamp": "2026-09-02T16:47:52.903Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788367665789-evvj",
+      "timestamp": "2026-09-02T16:47:45.789Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1788342681609-xsfc",
       "timestamp": "2026-09-02T09:51:21.609Z",
       "level": "INFO",
@@ -6685,6 +6709,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive a collapse into the bone-cradle of the Star-Eater by severing the High Council's siphon conduit. Silas drives his runic broadsword into a structural flaw, causing a massive cosmic backlash that destroys Justiciar Vane's suppression array and snaps the tether bound to Silas's eye. However, the resulting feedback pulse awakens the dormant Star-Eater, triggering a massive subterranean tremor that threatens to consume both the inquisitors and the lower sectors."
+  "projects": []
 }
