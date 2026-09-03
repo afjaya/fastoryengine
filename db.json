@@ -1119,6 +1119,30 @@
   },
   "logs": [
     {
+      "id": "log-1788429828845-u979",
+      "timestamp": "2026-09-03T10:03:48.845Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788429719584-0czt",
+      "timestamp": "2026-09-03T10:01:59.584Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788429719578-5ypv",
+      "timestamp": "2026-09-03T10:01:59.578Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788429712225-muii",
+      "timestamp": "2026-09-03T10:01:52.225Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1788398484038-ewu1",
       "timestamp": "2026-09-03T01:21:24.038Z",
       "level": "INFO",
@@ -6796,6 +6820,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive the immediate collapse of the bone-cradle by reaching an ancient transit gate deep beneath the Astral Citadel. Rather than triggering the High Council's fail-safe—which would purge the starving lower slums to feed the awakened Star-Eater—Silas uses his corrupted cosmic eye to violently invert the siphon network, redirecting the void entity's gravitational pull toward the high towers above. As the upper city begins to fracture under the pressure, the ground collapses beneath Silas and Lyra, leaving them hanging over an abyss as the ancient entity fixes its gaze directly upon them."
+  "projects": []
 }
