@@ -1119,6 +1119,30 @@
   },
   "logs": [
     {
+      "id": "log-1788453612094-ay1m",
+      "timestamp": "2026-09-03T16:40:12.094Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788453466828-zmvt",
+      "timestamp": "2026-09-03T16:37:46.828Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788453466813-2rcq",
+      "timestamp": "2026-09-03T16:37:46.813Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788453458979-eeax",
+      "timestamp": "2026-09-03T16:37:38.979Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1788429828845-u979",
       "timestamp": "2026-09-03T10:03:48.845Z",
       "level": "ERROR",
