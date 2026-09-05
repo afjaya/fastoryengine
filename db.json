@@ -1161,6 +1161,30 @@
   },
   "logs": [
     {
+      "id": "log-1788599748437-0v6d",
+      "timestamp": "2026-09-05T09:15:48.437Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788599696531-puvi",
+      "timestamp": "2026-09-05T09:14:56.531Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788599696523-1uw1",
+      "timestamp": "2026-09-05T09:14:56.524Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788599689304-whbp",
+      "timestamp": "2026-09-05T09:14:49.304Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1788571155074-jsvt",
       "timestamp": "2026-09-05T01:19:15.074Z",
       "level": "INFO",
@@ -7129,6 +7153,5 @@
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive the immediate assault of an awakening void entity by discovering that the Astral Citadel's High Council deliberately used the graveyard as a mana-siphon to feed the ancient creatures. To prevent a realm-wide awakening, Silas uses his broadsword to overload the central anchor pillar with his own corrupted core energy, shattering the local gravitational field. The resulting explosion hurls Silas and Lyra deeper into an uncharted abyss within the Citadel's underbelly, just as thousands of void entities fully hatch above them and an even grander threat stirs in the dark below."
+  "projects": []
 }
