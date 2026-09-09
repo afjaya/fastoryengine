@@ -1329,6 +1329,30 @@
   },
   "logs": [
     {
+      "id": "log-1788972735332-0q7o",
+      "timestamp": "2026-09-09T16:52:15.332Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1788972630876-ezeq",
+      "timestamp": "2026-09-09T16:50:30.876Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1788972630866-1kdy",
+      "timestamp": "2026-09-09T16:50:30.866Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1788972623753-dua4",
+      "timestamp": "2026-09-09T16:50:23.753Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1788948312467-lzn6",
       "timestamp": "2026-09-09T10:05:12.467Z",
       "level": "INFO",
@@ -7885,37 +7909,8 @@
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
       "episodeNumber": 4
-    },
-    {
-      "id": "log-1786493366778-b95v",
-      "timestamp": "2026-08-12T00:09:26.778Z",
-      "level": "INFO",
-      "message": "File Episode_004_The_Anatomy_of_Falling_Stars.docx berhasil diunggah ke folder Fastory di Google Drive (ID: 1WPV1udwcMQ1zugcNx7rIYC8PyryNit3X). Backup lokal tersimpan di /backups.",
-      "episodeNumber": 4
-    },
-    {
-      "id": "log-1786493365162-k6zn",
-      "timestamp": "2026-08-12T00:09:25.162Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 4
-    },
-    {
-      "id": "log-1786493365162-378n",
-      "timestamp": "2026-08-12T00:09:25.162Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 4
-    },
-    {
-      "id": "log-1786493365158-ivbs",
-      "timestamp": "2026-08-12T00:09:25.158Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 4
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive a catastrophic drop onto the Aethel-Umbram, an ancient, inverted mirror city hidden beneath the Astral Citadel. Lyra discovers that the upper Citadel was never a city, but a heavy capstone designed to keep an ancient cosmic engine locked below. When an iron monolith reacts to the unstable cosmic core inside Silas's left eye, an ancient void construct awakens to claim the core just as the burning wreckage of the Citadel collapses from the sky above."
+  "projects": []
 }
