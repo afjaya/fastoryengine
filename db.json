@@ -1567,6 +1567,30 @@
   },
   "logs": [
     {
+      "id": "log-1789492406478-6x26",
+      "timestamp": "2026-09-15T17:13:26.478Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789492389779-4ngi",
+      "timestamp": "2026-09-15T17:13:09.779Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789492389768-29cp",
+      "timestamp": "2026-09-15T17:13:09.768Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789492382769-nzm4",
+      "timestamp": "2026-09-15T17:13:02.769Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789467649669-ci4o",
       "timestamp": "2026-09-15T10:20:49.669Z",
       "level": "INFO",
@@ -8135,34 +8159,8 @@
       "level": "INFO",
       "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_020_The_Siphon_of_Broken_Stars.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_020_The_Siphon_of_Broken_Stars.docx",
       "episodeNumber": 20
-    },
-    {
-      "id": "log-1787097006183-iv24",
-      "timestamp": "2026-08-18T23:50:06.183Z",
-      "level": "INFO",
-      "message": "Saved Episode #20 in archive. Saving output files...",
-      "episodeNumber": 20
-    },
-    {
-      "id": "log-1787097006173-ju0k",
-      "timestamp": "2026-08-18T23:50:06.173Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Siphon of Broken Stars\" (~1589 words)."
-    },
-    {
-      "id": "log-1787096975796-1zcv",
-      "timestamp": "2026-08-18T23:49:35.796Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787096975794-bmf9",
-      "timestamp": "2026-08-18T23:49:35.794Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Trapped in an inverted gravity field beneath the Astral Citadel, Silas and Lyra navigate floating debris to intercept the resurrected Grand Marshal Vane and secure the keystone. After a mid-air duel on a rising girder, a second ancient chain snaps on the cosmic entity below. Reality collapses inward, plunging Silas, Lyra, and Vane straight into the violent vortex of the Unbound Core."
+  "projects": []
 }
