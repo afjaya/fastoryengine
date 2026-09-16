@@ -1595,6 +1595,30 @@
   },
   "logs": [
     {
+      "id": "log-1789578855926-a9do",
+      "timestamp": "2026-09-16T17:14:15.926Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789578832214-tc3o",
+      "timestamp": "2026-09-16T17:13:52.214Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789578832203-c79g",
+      "timestamp": "2026-09-16T17:13:52.203Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789578825112-jfb9",
+      "timestamp": "2026-09-16T17:13:45.112Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789553679092-asbg",
       "timestamp": "2026-09-16T10:14:39.092Z",
       "level": "INFO",
@@ -8159,37 +8183,8 @@
       "level": "INFO",
       "message": "Google Drive Upload failed: invalid_grant",
       "episodeNumber": 22
-    },
-    {
-      "id": "log-1787146050111-sfzn",
-      "timestamp": "2026-08-19T13:27:30.111Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 22
-    },
-    {
-      "id": "log-1787146050109-bow5",
-      "timestamp": "2026-08-19T13:27:30.109Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 22
-    },
-    {
-      "id": "log-1787146050105-iyob",
-      "timestamp": "2026-08-19T13:27:30.105Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 22
-    },
-    {
-      "id": "log-1787146050102-fymk",
-      "timestamp": "2026-08-19T13:27:30.102Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_022_The_Shattered_Anchor.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_022_The_Shattered_Anchor.docx",
-      "episodeNumber": 22
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra fall into the abyssal underbelly of the Astral Citadel, discovering that the Citadel was built not as a power source, but as a cage to feed an ancient, mana-devouring parasite. As null-light tendrils rise to consume them, a massive High Council Purge-Engine descends from above to sterilize the entire sector. Trapped between the hungry Core and the Council's orbital fire, Silas pierces his own unstable cosmic eye to ignite his blade for a desperate final strike."
+  "projects": []
 }
