@@ -1623,6 +1623,30 @@
   },
   "logs": [
     {
+      "id": "log-1789665198686-457g",
+      "timestamp": "2026-09-17T17:13:18.686Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789665178047-pq4v",
+      "timestamp": "2026-09-17T17:12:58.047Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789665178040-9msi",
+      "timestamp": "2026-09-17T17:12:58.040Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789665170587-kj2z",
+      "timestamp": "2026-09-17T17:12:50.587Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789640361723-hvex",
       "timestamp": "2026-09-17T10:19:21.723Z",
       "level": "INFO",
@@ -8185,35 +8209,8 @@
       "timestamp": "2026-08-20T13:28:25.134Z",
       "level": "INFO",
       "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787232505131-rnth",
-      "timestamp": "2026-08-20T13:28:25.131Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787232498025-acsk",
-      "timestamp": "2026-08-20T13:28:18.025Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787205525140-9cvn",
-      "timestamp": "2026-08-20T05:58:45.140Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 24
-    },
-    {
-      "id": "log-1787205525136-yqey",
-      "timestamp": "2026-08-20T05:58:45.136Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: invalid_grant",
-      "episodeNumber": 24
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive their plunge into the Citadel's depths, discovering that the metropolis is powered by harvesting a suppressed First-Eon Sovereign. Deep within the core, Silas finds his long-thought-dead sworn brother, Arch-Mage Thai, twisted and fused into the siphoning machinery as a human conduit. As High Council Executioners descend to purge the chamber, Silas uncovers the dark truth behind his corrupted eye and unveils his full power to face the coming flood of void-mana."
+  "projects": []
 }
