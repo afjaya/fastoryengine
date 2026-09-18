@@ -1637,6 +1637,30 @@
   },
   "logs": [
     {
+      "id": "log-1789725627966-nvtq",
+      "timestamp": "2026-09-18T10:00:27.966Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789725595235-uqcz",
+      "timestamp": "2026-09-18T09:59:55.235Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789725595225-ihz6",
+      "timestamp": "2026-09-18T09:59:55.225Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789725588077-7osx",
+      "timestamp": "2026-09-18T09:59:48.077Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789694776367-c1sj",
       "timestamp": "2026-09-18T01:26:16.367Z",
       "level": "INFO",
@@ -8197,35 +8221,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272166-4qqj",
-      "timestamp": "2026-08-20T14:14:32.166Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_026_The_Cradle_of_Iron_and_Glass.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_026_The_Cradle_of_Iron_and_Glass.docx",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272080-xxb6",
-      "timestamp": "2026-08-20T14:14:32.080Z",
-      "level": "INFO",
-      "message": "Saved Episode #26 in archive. Saving output files...",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272066-fgqr",
-      "timestamp": "2026-08-20T14:14:32.066Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Cradle of Iron and Glass\" (~1566 words)."
-    },
-    {
-      "id": "log-1787235197487-8crn",
-      "timestamp": "2026-08-20T14:13:17.487Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne clash with High Council Executioners in the Citadel's core while trying to free the mutated Arch-Mage Thai. Upon discovering that Thai acts as a living seal keeping an ancient Sovereign asleep, the High Council purges the lower district, destabilizing the core. The episode ends as the floor collapses and the gargantuan eye of the First-Eon Sovereign opens directly beneath them, locking onto the cosmic magic inside Silas."
+  "projects": []
 }
