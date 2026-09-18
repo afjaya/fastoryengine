@@ -1637,6 +1637,30 @@
   },
   "logs": [
     {
+      "id": "log-1789749584274-d707",
+      "timestamp": "2026-09-18T16:39:44.274Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789749552725-qw61",
+      "timestamp": "2026-09-18T16:39:12.725Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789749552718-z68g",
+      "timestamp": "2026-09-18T16:39:12.718Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789749545068-8qoz",
+      "timestamp": "2026-09-18T16:39:05.068Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789725627966-nvtq",
       "timestamp": "2026-09-18T10:00:27.966Z",
       "level": "ERROR",
@@ -8192,34 +8216,6 @@
       "timestamp": "2026-08-20T14:14:33.232Z",
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235273227-l00r",
-      "timestamp": "2026-08-20T14:14:33.228Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272188-bk31",
-      "timestamp": "2026-08-20T14:14:32.188Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272181-4mi3",
-      "timestamp": "2026-08-20T14:14:32.181Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 26
-    },
-    {
-      "id": "log-1787235272172-3wbe",
-      "timestamp": "2026-08-20T14:14:32.172Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 26
     }
   ],
