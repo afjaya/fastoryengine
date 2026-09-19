@@ -1637,6 +1637,30 @@
   },
   "logs": [
     {
+      "id": "log-1789781327565-0nux",
+      "timestamp": "2026-09-19T01:28:47.565Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789781277056-4t2v",
+      "timestamp": "2026-09-19T01:27:57.056Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789781277045-fpmy",
+      "timestamp": "2026-09-19T01:27:57.045Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789781269972-8pec",
+      "timestamp": "2026-09-19T01:27:49.972Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789749584274-d707",
       "timestamp": "2026-09-18T16:39:44.274Z",
       "level": "ERROR",
@@ -8192,31 +8216,6 @@
       "timestamp": "2026-08-20T15:08:17.957Z",
       "level": "INFO",
       "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787238490538-0njo",
-      "timestamp": "2026-08-20T15:08:10.538Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787237908548-es3w",
-      "timestamp": "2026-08-20T14:58:28.548Z",
-      "level": "INFO",
-      "message": "System configurations updated."
-    },
-    {
-      "id": "log-1787236642141-w1iy",
-      "timestamp": "2026-08-20T14:37:22.151Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787235273232-ze27",
-      "timestamp": "2026-08-20T14:14:33.232Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 26
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
