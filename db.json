@@ -1707,6 +1707,30 @@
   },
   "logs": [
     {
+      "id": "log-1789954016167-isvp",
+      "timestamp": "2026-09-21T01:26:56.167Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1789953979361-8awa",
+      "timestamp": "2026-09-21T01:26:19.361Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1789953979350-l5mo",
+      "timestamp": "2026-09-21T01:26:19.350Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1789953972367-h5bq",
+      "timestamp": "2026-09-21T01:26:12.367Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789921502278-p1bm",
       "timestamp": "2026-09-20T16:25:02.278Z",
       "level": "INFO",
@@ -8269,33 +8293,8 @@
       "timestamp": "2026-08-20T16:49:26.611Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787244487833-1sco",
-      "timestamp": "2026-08-20T16:48:07.833Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-3.6-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
-    },
-    {
-      "id": "log-1787244487584-kes4",
-      "timestamp": "2026-08-20T16:48:07.584Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787244487581-qv72",
-      "timestamp": "2026-08-20T16:48:07.581Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787244480197-ml4p",
-      "timestamp": "2026-08-20T16:48:00.197Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Following their desperate fall into the abyssal void beneath the Citadel, Silas and Lyra land on an ancient First Order promenade, where a massive titan of star-iron confronts them. The entity reveals a dark truth: Silas's unstable astral core is actually the stolen heart of the titan, implanted by the High Council thirty years ago to power the floating city. As the burning carcass of the dreadnought *Caelum's Wrath* plunges down to crush them, the titan demands Silas surrender his core or face total annihilation along with the lower sectors."
+  "projects": []
 }
