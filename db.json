@@ -1721,6 +1721,30 @@
   },
   "logs": [
     {
+      "id": "log-1790014782302-gbq6",
+      "timestamp": "2026-09-21T18:19:42.302Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790014654382-8kho",
+      "timestamp": "2026-09-21T18:17:34.382Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790014654372-vl3s",
+      "timestamp": "2026-09-21T18:17:34.372Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790014647161-hzib",
+      "timestamp": "2026-09-21T18:17:27.161Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1789988510097-j5o8",
       "timestamp": "2026-09-21T11:01:50.097Z",
       "level": "INFO",
@@ -8290,33 +8314,8 @@
       "timestamp": "2026-08-20T17:18:28.384Z",
       "level": "ERROR",
       "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
-    },
-    {
-      "id": "log-1787246307985-cwk9",
-      "timestamp": "2026-08-20T17:18:27.985Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787246307982-t4qr",
-      "timestamp": "2026-08-20T17:18:27.982Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787246299661-u451",
-      "timestamp": "2026-08-20T17:18:19.661Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787245345205-bkwx",
-      "timestamp": "2026-08-20T17:02:25.205Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":404,\"message\":\"This model models/gemini-3.6-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "To survive the falling dreadnought *Caelum's Wrath*, Silas and Lyra channel the volatile cosmic core through the ancient Star-Iron Titan, creating a massive energy shield that deflects the catastrophic impact. The explosion destroys the dreadnought but fuses Silas's sword to the Titan's chest while blinding his cosmic eye. As the dust settles, a shattered High Council vault inside the warship reveals a dark obsidian pod containing a pale, violet-eyed entity bound to Silas's own heartbeat."
+  "projects": []
 }
