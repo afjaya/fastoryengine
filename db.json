@@ -1749,6 +1749,30 @@
   },
   "logs": [
     {
+      "id": "log-1790097112561-9m5d",
+      "timestamp": "2026-09-22T17:11:52.561Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790097077472-p5zy",
+      "timestamp": "2026-09-22T17:11:17.473Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790097077461-i77o",
+      "timestamp": "2026-09-22T17:11:17.461Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790097070356-6zs9",
+      "timestamp": "2026-09-22T17:11:10.356Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790072104597-0kt6",
       "timestamp": "2026-09-22T10:15:04.597Z",
       "level": "INFO",
@@ -8319,37 +8343,8 @@
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
       "episodeNumber": 32
-    },
-    {
-      "id": "log-1787247938794-rro9",
-      "timestamp": "2026-08-20T17:45:38.794Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 32
-    },
-    {
-      "id": "log-1787247937232-c5vf",
-      "timestamp": "2026-08-20T17:45:37.232Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 32
-    },
-    {
-      "id": "log-1787247937170-qcaj",
-      "timestamp": "2026-08-20T17:45:37.170Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 32
-    },
-    {
-      "id": "log-1787247937164-ym2s",
-      "timestamp": "2026-08-20T17:45:37.164Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 32
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas uses his dark new cosmic bond to absorb an orbital sun-strike from descending Purifier ships, channeling the massive energy into the obsidian pod to protect the lower district. The surge of power shatters the pod, releasing the fully awakened, violet-eyed celestial entity into the Underbelly. However, before Silas and Lyra can react or escape, Arch-Inquisitor Vane springs a massive stasis-cage, trapping Silas, Lyra, and the creature for immediate extraction."
+  "projects": []
 }
