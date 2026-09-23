@@ -1749,6 +1749,30 @@
   },
   "logs": [
     {
+      "id": "log-1790127777071-eyg1",
+      "timestamp": "2026-09-23T01:42:57.071Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790127729279-fzid",
+      "timestamp": "2026-09-23T01:42:09.279Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790127729268-o97l",
+      "timestamp": "2026-09-23T01:42:09.268Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790127722333-lxn8",
+      "timestamp": "2026-09-23T01:42:02.333Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790097112561-9m5d",
       "timestamp": "2026-09-22T17:11:52.561Z",
       "level": "ERROR",
@@ -8318,31 +8342,6 @@
       "timestamp": "2026-08-20T17:58:36.087Z",
       "level": "INFO",
       "message": "Successfully received story: \"The Shattered Horizon\" (~1648 words)."
-    },
-    {
-      "id": "log-1787248682262-unhu",
-      "timestamp": "2026-08-20T17:58:02.262Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787248682259-539g",
-      "timestamp": "2026-08-20T17:58:02.259Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787248674907-vaxe",
-      "timestamp": "2026-08-20T17:57:54.907Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787247938799-k9lt",
-      "timestamp": "2026-08-20T17:45:38.799Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 32
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
