@@ -1749,6 +1749,30 @@
   },
   "logs": [
     {
+      "id": "log-1790158475017-6qzn",
+      "timestamp": "2026-09-23T10:14:35.017Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790158429492-rm5y",
+      "timestamp": "2026-09-23T10:13:49.492Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790158429481-84zz",
+      "timestamp": "2026-09-23T10:13:49.481Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790158422346-apll",
+      "timestamp": "2026-09-23T10:13:42.346Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790127777071-eyg1",
       "timestamp": "2026-09-23T01:42:57.071Z",
       "level": "ERROR",
@@ -8315,33 +8339,6 @@
       "level": "WARNING",
       "message": "SMTP Settings are incomplete. Skipping email delivery.",
       "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716174-3grp",
-      "timestamp": "2026-08-20T17:58:36.174Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716166-ksx6",
-      "timestamp": "2026-08-20T17:58:36.166Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_033_The_Shattered_Horizon.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_033_The_Shattered_Horizon.docx",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716101-vvzf",
-      "timestamp": "2026-08-20T17:58:36.101Z",
-      "level": "INFO",
-      "message": "Saved Episode #33 in archive. Saving output files...",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716087-usio",
-      "timestamp": "2026-08-20T17:58:36.087Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Shattered Horizon\" (~1648 words)."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
