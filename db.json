@@ -1749,6 +1749,30 @@
   },
   "logs": [
     {
+      "id": "log-1790184235320-izm8",
+      "timestamp": "2026-09-23T17:23:55.320Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790184197831-lg45",
+      "timestamp": "2026-09-23T17:23:17.831Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790184197824-465d",
+      "timestamp": "2026-09-23T17:23:17.824Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790184190413-zvv4",
+      "timestamp": "2026-09-23T17:23:10.413Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790158475017-6qzn",
       "timestamp": "2026-09-23T10:14:35.017Z",
       "level": "ERROR",
@@ -8311,34 +8335,6 @@
       "timestamp": "2026-08-20T18:12:26.118Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787248717418-brfg",
-      "timestamp": "2026-08-20T17:58:37.418Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248717413-iuih",
-      "timestamp": "2026-08-20T17:58:37.413Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716186-kccm",
-      "timestamp": "2026-08-20T17:58:36.186Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 33
-    },
-    {
-      "id": "log-1787248716180-w90d",
-      "timestamp": "2026-08-20T17:58:36.180Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 33
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
