@@ -1749,6 +1749,30 @@
   },
   "logs": [
     {
+      "id": "log-1790213868435-i9lf",
+      "timestamp": "2026-09-24T01:37:48.435Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790213788196-hkje",
+      "timestamp": "2026-09-24T01:36:28.196Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790213788187-77b5",
+      "timestamp": "2026-09-24T01:36:28.187Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790213780856-m9q2",
+      "timestamp": "2026-09-24T01:36:20.856Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790184235320-izm8",
       "timestamp": "2026-09-23T17:23:55.320Z",
       "level": "ERROR",
@@ -8311,30 +8335,6 @@
       "level": "INFO",
       "message": "Saved Episode #34 in archive. Saving output files...",
       "episodeNumber": 34
-    },
-    {
-      "id": "log-1787249584432-8y5v",
-      "timestamp": "2026-08-20T18:13:04.432Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Void Beyond the Sovereign\" (~1631 words)."
-    },
-    {
-      "id": "log-1787249553059-ppyc",
-      "timestamp": "2026-08-20T18:12:33.059Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787249553055-2y10",
-      "timestamp": "2026-08-20T18:12:33.055Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787249546118-3ebe",
-      "timestamp": "2026-08-20T18:12:26.118Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
