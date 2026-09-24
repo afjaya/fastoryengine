@@ -1763,6 +1763,30 @@
   },
   "logs": [
     {
+      "id": "log-1790270911970-x5yj",
+      "timestamp": "2026-09-24T17:28:31.970Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790270895336-6ff8",
+      "timestamp": "2026-09-24T17:28:15.336Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790270895323-x8xx",
+      "timestamp": "2026-09-24T17:28:15.323Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790270888219-d34h",
+      "timestamp": "2026-09-24T17:28:08.219Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790245462191-b2gg",
       "timestamp": "2026-09-24T10:24:22.191Z",
       "level": "INFO",
@@ -8321,37 +8345,8 @@
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
       "episodeNumber": 35
-    },
-    {
-      "id": "log-1787250621158-9ebv",
-      "timestamp": "2026-08-20T18:30:21.158Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 35
-    },
-    {
-      "id": "log-1787250621144-hg7y",
-      "timestamp": "2026-08-20T18:30:21.144Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 35
-    },
-    {
-      "id": "log-1787250621139-ddyv",
-      "timestamp": "2026-08-20T18:30:21.139Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_035_The_Iron_Heart_of_Aethelgard.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_035_The_Iron_Heart_of_Aethelgard.docx",
-      "episodeNumber": 35
-    },
-    {
-      "id": "log-1787250621082-z4wa",
-      "timestamp": "2026-08-20T18:30:21.082Z",
-      "level": "INFO",
-      "message": "Saved Episode #35 in archive. Saving output files...",
-      "episodeNumber": 35
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra exploit a structural flaw in the stasis grid to cause a catastrophic mana feedback, shattering Arch-Inquisitor Vane's suppression talisman and breaking free. The newly awakened celestial entity warps the local gravity and ley lines of the Citadel, causing the floor of the Underbelly to collapse into an ancient, buried vault below. As Silas, Lyra, and the entity plunge into the dark abyss, the creature locks eyes with Silas's corrupted core and speaks an ancient celestial word."
+  "projects": []
 }
