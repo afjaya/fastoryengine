@@ -1763,6 +1763,30 @@
   },
   "logs": [
     {
+      "id": "log-1790332076988-ewur",
+      "timestamp": "2026-09-25T10:27:56.988Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790332013744-vxz5",
+      "timestamp": "2026-09-25T10:26:53.744Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790332013732-p83v",
+      "timestamp": "2026-09-25T10:26:53.732Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790332006569-2gnd",
+      "timestamp": "2026-09-25T10:26:46.569Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790300836680-sd5n",
       "timestamp": "2026-09-25T01:47:16.680Z",
       "level": "ERROR",
@@ -8317,31 +8341,6 @@
       "level": "INFO",
       "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_036_Shadows_of_the_Siphon_Core.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_036_Shadows_of_the_Siphon_Core.docx",
       "episodeNumber": 36
-    },
-    {
-      "id": "log-1787269950013-0wvr",
-      "timestamp": "2026-08-20T23:52:30.013Z",
-      "level": "INFO",
-      "message": "Saved Episode #36 in archive. Saving output files...",
-      "episodeNumber": 36
-    },
-    {
-      "id": "log-1787269949998-jo3b",
-      "timestamp": "2026-08-20T23:52:29.998Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"Shadows of the Siphon Core\" (~1613 words)."
-    },
-    {
-      "id": "log-1787269917373-8geb",
-      "timestamp": "2026-08-20T23:51:57.373Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787269917369-589m",
-      "timestamp": "2026-08-20T23:51:57.369Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
