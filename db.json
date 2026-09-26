@@ -1777,6 +1777,30 @@
   },
   "logs": [
     {
+      "id": "log-1790440715927-qr45",
+      "timestamp": "2026-09-26T16:38:35.927Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790440686090-dgpo",
+      "timestamp": "2026-09-26T16:38:06.090Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790440686083-hsof",
+      "timestamp": "2026-09-26T16:38:06.083Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790440678504-1fw6",
+      "timestamp": "2026-09-26T16:37:58.504Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790417240868-dafl",
       "timestamp": "2026-09-26T10:07:20.868Z",
       "level": "INFO",
@@ -8323,35 +8347,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 38
-    },
-    {
-      "id": "log-1787318873968-w27y",
-      "timestamp": "2026-08-21T13:27:53.968Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_038_The_Weight_of_Unremembered_Stars.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_038_The_Weight_of_Unremembered_Stars.docx",
-      "episodeNumber": 38
-    },
-    {
-      "id": "log-1787318873891-lmti",
-      "timestamp": "2026-08-21T13:27:53.891Z",
-      "level": "INFO",
-      "message": "Saved Episode #38 in archive. Saving output files...",
-      "episodeNumber": 38
-    },
-    {
-      "id": "log-1787318873797-xcrh",
-      "timestamp": "2026-08-21T13:27:53.797Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Weight of Unremembered Stars\" (~1668 words)."
-    },
-    {
-      "id": "log-1787318830782-2041",
-      "timestamp": "2026-08-21T13:27:10.782Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra survive the fall into a hidden obsidian Heart-Cradle beneath the Astral Citadel, where an ancient celestial entity attempts to reclaim the corrupted core in Silas's eye. As surviving Inquisitors initiate a deadly containment purge from above, the entity forces a harrowing surge of cosmic memories into Silas, revealing the true, dark origin of Aethelgard's power. The vault's floor shatters under the magic overload, sending them plunging into a deeper abyss of raw celestial energy."
+  "projects": []
 }
