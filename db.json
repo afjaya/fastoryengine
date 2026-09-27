@@ -1805,6 +1805,30 @@
   },
   "logs": [
     {
+      "id": "log-1790529152869-e6la",
+      "timestamp": "2026-09-27T17:12:32.869Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790529111972-jssj",
+      "timestamp": "2026-09-27T17:11:51.972Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790529111960-ymuh",
+      "timestamp": "2026-09-27T17:11:51.960Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790529104888-g8xc",
+      "timestamp": "2026-09-27T17:11:44.888Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790505711489-0jim",
       "timestamp": "2026-09-27T10:41:51.489Z",
       "level": "INFO",
@@ -8347,37 +8371,8 @@
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
       "episodeNumber": 40
-    },
-    {
-      "id": "log-1787378124010-9pyd",
-      "timestamp": "2026-08-22T05:55:24.010Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 40
-    },
-    {
-      "id": "log-1787378122666-0rnu",
-      "timestamp": "2026-08-22T05:55:22.666Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 40
-    },
-    {
-      "id": "log-1787378122662-hjdo",
-      "timestamp": "2026-08-22T05:55:22.662Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 40
-    },
-    {
-      "id": "log-1787378122657-gwj6",
-      "timestamp": "2026-08-22T05:55:22.657Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 40
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne engage Arch-Inquisitor Vael in the deepest subterranean core of the Citadel, fighting beside the chained, agonizing heart of a cosmic leviathan. To prevent a catastrophic mana explosion, Lyra reverses the Great Siphon while Silas holds off Vael using his unstable, corrupted core energy. The siphon's reversal shatters the catwalks and destroys the containment grid, freeing the waking leviathan and plunging Silas, Lyra, and Vael into the collapsing void beneath the city."
+  "projects": []
 }
