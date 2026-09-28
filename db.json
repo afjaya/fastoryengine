@@ -1819,6 +1819,30 @@
   },
   "logs": [
     {
+      "id": "log-1790596553770-xift",
+      "timestamp": "2026-09-28T11:55:53.770Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790596522352-7xyp",
+      "timestamp": "2026-09-28T11:55:22.352Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790596522339-ttpi",
+      "timestamp": "2026-09-28T11:55:22.339Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790596515261-kx16",
+      "timestamp": "2026-09-28T11:55:15.261Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790560586830-uefw",
       "timestamp": "2026-09-28T01:56:26.830Z",
       "level": "INFO",
@@ -8360,34 +8384,8 @@
       "timestamp": "2026-08-22T15:02:44.474Z",
       "level": "INFO",
       "message": "Successfully received story: \"The Sound of Unraveling Stars\" (~1548 words)."
-    },
-    {
-      "id": "log-1787410930537-99u4",
-      "timestamp": "2026-08-22T15:02:10.537Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787410930532-k0sw",
-      "timestamp": "2026-08-22T15:02:10.532Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787410923289-wqfg",
-      "timestamp": "2026-08-22T15:02:03.289Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787404262112-gig1",
-      "timestamp": "2026-08-22T13:11:02.112Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 41
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Following their desperate fall into the subterranean void beneath the Citadel, Sir Silas Vance and Lyra Thorne survive the descent only to land on the petrified spine of the awakening cosmic leviathan. After Arch-Inquisitor Vael attacks them in a fanatical rage and is obliterated by a geyser of raw cosmic essence, the leviathan fully wakes, reversing the gravitational flow of Aethelgard. The episode ends as the entire foundation of the upper city buckles downward, dragging Silas and Lyra into the monstrous entity's gaping, cosmic maw."
+  "projects": []
 }
