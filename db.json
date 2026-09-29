@@ -1833,6 +1833,30 @@
   },
   "logs": [
     {
+      "id": "log-1790681472449-0vd2",
+      "timestamp": "2026-09-29T11:31:12.449Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790681426020-tlxp",
+      "timestamp": "2026-09-29T11:30:26.020Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790681425975-9inp",
+      "timestamp": "2026-09-29T11:30:25.975Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790681418697-9g1w",
+      "timestamp": "2026-09-29T11:30:18.697Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790649687743-15f0",
       "timestamp": "2026-09-29T02:41:27.743Z",
       "level": "INFO",
@@ -8367,37 +8391,8 @@
       "timestamp": "2026-08-23T05:56:09.276Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787442524220-qpc8",
-      "timestamp": "2026-08-22T23:48:44.220Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 43
-    },
-    {
-      "id": "log-1787442524214-9qjr",
-      "timestamp": "2026-08-22T23:48:44.214Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 43
-    },
-    {
-      "id": "log-1787442523090-ofxy",
-      "timestamp": "2026-08-22T23:48:43.090Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 43
-    },
-    {
-      "id": "log-1787442523086-fbl4",
-      "timestamp": "2026-08-22T23:48:43.086Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 43
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Trapped within the throat of the awakening leviathan, Silas and Lyra make a desperate stand on an ancient warding platform as the foundations of Aethelgard fall around them. When the Citadel's massive Solar Conduit plunges into the creature's core, the resulting cosmic explosion triggers Silas's corrupted eye, unlocking its true nature as an ancient imperial cipher. The episode ends as Silas is lifted into the air, his body forced to absorb the titan's awakening power while the upper city completely collapses into the abyss."
+  "projects": []
 }
