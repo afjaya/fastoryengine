@@ -1889,6 +1889,30 @@
   },
   "logs": [
     {
+      "id": "log-1790855199966-rmxp",
+      "timestamp": "2026-10-01T11:46:39.966Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790855151544-46rr",
+      "timestamp": "2026-10-01T11:45:51.544Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790855151531-fv58",
+      "timestamp": "2026-10-01T11:45:51.531Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790855144437-ok0z",
+      "timestamp": "2026-10-01T11:45:44.437Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790821169089-ojul",
       "timestamp": "2026-10-01T02:19:29.089Z",
       "level": "INFO",
@@ -8419,37 +8443,8 @@
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
       "episodeNumber": 48
-    },
-    {
-      "id": "log-1787578336487-q7ml",
-      "timestamp": "2026-08-24T13:32:16.487Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 48
-    },
-    {
-      "id": "log-1787578336480-1kpf",
-      "timestamp": "2026-08-24T13:32:16.480Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 48
-    },
-    {
-      "id": "log-1787578336475-67s3",
-      "timestamp": "2026-08-24T13:32:16.475Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_048_Blood_on_the_Iron_Strut.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_048_Blood_on_the_Iron_Strut.docx",
-      "episodeNumber": 48
-    },
-    {
-      "id": "log-1787578336365-9yef",
-      "timestamp": "2026-08-24T13:32:16.365Z",
-      "level": "INFO",
-      "message": "Saved Episode #48 in archive. Saving output files...",
-      "episodeNumber": 48
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra manage to sever the corrupted core of the First Vanguard knight, but the magical collapse triggers an absolute gravitational implosion that shatters the Citadel's lower floor. As the Inquisitors watch from above, Silas catches Lyra as they fall into the unmapped abyssal foundations beneath the city. In the lightless depths below, their descent awakens a colossal, ancient cosmic entity lurking beneath Aethelgard."
+  "projects": []
 }
