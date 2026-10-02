@@ -1889,6 +1889,30 @@
   },
   "logs": [
     {
+      "id": "log-1790908246572-9r46",
+      "timestamp": "2026-10-02T02:30:46.572Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1790908205697-xnqu",
+      "timestamp": "2026-10-02T02:30:05.697Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1790908205683-n3xk",
+      "timestamp": "2026-10-02T02:30:05.683Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1790908198335-u21p",
+      "timestamp": "2026-10-02T02:29:58.335Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1790879569731-d1ou",
       "timestamp": "2026-10-01T18:32:49.731Z",
       "level": "ERROR",
@@ -8415,31 +8439,6 @@
       "level": "INFO",
       "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_049_The_Resonance_of_Slain_Stars.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_049_The_Resonance_of_Slain_Stars.docx",
       "episodeNumber": 49
-    },
-    {
-      "id": "log-1787615353542-nby8",
-      "timestamp": "2026-08-24T23:49:13.542Z",
-      "level": "INFO",
-      "message": "Saved Episode #49 in archive. Saving output files...",
-      "episodeNumber": 49
-    },
-    {
-      "id": "log-1787615353518-g7jb",
-      "timestamp": "2026-08-24T23:49:13.518Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Resonance of Slain Stars\" (~1487 words)."
-    },
-    {
-      "id": "log-1787615322047-ib98",
-      "timestamp": "2026-08-24T23:48:42.047Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787615322041-wrpo",
-      "timestamp": "2026-08-24T23:48:42.041Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
