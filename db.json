@@ -1917,6 +1917,30 @@
   },
   "logs": [
     {
+      "id": "log-1791045509427-fg1s",
+      "timestamp": "2026-10-03T16:38:29.427Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791045403520-7nfc",
+      "timestamp": "2026-10-03T16:36:43.520Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791045403506-7l9f",
+      "timestamp": "2026-10-03T16:36:43.506Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791045396433-ssoz",
+      "timestamp": "2026-10-03T16:36:36.433Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791023590953-m1l6",
       "timestamp": "2026-10-03T10:33:10.953Z",
       "level": "INFO",
@@ -8435,35 +8459,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 52
-    },
-    {
-      "id": "log-1787701866900-cfbu",
-      "timestamp": "2026-08-25T23:51:06.900Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_052_The_Extraction_Grid.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_052_The_Extraction_Grid.docx",
-      "episodeNumber": 52
-    },
-    {
-      "id": "log-1787701866797-qwcl",
-      "timestamp": "2026-08-25T23:51:06.797Z",
-      "level": "INFO",
-      "message": "Saved Episode #52 in archive. Saving output files...",
-      "episodeNumber": 52
-    },
-    {
-      "id": "log-1787701866773-rm56",
-      "timestamp": "2026-08-25T23:51:06.773Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Extraction Grid\" (~1499 words)."
-    },
-    {
-      "id": "log-1787701822892-o7hu",
-      "timestamp": "2026-08-25T23:50:22.892Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra discover that the Astral Citadel was built not as a sanctuary, but as a parasitic engine leeching off a chained cosmic titan for millennia. As the lowest lock dissolves, the titan uses the unstable cosmic core in Silas's eye as a bridge to physically pull itself up into the realm above. Suspended in a swirling void of unchained mana, Silas prepares to drive his sword into the stellar tether bound to his body, willing to sacrifice himself and Lyra to prevent the entity's cataclysmic ascension."
+  "projects": []
 }
