@@ -1931,6 +1931,30 @@
   },
   "logs": [
     {
+      "id": "log-1791112492518-z40p",
+      "timestamp": "2026-10-04T11:14:52.518Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791112446155-6p5q",
+      "timestamp": "2026-10-04T11:14:06.155Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791112446142-6ggv",
+      "timestamp": "2026-10-04T11:14:06.142Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791112439005-60po",
+      "timestamp": "2026-10-04T11:13:59.005Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791082204580-5obt",
       "timestamp": "2026-10-04T02:50:04.580Z",
       "level": "INFO",
@@ -8445,37 +8469,8 @@
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
       "episodeNumber": 53
-    },
-    {
-      "id": "log-1787724143156-1orc",
-      "timestamp": "2026-08-26T06:02:23.156Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 53
-    },
-    {
-      "id": "log-1787724140224-mclb",
-      "timestamp": "2026-08-26T06:02:20.224Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 53
-    },
-    {
-      "id": "log-1787724140218-dd0x",
-      "timestamp": "2026-08-26T06:02:20.218Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 53
-    },
-    {
-      "id": "log-1787724140211-ekuw",
-      "timestamp": "2026-08-26T06:02:20.211Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 53
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne manage to sever the stellar tether using Silas's runic broadsword as a grounding conduit, preventing the chained titan from pulling itself into the Astral Citadel. However, the feedback loop triggers a catastrophic collapse of the Citadel's underbelly infrastructure and reveals a horrifying cosmic truth: the High Council is using the titan to incubate a dark, parasitic horror. As the structure beneath them fails, Silas and Lyra fall into the dark heart of the engine room, face-to-face with the newly awakened entity."
+  "projects": []
 }
