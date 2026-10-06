@@ -1931,6 +1931,30 @@
   },
   "logs": [
     {
+      "id": "log-1791288723186-xrxx",
+      "timestamp": "2026-10-06T12:12:03.186Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791288646345-xmlb",
+      "timestamp": "2026-10-06T12:10:46.345Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791288646327-cnq1",
+      "timestamp": "2026-10-06T12:10:46.327Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791288638857-1b0s",
+      "timestamp": "2026-10-06T12:10:38.857Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791256502964-09sm",
       "timestamp": "2026-10-06T03:15:02.964Z",
       "level": "ERROR",
@@ -8432,34 +8456,6 @@
       "timestamp": "2026-08-27T04:39:42.675Z",
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582668-b77n",
-      "timestamp": "2026-08-27T04:39:42.668Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582660-c3ia",
-      "timestamp": "2026-08-27T04:39:42.660Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582651-ri50",
-      "timestamp": "2026-08-27T04:39:42.651Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_055_The_Geometry_of_Ruin.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_055_The_Geometry_of_Ruin.docx",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582534-lqun",
-      "timestamp": "2026-08-27T04:39:42.534Z",
-      "level": "INFO",
-      "message": "Saved Episode #55 in archive. Saving output files...",
       "episodeNumber": 55
     }
   ],
