@@ -1931,6 +1931,30 @@
   },
   "logs": [
     {
+      "id": "log-1791311621443-92n4",
+      "timestamp": "2026-10-06T18:33:41.443Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791311604231-gmm9",
+      "timestamp": "2026-10-06T18:33:24.231Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791311604219-lodd",
+      "timestamp": "2026-10-06T18:33:24.219Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791311597164-th9b",
+      "timestamp": "2026-10-06T18:33:17.164Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791288723186-xrxx",
       "timestamp": "2026-10-06T12:12:03.186Z",
       "level": "ERROR",
@@ -8430,33 +8454,6 @@
       "timestamp": "2026-08-27T16:40:03.662Z",
       "level": "INFO",
       "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787848796594-tfsh",
-      "timestamp": "2026-08-27T16:39:56.594Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787805583876-9tyb",
-      "timestamp": "2026-08-27T04:39:43.876Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805583870-gi8q",
-      "timestamp": "2026-08-27T04:39:43.870Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582675-eobd",
-      "timestamp": "2026-08-27T04:39:42.675Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 55
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
