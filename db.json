@@ -1931,6 +1931,30 @@
   },
   "logs": [
     {
+      "id": "log-1791256502964-09sm",
+      "timestamp": "2026-10-06T03:15:02.964Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791256473299-khpf",
+      "timestamp": "2026-10-06T03:14:33.299Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791256473281-daz9",
+      "timestamp": "2026-10-06T03:14:33.281Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791256465947-ht3z",
+      "timestamp": "2026-10-06T03:14:25.947Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791203542068-bing",
       "timestamp": "2026-10-05T12:32:22.068Z",
       "level": "ERROR",
@@ -8437,30 +8461,6 @@
       "level": "INFO",
       "message": "Saved Episode #55 in archive. Saving output files...",
       "episodeNumber": 55
-    },
-    {
-      "id": "log-1787805582505-4p7a",
-      "timestamp": "2026-08-27T04:39:42.505Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Geometry of Ruin\" (~1500 words)."
-    },
-    {
-      "id": "log-1787805554545-1ie0",
-      "timestamp": "2026-08-27T04:39:14.545Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787805554539-refz",
-      "timestamp": "2026-08-27T04:39:14.539Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1787805547430-d06t",
-      "timestamp": "2026-08-27T04:39:07.430Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
