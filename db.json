@@ -1945,6 +1945,30 @@
   },
   "logs": [
     {
+      "id": "log-1791374339487-8cw6",
+      "timestamp": "2026-10-07T11:58:59.487Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791374193124-f3nz",
+      "timestamp": "2026-10-07T11:56:33.124Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791374193112-vgtw",
+      "timestamp": "2026-10-07T11:56:33.112Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791374186072-qdfo",
+      "timestamp": "2026-10-07T11:56:26.072Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791340718942-f7qz",
       "timestamp": "2026-10-07T02:38:38.942Z",
       "level": "INFO",
@@ -8443,34 +8467,8 @@
       "level": "INFO",
       "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_057_The_Resonance_of_the_Bound.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_057_The_Resonance_of_the_Bound.docx",
       "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551385-ntwj",
-      "timestamp": "2026-08-28T07:02:31.385Z",
-      "level": "INFO",
-      "message": "Saved Episode #57 in archive. Saving output files...",
-      "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551350-bbs7",
-      "timestamp": "2026-08-28T07:02:31.350Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Resonance of the Bound\" (~1551 words)."
-    },
-    {
-      "id": "log-1787900522739-16el",
-      "timestamp": "2026-08-28T07:02:02.739Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1787900522732-m349",
-      "timestamp": "2026-08-28T07:02:02.732Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra survive the fall into the Citadel's lowest engine room, only to discover that the High Council has been siphoning the life-force of the lower slums to incubate a dark, cosmic parasite. The entity breaks free from its broken brass containment and fixes its sights on Silas, seeking to consume the unstable cosmic essence locked inside his glowing left eye. As Silas defends Lyra from the beast's attack, the floor gives out entirely, plunging them and the descending creature into the unmapped abyss of the Citadel's absolute bottom."
+  "projects": []
 }
