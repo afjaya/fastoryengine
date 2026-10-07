@@ -1945,6 +1945,30 @@
   },
   "logs": [
     {
+      "id": "log-1791399870511-1mn1",
+      "timestamp": "2026-10-07T19:04:30.511Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791399781738-9td9",
+      "timestamp": "2026-10-07T19:03:01.738Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791399781724-27qg",
+      "timestamp": "2026-10-07T19:03:01.724Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791399774096-jayt",
+      "timestamp": "2026-10-07T19:02:54.096Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791374339487-8cw6",
       "timestamp": "2026-10-07T11:58:59.487Z",
       "level": "ERROR",
@@ -8438,34 +8462,6 @@
       "timestamp": "2026-08-28T07:02:32.728Z",
       "level": "INFO",
       "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551515-n8lj",
-      "timestamp": "2026-08-28T07:02:31.515Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551507-4dsl",
-      "timestamp": "2026-08-28T07:02:31.507Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551498-b6sh",
-      "timestamp": "2026-08-28T07:02:31.498Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 57
-    },
-    {
-      "id": "log-1787900551489-wsxd",
-      "timestamp": "2026-08-28T07:02:31.489Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_057_The_Resonance_of_the_Bound.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_057_The_Resonance_of_the_Bound.docx",
       "episodeNumber": 57
     }
   ],
