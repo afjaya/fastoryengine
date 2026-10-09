@@ -1973,6 +1973,30 @@
   },
   "logs": [
     {
+      "id": "log-1791514988601-43r8",
+      "timestamp": "2026-10-09T03:03:08.601Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791514945243-qwbb",
+      "timestamp": "2026-10-09T03:02:25.243Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791514945234-4z5o",
+      "timestamp": "2026-10-09T03:02:25.234Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791514937759-4ir8",
+      "timestamp": "2026-10-09T03:02:17.759Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791485956956-pvdl",
       "timestamp": "2026-10-08T18:59:16.956Z",
       "level": "INFO",
@@ -8465,35 +8489,8 @@
       "timestamp": "2026-08-29T11:45:36.547Z",
       "level": "INFO",
       "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788003936541-rylz",
-      "timestamp": "2026-08-29T11:45:36.541Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788003929272-z0fx",
-      "timestamp": "2026-08-29T11:45:29.272Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1787977087561-lcaa",
-      "timestamp": "2026-08-29T04:18:07.561Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 59
-    },
-    {
-      "id": "log-1787977087554-9it8",
-      "timestamp": "2026-08-29T04:18:07.554Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 59
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra battle an ancient High Council warden-beast forged from crimson mana that is anchored to the carcass of the titan. During the desperate conflict, Silas discovers that the beast is powered by the harvested core of his deceased sworn brother, Arch-Mage Thai. Forced to leap into the volatile primordial vortex to escape an incinerating beam, Silas's ocular core snaps its final tether as a voice echoes in his mind from the creature's heart."
+  "projects": []
 }
