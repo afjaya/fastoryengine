@@ -1973,6 +1973,30 @@
   },
   "logs": [
     {
+      "id": "log-1791547424041-6ece",
+      "timestamp": "2026-10-09T12:03:44.041Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791547385217-pt1n",
+      "timestamp": "2026-10-09T12:03:05.217Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791547385209-nesj",
+      "timestamp": "2026-10-09T12:03:05.209Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791547377623-ec0b",
+      "timestamp": "2026-10-09T12:02:57.623Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791514988601-43r8",
       "timestamp": "2026-10-09T03:03:08.601Z",
       "level": "ERROR",
@@ -8463,30 +8487,6 @@
     {
       "id": "log-1788022236320-mga1",
       "timestamp": "2026-08-29T16:50:36.320Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788022236314-zj65",
-      "timestamp": "2026-08-29T16:50:36.314Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788022229199-s9b9",
-      "timestamp": "2026-08-29T16:50:29.199Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1788004001359-cetl",
-      "timestamp": "2026-08-29T11:46:41.359Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
-    },
-    {
-      "id": "log-1788003936547-sk3z",
-      "timestamp": "2026-08-29T11:45:36.547Z",
       "level": "INFO",
       "message": "Querying AI Provider to build chapter prose..."
     }
