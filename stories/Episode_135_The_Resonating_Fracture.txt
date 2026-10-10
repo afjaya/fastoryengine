@@ -1,0 +1,89 @@
+EPISODE 135: THE RESONATING FRACTURE
+Generation Date: 10/10/2026, 2:37:37 AM
+Provider: Gemini (Google Gen AI) (gemini-3.6-flash)
+Word Count: 1754 words
+
+================================================================================
+The air beneath the Astral Citadel did not merely hum; it vibrated with the weight of dying stars. Inside the Sub-Basalt Engine, the atmosphere tasted of scorched copper and stale ozone, thick enough to coat the tongue. 
+
+Silas Vance stood knee-deep in a drift of shattered slate, his silver broadsword planted firmly between the cracked flags of the aisle. His left socket—where an ancient, unstable ocular core bled raw cosmic essence—pulsed with a blinding, violet-gold radiance. Every pulse sent a kinetic shudder through his spine, washing his vision in spectral lines that laid bare the underlying geometry of the world: the skeletal framework of the Citadel, the twisting ley veins of the lower districts, and the three obsidian-clad silhouettes charging down the gangway toward him.
+
+"Hold the line, Vance!" Lyra shouted from the engine pedestal twenty paces behind him. Sparks rained onto her bare forearms as her fingers dragged across the glowing runic console, tracing the ancient, jagged script etched deep into the basalt. "The cipher... Thai didn't just hide a message in your eye. He hid the key matrix! If I sever the connection now, the whole terminal locks out forever!"
+
+"Take your time," Silas growled through gritted teeth. "I’m sure they’ll wait."
+
+He raised his broadsword just as the lead Inquisitor leapt over the broken iron catwalk. The warrior wore the sleek, light-devouring plate of Aethelgard’s High Council, a heavy suppression pike cradled in his gauntlets. The tip of the weapon flickered with a dull, anti-magical glare—a null-field designed to unravel a knight’s armor and a mage’s mind in a single strike.
+
+Silas met the downward swing with a two-handed thrust. Silver steel struck dark alloys with a crack that echoed like thunder through the vaulted chamber. The shockwave rattled the loose rivets in Silas’s left pauldron, forcing him back a half-step. Before the Inquisitor could reset his stance, Silas leaned into the violet heat burning behind his left eyelid. 
+
+He didn't cast a spell; he merely let the volatile mana leak.
+
+A localized spike of distorted gravity erupted from his blinding gaze. The air folded in on itself with a sound like tearing silk. The Inquisitor screamed—a wet, choked noise—as his vanguard armor imploded inward, the heavy obsidian chestpiece buckling like tin under an invisible hydraulic press. The knight crashed to the floor, motionless, as his suppression pike skittered over the edge into the churning, crimson mana vents far below.
+
+"One down," Silas wheezed, clutching his left temple. The skin around his socket was blistering, dark veins of corrupted cosmic energy spidering down his neck beneath his leather collar. The ocular core was eating through his nervous system, fueled by the Engine's proximity. "Lyra... I can’t hold this output for long. It feels like Thai is boiling my brain from the inside out."
+
+"Three more lines!" Lyra’s voice was taut, stripped of its usual razor-edged sarcasm. She slid her left runic dagger into a narrow seam beneath the central glyph, using the enchanted steel to ground the blinding static pouring from the console. Her hands were slick with sweat and soot, her grey eyes darting across the celestial lines like a bird tracing the wind. "The High Council isn't just opening a door, Silas. They’re using the lower districts as a fuel sink. The Null Gate requires a biological mana-surge to stabilize the rift. They’re going to bleed the lower slums dry—every man, woman, and child in the gutters—to jump-start the core!"
+
+"They tried it twelve years ago during the Mana Eclipse," Silas said, his voice dropping into a harsh, raspy whisper. He parried a thrust from the second Inquisitor, side-stepping the thrusting pike and sweeping his heavy boot into the attacker's kneecap. Bone crunched beneath iron. Silas spun, driving the pommel of his broadsword into the mask’s visor, shattering the smoked glass. "I refused the order then. I won't let them finish it now."
+
+The third Inquisitor did not advance. He stood forty feet back on the elevated catwalk, raising a heavy, multi-barreled hex-caster. The weapon hummed with a sickly green illumination—a lingering, corrosive hex designed to liquefy flesh and decay ancient warding.
+
+"Get down!" Silas yelled, lunging backward toward the pedestal.
+
+The hex-caster roared. Three bolts of sickly green light streaked through the twilight of the engine room. Silas threw his body across the console, raising his runic broadsword to deflect the incoming arc. The first bolt clipped his shoulder, instantly melting the heavy leather harness and charring the skin beneath to a dead grey ash. Silas roared in pain, but held his ground, his left eye flaring so brightly that the shadows in the room were cast in reverse.
+
+The second bolt struck his blade, hot green fire washing down the fuller, blackening the silver runes. The third bolt missed, slamming directly into the core matrix behind Lyra.
+
+The Sub-Basalt Engine shrieked. It was not a mechanical sound, but a resonant, agony-filled pitch—the sound of corrupted celestial mana breaking its containment. The ancient basalt pillars supporting the chamber vaulted ceilings began to shear, dropping ton-heavy chunks of stone into the spinning gearwork below. 
+
+"I have it!" Lyra screamed over the deafening grind of breaking stone. She ripped a glowing, crystalline cipher-key from the heart of the shattered pedestal. The blue light cast sharp angles across her soot-stained cheeks. "I've pulled the core schematics! But the engine feedback—Silas, the main manifold is tearing apart!"
+
+The floor beneath them groaned. A jagged fissure split the pathway between them and the exit, swallowing the third Inquisitor as the catwalk snapped like a dried twig. Deep beneath the engine room, the magma-like glow of raw, unrefined astral energy surged upward through the conduits.
+
+"Run!" Silas demanded, hauling himself up with the hilt of his sword. His vision was spinning; the violet fire in his left eye had spread to his right, blinding him with cascades of ancient, unreadable stellar equations. "Toward the drainage shafts! We drop into the lower aqueducts!"
+
+"Not without you, you arrogant old fool!" Lyra darted forward, grabbing Silas under his uninjured arm. His heavy plate armor weighed twice as much as her, but she dug her heels into the shifting gravel, dragging him toward the edge of the collapsing platform.
+
+Behind them, the central column of the Sub-Basalt Engine fractured entirely. A pillar of dark, void-tinted light shot upward, punching through three miles of solid rock, heading straight for the upper sanctums of the Astral Citadel. The air pressure dropped instantly, drawing the breath straight out of Silas's lungs. The gravity matrix shattered; stone blocks, broken armor, and rivers of burning mana began to float upward into the beam of void-light.
+
+"The Null Gate..." Silas gasped, watching the void-light consume the ceiling. "It's already priming..."
+
+"The High Council must have initiated the sequence from the upper spire the moment we breached the engine," Lyra cursed, her voice strained as she fought the anti-gravitational drag pulling at her boots. She looked down at the cipher-key in her hand. The stone was pulsing in rhythm with Silas's unstable ocular core. "They don't care that we broke the local controls! They're forcing the gate open through sheer power!"
+
+A heavy iron grappling anchor suddenly slammed into the edge of the stone platform five feet from them.
+
+Silas turned his head slowly, his left eye bleeding a steady stream of glowing purple light down his cheek. Through the dust and rising stone, the Inquisitor Leader—the one whose armor Silas had crushed—lay battered among the rubble, a cable launcher clutched in his iron gauntlet. The line was attached to the anchor, but the commander wasn't pulling himself up. He was typing a command into a wrist-mounted rune-pad.
+
+"For... Aethelgard," the Inquisitor rasped into his communicator, his voice distorted by blood and crushed brass. "Initiate... purge protocol. Sector Seven... sacrificed."
+
+"Silas, look out!" Lyra yelled.
+
+The anchor on the platform didn't detonate; it lit up with a blinding, crimson containment field. Instantly, an overwhelming gravitational pull locked onto Silas's ocular core, drawing him toward the edge of the yawning, void-filled pit. The unstable magic in his socket violently resonated with the Inquisitor's trap, dragging Silas off his feet.
+
+"Silas!" Lyra lunged, her fingers catching the leather strap of his broadsword scabbard just as his legs slipped into the void.
+
+Silas hung over the abyss. Below him was a swirling maelstrom of liquid starlight and dark void-energy, capable of unmaking a man down to his very soul. Above him, Lyra was anchored only by her knees wedged against a crumbling basalt lip, her teeth gritted as her muscles quivered under his weight.
+
+"Drop the sword!" she yelled, her knuckles turning white. "Drop the heavy plate! I can't lift you with all that iron!"
+
+"If I drop the sword, we lose the only silver alloy capable of channeling my core," Silas said softly. His left eye was burning through his eyelid now, the pain so absolute it felt cold. He looked up into the young Stargazer’s eyes. "Take the cipher, Lyra. Get to the lower districts. Warn the resistance."
+
+"Don't you dare give me a martyr's speech, Silas Vance!" she spat, tears cutting clean streaks through the soot on her face. "You owe me three weeks of back pay and a safe passage out of this damned city!"
+
+"Then consider this my down payment," Silas said.
+
+With a swift, agonizing twist of his body, Silas pulled his dagger with his free hand and severed the leather strap connecting his scabbard to his harness. But instead of letting go, he rammed the broadsword upward, wedging the heavy blade into a deep seam in the basalt wall beside Lyra, creating a makeshift step.
+
+Before Lyra could react, the floor beneath her gave a final, catastrophic heave. The entire platform sheer-cut from the bedrock.
+
+As the stone fell away, Silas surged upward off his makeshift step, shoving Lyra with all his remaining strength toward the dark mouth of an open aqueduct pipe five feet above them. She slammed hard onto the slick bronze rim of the drain, her hands scrambling for purchase, the cipher-key clutched tight in her fist.
+
+Silas fell. 
+
+The void-light wrapped around him like a cloak of frozen needles, swallowing his screams as he plunged down into the heart of the shattered engine, his left eye casting one last, blinding burst of violet light that lit up the endless, terrifying depth of the abyss.
+
+"SILAS!" Lyra’s scream echoed down the empty aqueduct, lost in the deafening roar of the Citadel falling apart from the inside out.
+
+================================================================================
+SUMMARY:
+Sir Silas Vance and Lyra Thorne fight off an elite squad of High Council Inquisitors inside the collapsing Sub-Basalt Engine. Though Lyra successfully extracts the cipher-key detailing the High Council's catastrophic Null Gate plan, an Inquisitor trap destabilizes the chamber's gravity. Silas sacrifices his footing to throw Lyra to safety, plunging into the dark, void-tinted abyss beneath the Astral Citadel.
