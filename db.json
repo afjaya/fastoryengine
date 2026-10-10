@@ -2015,6 +2015,30 @@
   },
   "logs": [
     {
+      "id": "log-1791653219756-b3tb",
+      "timestamp": "2026-10-10T17:26:59.756Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791653169820-izmy",
+      "timestamp": "2026-10-10T17:26:09.820Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791653169812-p3b3",
+      "timestamp": "2026-10-10T17:26:09.812Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791653162324-wkn5",
+      "timestamp": "2026-10-10T17:26:02.324Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791631198905-0vuj",
       "timestamp": "2026-10-10T11:19:58.905Z",
       "level": "INFO",
@@ -8505,35 +8529,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 63
-    },
-    {
-      "id": "log-1788108982746-3ie2",
-      "timestamp": "2026-08-30T16:56:22.746Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_063_Gravity_s_Iron_Teeth.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_063_Gravity_s_Iron_Teeth.docx",
-      "episodeNumber": 63
-    },
-    {
-      "id": "log-1788108982663-q7f8",
-      "timestamp": "2026-08-30T16:56:22.663Z",
-      "level": "INFO",
-      "message": "Saved Episode #63 in archive. Saving output files...",
-      "episodeNumber": 63
-    },
-    {
-      "id": "log-1788108982619-7spy",
-      "timestamp": "2026-08-30T16:56:22.619Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"Gravity's Iron Teeth\" (~1799 words)."
-    },
-    {
-      "id": "log-1788108946056-mjvc",
-      "timestamp": "2026-08-30T16:55:46.056Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance survives a perilous fall into the Iron Well beneath the Astral Citadel, rejoining Lyra Thorne on a crumbling iron perch. Together, they discover that the High Council's Null Gate relies on a living, calcified prototype heart buried deep in the abyss. The ancient core reacts to the cosmic essence in Silas's eye, awakening a massive First-Era Warden that snaps their foothold and sends them plunging into the chamber below."
+  "projects": []
 }
