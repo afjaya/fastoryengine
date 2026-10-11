@@ -2043,6 +2043,30 @@
   },
   "logs": [
     {
+      "id": "log-1791740785454-tuig",
+      "timestamp": "2026-10-11T17:46:25.454Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791740739473-1e95",
+      "timestamp": "2026-10-11T17:45:39.473Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791740739459-tpmy",
+      "timestamp": "2026-10-11T17:45:39.459Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791740732418-79p8",
+      "timestamp": "2026-10-11T17:45:32.418Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791718408147-dddm",
       "timestamp": "2026-10-11T11:33:28.147Z",
       "level": "INFO",
@@ -8529,37 +8553,8 @@
       "level": "INFO",
       "message": "Story Generation Pipeline Completed Successfully!",
       "episodeNumber": 65
-    },
-    {
-      "id": "log-1788176832767-vn8g",
-      "timestamp": "2026-08-31T11:47:12.767Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 65
-    },
-    {
-      "id": "log-1788176831364-psh6",
-      "timestamp": "2026-08-31T11:47:11.364Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 65
-    },
-    {
-      "id": "log-1788176831356-jn54",
-      "timestamp": "2026-08-31T11:47:11.356Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 65
-    },
-    {
-      "id": "log-1788176831348-cu6e",
-      "timestamp": "2026-08-31T11:47:11.348Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 65
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Following a gravity-inverting spatial rupture, Sir Silas Vance and Lyra Thorne narrowly escape being pulled into a void-fracture, only to uncover that the High Council is actively siphoning the life force of the lower slums to power a secret engine beneath Aethelgard. Before they can act on this dark revelation, High Council Inquisitors trap them inside the subterranean chamber with containment protocols activated. The episode ends as the Purifiers attack from above while the room's mana level violently destabilizes."
+  "projects": []
 }
