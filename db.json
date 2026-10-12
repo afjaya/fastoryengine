@@ -2057,6 +2057,30 @@
   },
   "logs": [
     {
+      "id": "log-1791811575658-bcie",
+      "timestamp": "2026-10-12T13:26:15.658Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791811558768-z174",
+      "timestamp": "2026-10-12T13:25:58.768Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791811558759-hsxm",
+      "timestamp": "2026-10-12T13:25:58.759Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791811551210-gl7o",
+      "timestamp": "2026-10-12T13:25:51.210Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791772611196-bntk",
       "timestamp": "2026-10-12T02:36:51.196Z",
       "level": "INFO",
@@ -8542,34 +8566,8 @@
       "timestamp": "2026-09-01T02:01:03.985Z",
       "level": "INFO",
       "message": "Successfully received story: \"The Cradle of Star-Sickness\" (~1714 words)."
-    },
-    {
-      "id": "log-1788227972460-hog0",
-      "timestamp": "2026-09-01T01:59:32.460Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788227972449-ez1x",
-      "timestamp": "2026-09-01T01:59:32.449Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788227964829-bgd2",
-      "timestamp": "2026-09-01T01:59:24.829Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1788203619323-25lz",
-      "timestamp": "2026-08-31T19:13:39.323Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 66
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne fight off High Council Purifiers while trying to breach the subterranean chamber's collapsing containment field. Lyra successfully overloads the warding runes, but the resulting energy backfire shatters the floor, dropping them into the hidden cavern below. There, they discover the High Council's true power source—a chained, siphon-drained cosmic titan—before plunging into the dark abyss with the monstrous god."
+  "projects": []
 }
