@@ -2085,6 +2085,30 @@
   },
   "logs": [
     {
+      "id": "log-1791999030077-abp3",
+      "timestamp": "2026-10-14T17:30:30.077Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791999012986-26ja",
+      "timestamp": "2026-10-14T17:30:12.986Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791999012973-8lhm",
+      "timestamp": "2026-10-14T17:30:12.973Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791999005905-pszp",
+      "timestamp": "2026-10-14T17:30:05.905Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791973811432-jfv4",
       "timestamp": "2026-10-14T10:30:11.432Z",
       "level": "INFO",
@@ -8563,33 +8587,8 @@
       "level": "INFO",
       "message": "Saved Episode #70 in archive. Saving output files...",
       "episodeNumber": 70
-    },
-    {
-      "id": "log-1788311880421-o64m",
-      "timestamp": "2026-09-02T01:18:00.421Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Marrow of Broken Stars\" (~1570 words)."
-    },
-    {
-      "id": "log-1788311773097-u1v3",
-      "timestamp": "2026-09-02T01:16:13.097Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788311773087-dmmk",
-      "timestamp": "2026-09-02T01:16:13.087Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788311765881-tau7",
-      "timestamp": "2026-09-02T01:16:05.881Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance channels his unstable, corrupted astral core to destroy the High Council's self-destruct anchor, saving the lower sectors from a catastrophic supernova. The resulting mana inversion hurls Silas and Lyra upward into the lower shafts of the Citadel while breaking the Titan's ancient chains. However, destroying the anchor reveals a far grimmer reality: the Titan was merely a seal keeping a terrifying, crimson-eyed entity slumbering deep beneath the world."
+  "projects": []
 }
