@@ -2071,6 +2071,30 @@
   },
   "logs": [
     {
+      "id": "log-1791943587921-7fgd",
+      "timestamp": "2026-10-14T02:06:27.921Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1791943544046-doj1",
+      "timestamp": "2026-10-14T02:05:44.046Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1791943544032-y31u",
+      "timestamp": "2026-10-14T02:05:44.032Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1791943536860-b3mn",
+      "timestamp": "2026-10-14T02:05:36.860Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791896069107-njx1",
       "timestamp": "2026-10-13T12:54:29.107Z",
       "level": "INFO",
@@ -8549,37 +8573,8 @@
       "timestamp": "2026-09-01T16:50:38.813Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1788258137141-pylt",
-      "timestamp": "2026-09-01T10:22:17.141Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 68
-    },
-    {
-      "id": "log-1788258137134-jpr9",
-      "timestamp": "2026-09-01T10:22:17.134Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 68
-    },
-    {
-      "id": "log-1788258135920-rvyl",
-      "timestamp": "2026-09-01T10:22:15.920Z",
-      "level": "INFO",
-      "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 68
-    },
-    {
-      "id": "log-1788258135912-bwlf",
-      "timestamp": "2026-09-01T10:22:15.912Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 68
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive the drop into the abyss beneath the Astral Citadel, only to find the High Council's secret power source—a chained, dying cosmic Titan. They discover the Council has reversed the siphoning magic to trigger a stellar explosion that will destroy all evidence and purge the lower sectors. As High Council Inquisitors descend to ensure their death, the Titan awakens and unlocks Silas's corrupted core, shattering the cavern floor into a collapsing gravitational singularity."
+  "projects": []
 }
