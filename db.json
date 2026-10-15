@@ -2085,6 +2085,30 @@
   },
   "logs": [
     {
+      "id": "log-1792028612121-h7p5",
+      "timestamp": "2026-10-15T01:43:32.121Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792028582018-4y6c",
+      "timestamp": "2026-10-15T01:43:02.018Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792028582004-igk2",
+      "timestamp": "2026-10-15T01:43:02.004Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792028574633-t920",
+      "timestamp": "2026-10-15T01:42:54.633Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1791999030077-abp3",
       "timestamp": "2026-10-14T17:30:30.077Z",
       "level": "ERROR",
@@ -8558,34 +8582,6 @@
       "timestamp": "2026-09-02T01:18:00.577Z",
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
-      "episodeNumber": 70
-    },
-    {
-      "id": "log-1788311880570-o2br",
-      "timestamp": "2026-09-02T01:18:00.570Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 70
-    },
-    {
-      "id": "log-1788311880562-zij6",
-      "timestamp": "2026-09-02T01:18:00.562Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 70
-    },
-    {
-      "id": "log-1788311880553-v4v0",
-      "timestamp": "2026-09-02T01:18:00.553Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_070_The_Marrow_of_Broken_Stars.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_070_The_Marrow_of_Broken_Stars.docx",
-      "episodeNumber": 70
-    },
-    {
-      "id": "log-1788311880450-ypie",
-      "timestamp": "2026-09-02T01:18:00.450Z",
-      "level": "INFO",
-      "message": "Saved Episode #70 in archive. Saving output files...",
       "episodeNumber": 70
     }
   ],
