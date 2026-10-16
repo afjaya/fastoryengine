@@ -2127,6 +2127,30 @@
   },
   "logs": [
     {
+      "id": "log-1792169574550-qiip",
+      "timestamp": "2026-10-16T16:52:54.550Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792169558222-73yd",
+      "timestamp": "2026-10-16T16:52:38.222Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792169558208-bbky",
+      "timestamp": "2026-10-16T16:52:38.208Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792169551136-13da",
+      "timestamp": "2026-10-16T16:52:31.136Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792145039806-ylat",
       "timestamp": "2026-10-16T10:03:59.806Z",
       "level": "ERROR",
@@ -8603,30 +8627,6 @@
     {
       "id": "log-1788515853672-m3b5",
       "timestamp": "2026-09-04T09:57:33.672Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1788484662810-329e",
-      "timestamp": "2026-09-04T01:17:42.810Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
-    },
-    {
-      "id": "log-1788484644384-4wry",
-      "timestamp": "2026-09-04T01:17:24.384Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788484644372-t5cz",
-      "timestamp": "2026-09-04T01:17:24.372Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788484637003-0xma",
-      "timestamp": "2026-09-04T01:17:17.003Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
     }
