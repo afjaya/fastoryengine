@@ -2141,6 +2141,30 @@
   },
   "logs": [
     {
+      "id": "log-1792229834536-2ldw",
+      "timestamp": "2026-10-17T09:37:14.536Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792229783096-nlsl",
+      "timestamp": "2026-10-17T09:36:23.096Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792229783083-qhsj",
+      "timestamp": "2026-10-17T09:36:23.083Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792229775923-sk4g",
+      "timestamp": "2026-10-17T09:36:15.923Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792200484073-ynrs",
       "timestamp": "2026-10-17T01:28:04.073Z",
       "level": "INFO",
@@ -8619,33 +8643,8 @@
       "level": "INFO",
       "message": "Saved Episode #74 in archive. Saving output files...",
       "episodeNumber": 74
-    },
-    {
-      "id": "log-1788539650088-n34u",
-      "timestamp": "2026-09-04T16:34:10.088Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Graveyard of Cinder and Glass\" (~1443 words)."
-    },
-    {
-      "id": "log-1788539573542-pi6m",
-      "timestamp": "2026-09-04T16:32:53.542Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788539573531-zqop",
-      "timestamp": "2026-09-04T16:32:53.531Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788539566344-cpj4",
-      "timestamp": "2026-09-04T16:32:46.344Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Following their dramatic freefall from the crumbling Astral Citadel, Silas and Lyra land on a falling maintenance platform in the abyssal Underbelly. They are ambushed by Captain Vane and the High Council's Vanguard, who reveal that the city's destruction was an intentional catalyst to purge the lower realms while the elite escape. Silas destroys the platform's support structural bolt to survive, sending them all plunging into the deep cavern below where an ancient, chained cosmic titan awakens."
+  "projects": []
 }
