@@ -2225,6 +2225,30 @@
   },
   "logs": [
     {
+      "id": "log-1792435737466-zw0k",
+      "timestamp": "2026-10-19T18:48:57.466Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792435713245-kthk",
+      "timestamp": "2026-10-19T18:48:33.245Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792435713231-d745",
+      "timestamp": "2026-10-19T18:48:33.231Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792435706150-8riz",
+      "timestamp": "2026-10-19T18:48:26.150Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792408028779-s060",
       "timestamp": "2026-10-19T11:07:08.779Z",
       "level": "INFO",
@@ -8703,33 +8727,8 @@
       "level": "INFO",
       "message": "Saved Episode #80 in archive. Saving output files...",
       "episodeNumber": 80
-    },
-    {
-      "id": "log-1788743668459-7ctr",
-      "timestamp": "2026-09-07T01:14:28.459Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Shattered Conduit\" (~1912 words)."
-    },
-    {
-      "id": "log-1788743630239-9s9n",
-      "timestamp": "2026-09-07T01:13:50.239Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788743630232-ht6k",
-      "timestamp": "2026-09-07T01:13:50.232Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788743623084-3exj",
-      "timestamp": "2026-09-07T01:13:43.084Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Escaping a wave of raw celestial fire by breaching an ancient bypass conduit, Sir Silas Vance and Lyra Thorne descend into a forgotten vault beneath the Astral Citadel. There, they discover the High Council is using stolen titan blood to secretly sustain an army of immortal, ancient Inquisitors while planning a total purge of the lower districts. As the structural failure of the upper vaults seals their escape, a massive stasis-glass sarcophagus shatters below, binding Silas in a painful psychic lock with an awakening titan-fed monster ascending toward them."
+  "projects": []
 }
