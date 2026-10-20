@@ -2239,6 +2239,30 @@
   },
   "logs": [
     {
+      "id": "log-1792491567937-529f",
+      "timestamp": "2026-10-20T10:19:27.937Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792491541353-ybjy",
+      "timestamp": "2026-10-20T10:19:01.353Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792491541338-6rxo",
+      "timestamp": "2026-10-20T10:19:01.338Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792491534228-ukk4",
+      "timestamp": "2026-10-20T10:18:54.228Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792461680202-ddfj",
       "timestamp": "2026-10-20T02:01:20.202Z",
       "level": "INFO",
@@ -8713,37 +8737,8 @@
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
       "episodeNumber": 81
-    },
-    {
-      "id": "log-1788777578587-2pv5",
-      "timestamp": "2026-09-07T10:39:38.587Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 81
-    },
-    {
-      "id": "log-1788777578561-g22v",
-      "timestamp": "2026-09-07T10:39:38.561Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 81
-    },
-    {
-      "id": "log-1788777578549-68kh",
-      "timestamp": "2026-09-07T10:39:38.549Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_081_The_Abyssal_Hearth.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_081_The_Abyssal_Hearth.docx",
-      "episodeNumber": 81
-    },
-    {
-      "id": "log-1788777578458-7jtf",
-      "timestamp": "2026-09-07T10:39:38.458Z",
-      "level": "INFO",
-      "message": "Saved Episode #81 in archive. Saving output files...",
-      "episodeNumber": 81
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne battle a massive, titan-fed prototype monster in the deep vaults beneath the Astral Citadel. Though Silas manages to sever the creature's primary mana conduit, the resulting power surge redirects into the upper vaults, accidentally awakening thousands of dormant Inquisitor pods locked in stasis. As the vault floor disintegrates from the violent magical feedback, Silas and Lyra plunge into the Citadel's volatile core matrix while the Council's immortal army begins its march above."
+  "projects": []
 }
