@@ -2239,6 +2239,30 @@
   },
   "logs": [
     {
+      "id": "log-1792604128569-s0xt",
+      "timestamp": "2026-10-21T17:35:28.569Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792604087831-rut8",
+      "timestamp": "2026-10-21T17:34:47.831Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792604087817-g2wd",
+      "timestamp": "2026-10-21T17:34:47.817Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792604080734-853o",
+      "timestamp": "2026-10-21T17:34:40.734Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792578570784-w9mi",
       "timestamp": "2026-10-21T10:29:30.784Z",
       "level": "ERROR",
@@ -8703,32 +8727,6 @@
       "timestamp": "2026-09-08T01:20:32.939Z",
       "level": "INFO",
       "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788830432932-dr76",
-      "timestamp": "2026-09-08T01:20:32.932Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1788830425833-1948",
-      "timestamp": "2026-09-08T01:20:25.833Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1788803559600-gzxf",
-      "timestamp": "2026-09-07T17:52:39.600Z",
-      "level": "INFO",
-      "message": "Story Generation Pipeline Completed Successfully!",
-      "episodeNumber": 82
-    },
-    {
-      "id": "log-1788803559588-axp4",
-      "timestamp": "2026-09-07T17:52:39.588Z",
-      "level": "INFO",
-      "message": "Google Drive Upload failed: Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.",
-      "episodeNumber": 82
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
