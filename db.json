@@ -2239,6 +2239,30 @@
   },
   "logs": [
     {
+      "id": "log-1792547636425-lep1",
+      "timestamp": "2026-10-21T01:53:56.425Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792547591774-llzj",
+      "timestamp": "2026-10-21T01:53:11.774Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792547591763-ju42",
+      "timestamp": "2026-10-21T01:53:11.763Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792547584152-oek7",
+      "timestamp": "2026-10-21T01:53:04.152Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792517232336-jeqy",
       "timestamp": "2026-10-20T17:27:12.336Z",
       "level": "ERROR",
@@ -8709,31 +8733,6 @@
       "level": "INFO",
       "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_082_The_Weight_of_Glass_and_Gold.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_082_The_Weight_of_Glass_and_Gold.docx",
       "episodeNumber": 82
-    },
-    {
-      "id": "log-1788803558097-9hit",
-      "timestamp": "2026-09-07T17:52:38.097Z",
-      "level": "INFO",
-      "message": "Saved Episode #82 in archive. Saving output files...",
-      "episodeNumber": 82
-    },
-    {
-      "id": "log-1788803558063-smzu",
-      "timestamp": "2026-09-07T17:52:38.063Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Weight of Glass and Gold\" (~1670 words)."
-    },
-    {
-      "id": "log-1788803508139-mi32",
-      "timestamp": "2026-09-07T17:51:48.139Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1788803508131-dyxh",
-      "timestamp": "2026-09-07T17:51:48.131Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
