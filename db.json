@@ -2281,6 +2281,30 @@
   },
   "logs": [
     {
+      "id": "log-1792720049960-rlai",
+      "timestamp": "2026-10-23T01:47:29.960Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792720031421-iybs",
+      "timestamp": "2026-10-23T01:47:11.421Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792720031412-rcaw",
+      "timestamp": "2026-10-23T01:47:11.412Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792720023938-q60x",
+      "timestamp": "2026-10-23T01:47:03.938Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792690293925-ql6l",
       "timestamp": "2026-10-22T17:31:33.925Z",
       "level": "INFO",
@@ -8743,35 +8767,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 86
-    },
-    {
-      "id": "log-1788917148716-s6ei",
-      "timestamp": "2026-09-09T01:25:48.716Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_086_The_Architecture_of_Rot.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_086_The_Architecture_of_Rot.docx",
-      "episodeNumber": 86
-    },
-    {
-      "id": "log-1788917148633-f6r1",
-      "timestamp": "2026-09-09T01:25:48.633Z",
-      "level": "INFO",
-      "message": "Saved Episode #86 in archive. Saving output files...",
-      "episodeNumber": 86
-    },
-    {
-      "id": "log-1788917148602-64ew",
-      "timestamp": "2026-09-09T01:25:48.602Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Architecture of Rot\" (~1701 words)."
-    },
-    {
-      "id": "log-1788917092232-2xde",
-      "timestamp": "2026-09-09T01:24:52.232Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Arch-Inquisitor Vane trickles Sir Silas Vance's residual solar magic into an obsidian stylus to shatter the final seal on a subterranean void-rift, unleashing an ancient cosmic entity into the Astral Citadel's underbelly. As the colossal entity emerges, its gaze locks onto Silas, forcefully resonating with his corrupted cosmic eye and paralyzing him while the surrounding district begins to collapse into the abyss."
+  "projects": []
 }
