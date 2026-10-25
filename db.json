@@ -2365,6 +2365,30 @@
   },
   "logs": [
     {
+      "id": "log-1792922606212-0ybh",
+      "timestamp": "2026-10-25T10:03:26.212Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1792922568727-790l",
+      "timestamp": "2026-10-25T10:02:48.727Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1792922568708-b6zk",
+      "timestamp": "2026-10-25T10:02:48.708Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1792922561521-gj0s",
+      "timestamp": "2026-10-25T10:02:41.521Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1792891751770-nds7",
       "timestamp": "2026-10-25T01:29:11.770Z",
       "level": "INFO",
@@ -8827,35 +8851,8 @@
       "level": "INFO",
       "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
       "episodeNumber": 92
-    },
-    {
-      "id": "log-1789120646937-z45t",
-      "timestamp": "2026-09-11T09:57:26.937Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_092_The_Chained_Crucible.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_092_The_Chained_Crucible.docx",
-      "episodeNumber": 92
-    },
-    {
-      "id": "log-1789120646826-c1xn",
-      "timestamp": "2026-09-11T09:57:26.826Z",
-      "level": "INFO",
-      "message": "Saved Episode #92 in archive. Saving output files...",
-      "episodeNumber": 92
-    },
-    {
-      "id": "log-1789120646786-tesb",
-      "timestamp": "2026-09-11T09:57:26.786Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Chained Crucible\" (~1725 words)."
-    },
-    {
-      "id": "log-1789120613511-ou3n",
-      "timestamp": "2026-09-11T09:56:53.511Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne shatter the central star-iron chain holding the corrupted Solar God, deflecting an Inquisitorial attack and causing the upper catwalks to collapse. The released tension destroys the structural integrity of the cavern, awakening the god's true, ravenous cosmic form. As the scaffold snaps, Silas and Lyra are thrown into a freefall toward the deity's burning, open jaw."
+  "projects": []
 }
