@@ -3149,6 +3149,30 @@
   },
   "logs": [
     {
+      "id": "log-1795012092785-nlhd",
+      "timestamp": "2026-11-18T14:28:12.785Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1795012076698-fd1z",
+      "timestamp": "2026-11-18T14:27:56.698Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795012076684-g97j",
+      "timestamp": "2026-11-18T14:27:56.684Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795012069143-vkpv",
+      "timestamp": "2026-11-18T14:27:49.143Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1794976896132-65tz",
       "timestamp": "2026-11-18T04:41:36.132Z",
       "level": "INFO",
@@ -9707,37 +9731,8 @@
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
       "episodeNumber": 134
-    },
-    {
-      "id": "log-1791570545165-9byj",
-      "timestamp": "2026-10-09T18:29:05.165Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 134
-    },
-    {
-      "id": "log-1791570545151-39k2",
-      "timestamp": "2026-10-09T18:29:05.151Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 134
-    },
-    {
-      "id": "log-1791570545133-kx69",
-      "timestamp": "2026-10-09T18:29:05.133Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_134_The_Weight_of_Unremembered_Stars.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_134_The_Weight_of_Unremembered_Stars.docx",
-      "episodeNumber": 134
-    },
-    {
-      "id": "log-1791570545016-kinw",
-      "timestamp": "2026-10-09T18:29:05.016Z",
-      "level": "INFO",
-      "message": "Saved Episode #134 in archive. Saving output files...",
-      "episodeNumber": 134
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra survive the catastrophic collapse of Arch-Mage Thai's catalyst chamber by plunging into the subterranean conduit shafts beneath the Citadel. Upon reaching the forgotten lower underbelly, they discover a hidden, secondary Astral Gate forged from forbidden Void-stone that was kept locked by Thai's un-death. With the lock shattered, the Void Gate begins to bleed unchecked dark matter into the realm while High Council Inquisitors track them from above."
+  "projects": []
 }
