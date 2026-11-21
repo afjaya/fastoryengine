@@ -3191,6 +3191,30 @@
   },
   "logs": [
     {
+      "id": "log-1795268455712-78pl",
+      "timestamp": "2026-11-21T13:40:55.712Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Provider returned an empty story response."
+    },
+    {
+      "id": "log-1795268384756-g6mh",
+      "timestamp": "2026-11-21T13:39:44.756Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795268384731-wwdx",
+      "timestamp": "2026-11-21T13:39:44.731Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795268377596-i485",
+      "timestamp": "2026-11-21T13:39:37.596Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795234367544-19ty",
       "timestamp": "2026-11-21T04:12:47.544Z",
       "level": "INFO",
@@ -9749,37 +9773,8 @@
       "level": "INFO",
       "message": "Initiating Google Drive file backup and upload to folder ID [root]...",
       "episodeNumber": 137
-    },
-    {
-      "id": "log-1791684408924-rfib",
-      "timestamp": "2026-10-11T02:06:48.924Z",
-      "level": "WARNING",
-      "message": "SMTP Settings are incomplete. Skipping email delivery.",
-      "episodeNumber": 137
-    },
-    {
-      "id": "log-1791684408912-ag55",
-      "timestamp": "2026-10-11T02:06:48.912Z",
-      "level": "INFO",
-      "message": "Initiating SMTP email delivery to BangRijal@gmail.com...",
-      "episodeNumber": 137
-    },
-    {
-      "id": "log-1791684408897-4g21",
-      "timestamp": "2026-10-11T02:06:48.897Z",
-      "level": "INFO",
-      "message": "Successfully generated exports: TXT -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_137_Echoes_of_the_Calcified_Heart.txt, DOCX -> /home/runner/work/fastoryengine/fastoryengine/stories/Episode_137_Echoes_of_the_Calcified_Heart.docx",
-      "episodeNumber": 137
-    },
-    {
-      "id": "log-1791684408809-2yvr",
-      "timestamp": "2026-10-11T02:06:48.809Z",
-      "level": "INFO",
-      "message": "Saved Episode #137 in archive. Saving output files...",
-      "episodeNumber": 137
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne survive their fall and land on the inverted, corrupted mirror of the Astral Citadel suspended deep within the abyss. They discover that the High Council uses this shadow realm to siphon off cosmic entropy, powered by the bound bodies of former Solar Knights. As they attempt to navigate the corrupted spires, Silas is forced into a deadly duel against the hollowed, void-corrupted husk of his former mentor, Commander Gerald Vance."
+  "projects": []
 }
