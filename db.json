@@ -3233,6 +3233,30 @@
   },
   "logs": [
     {
+      "id": "log-1795451099917-pei5",
+      "timestamp": "2026-11-23T16:24:59.917Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1795450932379-7ixv",
+      "timestamp": "2026-11-23T16:22:12.379Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795450932351-tj8y",
+      "timestamp": "2026-11-23T16:22:12.351Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795450925359-yyr0",
+      "timestamp": "2026-11-23T16:22:05.359Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795406141537-coud",
       "timestamp": "2026-11-23T03:55:41.537Z",
       "level": "INFO",
@@ -9795,33 +9819,8 @@
       "timestamp": "2026-10-13T12:53:38.029Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1791863177165-v94e",
-      "timestamp": "2026-10-13T03:46:17.165Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
-    },
-    {
-      "id": "log-1791863147529-r0dn",
-      "timestamp": "2026-10-13T03:45:47.529Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1791863147517-u33x",
-      "timestamp": "2026-10-13T03:45:47.517Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1791863140467-bagf",
-      "timestamp": "2026-10-13T03:45:40.467Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Silas and Lyra survive the violent reversal of gravity by forcing Silas's corrupted core energy back through the black mana tether, severing the Star-Eater's immediate hold on him. However, the destruction of the Primordial Conduit frees the entity to sink into the roots of the Citadel, revealing that the High Council's Executioner Squads were waiting for the siphon to fail all along."
+  "projects": []
 }
