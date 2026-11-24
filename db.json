@@ -3233,6 +3233,30 @@
   },
   "logs": [
     {
+      "id": "log-1795503750788-77tv",
+      "timestamp": "2026-11-24T07:02:30.788Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1795503734592-gwah",
+      "timestamp": "2026-11-24T07:02:14.592Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795503734564-1ndu",
+      "timestamp": "2026-11-24T07:02:14.564Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795503727570-9nhb",
+      "timestamp": "2026-11-24T07:02:07.570Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795451099917-pei5",
       "timestamp": "2026-11-23T16:24:59.917Z",
       "level": "ERROR",
@@ -9795,30 +9819,6 @@
       "level": "INFO",
       "message": "Saved Episode #140 in archive. Saving output files...",
       "episodeNumber": 140
-    },
-    {
-      "id": "log-1791896067493-r21w",
-      "timestamp": "2026-10-13T12:54:27.493Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Slag of Dying Stars\" (~1586 words)."
-    },
-    {
-      "id": "log-1791896025079-08c0",
-      "timestamp": "2026-10-13T12:53:45.079Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1791896025066-pntm",
-      "timestamp": "2026-10-13T12:53:45.066Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1791896018029-3wgl",
-      "timestamp": "2026-10-13T12:53:38.029Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
