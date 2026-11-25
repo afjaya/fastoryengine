@@ -3261,6 +3261,30 @@
   },
   "logs": [
     {
+      "id": "log-1795643774464-s3aw",
+      "timestamp": "2026-11-25T21:56:14.464Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1795643755096-volu",
+      "timestamp": "2026-11-25T21:55:55.096Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795643755071-2i2o",
+      "timestamp": "2026-11-25T21:55:55.071Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795643748166-4p5g",
+      "timestamp": "2026-11-25T21:55:48.166Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795585059809-ntnb",
       "timestamp": "2026-11-25T05:37:39.809Z",
       "level": "INFO",
@@ -9823,33 +9847,8 @@
       "timestamp": "2026-10-15T01:42:54.633Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1791999030077-abp3",
-      "timestamp": "2026-10-14T17:30:30.077Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
-    },
-    {
-      "id": "log-1791999012986-26ja",
-      "timestamp": "2026-10-14T17:30:12.986Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1791999012973-8lhm",
-      "timestamp": "2026-10-14T17:30:12.973Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1791999005905-pszp",
-      "timestamp": "2026-10-14T17:30:05.905Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
-  "projects": [],
-  "lastSummary": "Sir Silas Vance and Lyra Thorne battle to halt Arch-Inquisitor Vael's plan to sacrifice the Astral Citadel's underbelly to power the High Council's Spire. By overloading the siphoning array, Lyra breaks the containment grid, freeing the Star-Eater. The resulting magical cataclysm destroys the chamber and opens an unstable cosmic rift, swallowing Silas and Lyra into the unknown dark."
+  "projects": []
 }
