@@ -3261,6 +3261,30 @@
   },
   "logs": [
     {
+      "id": "log-1795707518514-tikc",
+      "timestamp": "2026-11-26T15:38:38.514Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log-1795707500732-xiof",
+      "timestamp": "2026-11-26T15:38:20.732Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795707500710-xlwk",
+      "timestamp": "2026-11-26T15:38:20.710Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795707493468-9e79",
+      "timestamp": "2026-11-26T15:38:13.468Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795670475064-35oj",
       "timestamp": "2026-11-26T05:21:15.064Z",
       "level": "ERROR",
@@ -9823,30 +9847,6 @@
       "level": "INFO",
       "message": "Saved Episode #142 in archive. Saving output files...",
       "episodeNumber": 142
-    },
-    {
-      "id": "log-1792059238196-304b",
-      "timestamp": "2026-10-15T10:13:58.196Z",
-      "level": "INFO",
-      "message": "Successfully received story: \"The Bleeding Vaults\" (~1764 words)."
-    },
-    {
-      "id": "log-1792059208932-hed7",
-      "timestamp": "2026-10-15T10:13:28.932Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1792059208918-ea07",
-      "timestamp": "2026-10-15T10:13:28.918Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1792059201897-4w0e",
-      "timestamp": "2026-10-15T10:13:21.897Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
     }
   ],
   "currentProjectTitle": "Grande Cosmic",
