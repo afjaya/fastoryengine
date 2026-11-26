@@ -3261,6 +3261,30 @@
   },
   "logs": [
     {
+      "id": "log-1795670475064-35oj",
+      "timestamp": "2026-11-26T05:21:15.064Z",
+      "level": "ERROR",
+      "message": "Pipeline aborted due to error: Provider returned an empty story response."
+    },
+    {
+      "id": "log-1795670443526-tbne",
+      "timestamp": "2026-11-26T05:20:43.526Z",
+      "level": "INFO",
+      "message": "Querying AI Provider to build chapter prose..."
+    },
+    {
+      "id": "log-1795670443465-3wmy",
+      "timestamp": "2026-11-26T05:20:43.465Z",
+      "level": "INFO",
+      "message": "Initiating Story Generation Pipeline."
+    },
+    {
+      "id": "log-1795670436506-yr0p",
+      "timestamp": "2026-11-26T05:20:36.506Z",
+      "level": "INFO",
+      "message": "Background scheduler daemon started."
+    },
+    {
       "id": "log-1795643774464-s3aw",
       "timestamp": "2026-11-25T21:56:14.464Z",
       "level": "ERROR",
@@ -9821,30 +9845,6 @@
     {
       "id": "log-1792059201897-4w0e",
       "timestamp": "2026-10-15T10:13:21.897Z",
-      "level": "INFO",
-      "message": "Background scheduler daemon started."
-    },
-    {
-      "id": "log-1792028612121-h7p5",
-      "timestamp": "2026-10-15T01:43:32.121Z",
-      "level": "ERROR",
-      "message": "Pipeline aborted due to error: Gemini Generation failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
-    },
-    {
-      "id": "log-1792028582018-4y6c",
-      "timestamp": "2026-10-15T01:43:02.018Z",
-      "level": "INFO",
-      "message": "Querying AI Provider to build chapter prose..."
-    },
-    {
-      "id": "log-1792028582004-igk2",
-      "timestamp": "2026-10-15T01:43:02.004Z",
-      "level": "INFO",
-      "message": "Initiating Story Generation Pipeline."
-    },
-    {
-      "id": "log-1792028574633-t920",
-      "timestamp": "2026-10-15T01:42:54.633Z",
       "level": "INFO",
       "message": "Background scheduler daemon started."
     }
